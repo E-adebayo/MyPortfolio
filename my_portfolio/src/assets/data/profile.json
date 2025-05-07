@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "title": "",
+  "description": "",
+  "email": "",
+  "location": "",
+  "social": {
+    "linkedin": "",
+    "github": "",
+    "twitter": ""
+  },
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": []
+    },
+    {
+      "category": "Backend",
+      "items": []
+    },
+    {
+      "category": "Other",
+      "items": []
+    }
+  ]
+}
