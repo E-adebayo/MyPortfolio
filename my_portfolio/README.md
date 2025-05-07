@@ -1,6 +1,27 @@
-# MyPortfolio
+# Portfolio Personnel
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+Ce projet est un portfolio professionnel développé avec Angular, présentant mes compétences, projets et expériences.
+
+## Technologies Utilisées
+
+- Angular 17
+- TypeScript
+- SCSS
+- Angular Router
+- Angular Standalone Components
+
+## Structure du Projet
+
+```
+src/
+├── app/
+│   ├── components/     # Composants réutilisables
+│   ├── pages/         # Composants de pages
+│   └── services/      # Services pour la gestion des données
+├── assets/
+│   └── data/         # Données JSON
+└── styles/           # Styles globaux
+```
 
 ## Development server
 
