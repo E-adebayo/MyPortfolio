@@ -12,7 +12,7 @@ Ce projet est un portfolio professionnel développé avec Angular, présentant m
 
 ## Structure du Projet
 
-```
+```bash
 src/
 ├── app/
 │   ├── components/     # Composants réutilisables
