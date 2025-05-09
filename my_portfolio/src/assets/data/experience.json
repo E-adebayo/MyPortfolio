@@ -1,0 +1,34 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Example Company",
+      "position": "Software Engineer",
+      "location": "Paris, France",
+      "startDate": "January 2022",
+      "endDate": "Present",
+      "description": "Working on developing and maintaining web applications using Angular and Node.js.",
+      "responsibilities": [
+        "Developed responsive web applications using Angular",
+        "Implemented RESTful APIs using Node.js",
+        "Collaborated with cross-functional teams to deliver high-quality software"
+      ],
+      "technologies": ["Angular", "TypeScript", "Node.js", "MongoDB"]
+    },
+    {
+      "id": 2,
+      "company": "Previous Company",
+      "position": "Junior Developer",
+      "location": "Lyon, France",
+      "startDate": "June 2020",
+      "endDate": "December 2021",
+      "description": "Worked on front-end development tasks and assisted senior developers.",
+      "responsibilities": [
+        "Implemented UI components using React",
+        "Fixed bugs and improved application performance",
+        "Participated in code reviews and team meetings"
+      ],
+      "technologies": ["React", "JavaScript", "CSS", "HTML"]
+    }
+  ]
+}

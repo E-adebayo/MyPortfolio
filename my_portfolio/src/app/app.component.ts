@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { TranslationService } from './services/translation.service';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,14 @@ import { HeaderComponent } from './components/header/header.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'my_portfolio';
+  currentYear = new Date().getFullYear();
+  
+  constructor(private translationService: TranslationService) {}
+  
+  ngOnInit(): void {
+    // Initialize translations
+    this.translationService.loadTranslations().subscribe();
+  }
 }

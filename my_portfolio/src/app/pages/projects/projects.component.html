@@ -1,1 +1,44 @@
-<p>projects works!</p>
+<div class="projects-container">
+  <h1 class="section-title">{{ 'projects.title' | translate }}</h1>
+  <p class="section-subtitle">{{ 'projects.subtitle' | translate }}</p>
+
+  <div class="loading-container" *ngIf="loading">
+    <p>{{ 'common.loading' | translate }}</p>
+  </div>
+
+  <div class="error-container" *ngIf="error">
+    <p class="error-message">{{ error }}</p>
+  </div>
+
+  <div class="projects-grid" *ngIf="!loading && !error">
+    <div class="project-card" *ngFor="let project of projects">
+      <div class="project-image" [style.background-image]="'url(' + project.imageUrl + ')'">
+        <div class="project-overlay">
+          <div class="project-links">
+            <a [href]="project.githubUrl" *ngIf="project.githubUrl" target="_blank" class="project-link" [attr.aria-label]="'projects.viewCode' | translate">
+              <i class="fab fa-github"></i> {{ 'projects.code' | translate }}
+            </a>
+            <a [href]="project.liveUrl" *ngIf="project.liveUrl" target="_blank" class="project-link" [attr.aria-label]="'projects.viewDemo' | translate">
+              <i class="fas fa-external-link-alt"></i> {{ 'projects.demo' | translate }}
+            </a>
+          </div>
+        </div>
+      </div>      <div class="project-content">
+        <h2 class="project-title">{{ project.title }}</h2>
+        <p class="project-description">{{ project.description }}</p>
+        
+        <div class="project-technologies">
+          <h3 class="tech-title">{{ 'projects.technologies' | translate }}:</h3>
+          <span class="tech-tag" *ngFor="let tech of project.technologies">{{ tech }}</span>
+        </div>
+        
+        <div class="project-highlights" *ngIf="project.highlights.length > 0">
+          <h3 class="highlights-title">{{ 'projects.highlights' | translate }}:</h3>
+          <ul>
+            <li *ngFor="let highlight of project.highlights">{{ highlight }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

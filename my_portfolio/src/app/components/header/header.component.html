@@ -1,11 +1,14 @@
 <nav class="navbar">
   <div class="navbar-brand">
-    <a routerLink="/">Mon Portfolio</a>
+    <a routerLink="/">{{ 'header.brand' | translate }}</a>
   </div>
   <ul class="nav-links">
-    <li><a routerLink="/" routerLinkActive="active">Accueil</a></li>
-    <li><a routerLink="/about" routerLinkActive="active">À propos</a></li>
-    <li><a routerLink="/projects" routerLinkActive="active">Projets</a></li>
-    <li><a routerLink="/experience" routerLinkActive="active">Expérience</a></li>
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ 'header.home' | translate }}</a></li>
+    <li><a routerLink="/about" routerLinkActive="active">{{ 'header.about' | translate }}</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active">{{ 'header.projects' | translate }}</a></li>
+    <li><a routerLink="/experience" routerLinkActive="active">{{ 'header.experience' | translate }}</a></li>
   </ul>
+  <div class="language-control">
+    <app-language-switcher></app-language-switcher>
+  </div>
 </nav>

@@ -1,26 +1,112 @@
 {
-  "name": "",
-  "title": "",
-  "description": "",
-  "email": "",
-  "location": "",
-  "social": {
-    "linkedin": "",
-    "github": "",
-    "twitter": ""
+  "en": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "Software Engineer",
+    "description": "Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.",
+    "email": "adebayoeudes.dalmeida@gmail.com",
+    "location": "Belfort, France",
+    "phone": "+33 6 52 34 17 02",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
+      "github": "https://github.com/E-adebayo"
+    },
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Angular",
+          "HTML",
+          "CSS",
+          "Sass",
+          "Bootstrap",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "RESTful APIs"
+        ]
+      },
+      {
+        "category": "Other",
+        "items": [
+          "Git",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "GCP",
+          "AWS",
+          "CI/CD",
+          "Agile",
+          "Scrum",
+          "HOSHIN KANRI - OKR",
+          "Kanban",
+          "Lean",
+          "Design Patterns"
+        ]
+      }
+    ]
   },
-  "skills": [
-    {
-      "category": "Frontend",
-      "items": []
+  "fr": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "Ingénieur Logiciel",
+    "description": "Ingénieur Logiciel Junior passionné par le développement web et possédant une solide base dans les frameworks JavaScript. Désireux d'apprendre et de grandir dans un environnement dynamique.",
+    "email": "adebayoeudes.dalmeida@gmail.com",
+    "location": "Belfort, France",
+    "phone": "+33 6 52 34 17 02",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
+      "github": "https://github.com/E-adebayo"
     },
-    {
-      "category": "Backend",
-      "items": []
-    },
-    {
-      "category": "Other",
-      "items": []
-    }
-  ]
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Angular",
+          "HTML",
+          "CSS",
+          "Sass",
+          "Bootstrap",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "category": "Backend",
+        "items": [
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "RESTful APIs"
+        ]
+      },
+      {
+        "category": "Autre",
+        "items": [
+          "Git",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "GCP",
+          "AWS",
+          "CI/CD",
+          "Agile",
+          "Scrum",
+          "HOSHIN KANRI - OKR",
+          "Kanban",
+          "Lean",
+          "Design Patterns"
+        ]
+      }
+    ]
+  }
 }

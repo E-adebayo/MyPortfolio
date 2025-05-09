@@ -1,1 +1,122 @@
-<p>about works!</p>
+<div class="about-container">
+  <div class="loading-container" *ngIf="loading">
+    <p>Loading profile data...</p>
+  </div>
+
+  <div class="error-container" *ngIf="error">
+    <p class="error-message">{{ error }}</p>
+  </div>
+
+  <ng-container *ngIf="profile && !loading && !error">
+    <section class="about-section">
+      <div class="about-header">
+        <h1>About Me</h1>
+        <div class="divider"></div>
+      </div>
+      <div class="bio-container">
+        <div class="bio-text">
+          <h2>Hello, I'm {{ profile.name }}</h2>
+          <p class="bio-description">
+            {{ profile.description ? profile.description : 'Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.' }}
+          </p>
+          <p>
+            I am a dedicated software engineer based in {{ profile.location }} who enjoys solving complex problems with clean, efficient code. My focus is on creating intuitive, responsive web applications that deliver exceptional user experiences.
+          </p>
+          <p>
+            When I'm not coding, I enjoy contributing to open-source projects, attending tech meetups, and continuously expanding my knowledge through online courses and technical documentation.
+          </p>
+        </div>
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>Contact Information</h3>
+            <ul>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>{{ profile.location }}</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:{{ profile.phone }}">{{ profile.phone }}</a>
+              </li>
+              <li>
+                <i class="fab fa-linkedin"></i>
+                <a [href]="profile.social.linkedin" target="_blank">LinkedIn</a>
+              </li>
+              <li>
+                <i class="fab fa-github"></i>
+                <a [href]="profile.social.github" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div class="about-header">
+        <h2>Skills & Expertise</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-category" *ngFor="let category of profile.skills">
+          <h3>{{ category.category }}</h3>
+          <div class="skill-items">
+            <span class="skill-tag" *ngFor="let item of category.items">{{ item }}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section">
+      <div class="about-header">
+        <h2>Education</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="education-container">
+        <div class="education-item" *ngFor="let edu of education">
+          <div class="edu-period">{{ edu.period }}</div>
+          <div class="edu-content">
+            <h3>{{ edu.degree }}</h3>
+            <h4>{{ edu.institution }}, {{ edu.location }}</h4>
+            <p>{{ edu.description }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certifications-section">
+      <div class="about-header">
+        <h2>Certifications</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="certifications-container">
+        <div class="certification-item" *ngFor="let cert of certifications">
+          <div class="cert-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="cert-content">
+            <h3>{{ cert.name }}</h3>
+            <p>{{ cert.issuer }} | {{ cert.date }}</p>
+            <a [href]="cert.link" target="_blank" class="view-cert">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="interests-section">
+      <div class="about-header">
+        <h2>Professional Interests</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="interests-container">
+        <div class="interest-tag" *ngFor="let interest of interests">
+          <i class="fas fa-star"></i> {{ interest }}
+        </div>
+      </div>
+    </section>
+  </ng-container>
+</div>

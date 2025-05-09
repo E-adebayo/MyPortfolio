@@ -1,0 +1,44 @@
+{
+  "header": {
+    "brand": "My Portfolio",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience"
+  },
+  "profile": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "Software Engineer",
+    "description": "Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.",
+    "location": "Belfort, France",
+    "email": "Email",
+    "phone": "Phone",
+    "skills": "Skills",
+    "contactMe": "Contact Me"
+  },
+  "skills": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "other": "Other"
+  },
+  "buttons": {
+    "viewProject": "View Project",
+    "viewDetails": "View Details",
+    "download": "Download CV"
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Here are some of the projects I've worked on",
+    "code": "Code",
+    "demo": "Demo",
+    "viewCode": "View Source Code",
+    "viewDemo": "View Live Demo",
+    "technologies": "Technologies",
+    "highlights": "Highlights"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  }
+}

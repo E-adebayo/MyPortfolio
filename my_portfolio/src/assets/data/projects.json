@@ -1,14 +1,94 @@
 {
-  "projects": [
-    {
-      "id": 1,
-      "title": "",
-      "description": "",
-      "technologies": [],
-      "imageUrl": "",
-      "githubUrl": "",
-      "liveUrl": "",
-      "highlights": []
-    }
-  ]
+  "en": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website built with Angular to showcase my skills and projects.",
+        "technologies": ["Angular", "TypeScript", "SCSS", "RxJS"],
+        "imageUrl": "assets/images/portfolio.jpg",
+        "githubUrl": "https://github.com/E-adebayo/portfolio",
+        "liveUrl": "https://portfolio.example.com",
+        "highlights": [
+          "Implemented responsive design for all screen sizes",
+          "Used Angular standalone components for better modularity",
+          "Created services to fetch and display data from JSON files"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "E-commerce Platform",
+        "description": "A full-stack e-commerce platform with product catalog, shopping cart, and payment integration.",
+        "technologies": ["Angular", "Node.js", "Express", "MongoDB"],
+        "imageUrl": "assets/images/ecommerce.jpg",
+        "githubUrl": "https://github.com/E-adebayo/ecommerce",
+        "liveUrl": "https://ecommerce.example.com",
+        "highlights": [
+          "Implemented user authentication and authorization",
+          "Integrated payment gateway for secure transactions",
+          "Created admin dashboard for inventory management"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Task Management App",
+        "description": "A productivity application to help users organize and track their tasks and projects.",
+        "technologies": ["React", "Redux", "Firebase", "Material UI"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/taskmanager",
+        "liveUrl": "https://taskapp.example.com",
+        "highlights": [
+          "Implemented drag-and-drop task organization",
+          "Created real-time data synchronization using Firebase",
+          "Added notification system for task reminders"
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Site Portfolio",
+        "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences et projets.",
+        "technologies": ["Angular", "TypeScript", "SCSS", "RxJS"],
+        "imageUrl": "assets/images/portfolio.jpg",
+        "githubUrl": "https://github.com/E-adebayo/portfolio",
+        "liveUrl": "https://portfolio.example.com",
+        "highlights": [
+          "Design responsive implémenté pour tous les formats d'écran",
+          "Utilisation des composants autonomes Angular pour une meilleure modularité",
+          "Création de services pour récupérer et afficher des données de fichiers JSON"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Plateforme E-commerce",
+        "description": "Une plateforme e-commerce full-stack avec catalogue de produits, panier d'achat et intégration de paiement.",
+        "technologies": ["Angular", "Node.js", "Express", "MongoDB"],
+        "imageUrl": "assets/images/ecommerce.jpg",
+        "githubUrl": "https://github.com/E-adebayo/ecommerce",
+        "liveUrl": "https://ecommerce.example.com",
+        "highlights": [
+          "Authentification et autorisation des utilisateurs",
+          "Intégration d'une passerelle de paiement sécurisée",
+          "Création d'un tableau de bord administrateur pour la gestion des stocks"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Application de Gestion des Tâches",
+        "description": "Une application de productivité pour aider les utilisateurs à organiser et suivre leurs tâches et projets.",
+        "technologies": ["React", "Redux", "Firebase", "Material UI"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/taskmanager",
+        "liveUrl": "https://taskapp.example.com",
+        "highlights": [
+          "Implémentation de l'organisation des tâches par glisser-déposer",
+          "Création d'une synchronisation des données en temps réel avec Firebase",
+          "Ajout d'un système de notifications pour les rappels de tâches"
+        ]
+      }
+    ]
+  }
 }

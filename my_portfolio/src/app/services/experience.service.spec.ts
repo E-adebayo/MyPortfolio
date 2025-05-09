@@ -1,16 +1,16 @@
 import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { ProfileService } from './profile.service';
+import { ExperienceService } from './experience.service';
 
-describe('ProfileService', () => {
-  let service: ProfileService;
+describe('ExperienceService', () => {
+  let service: ExperienceService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
-      providers: [ProfileService]
+      providers: [ExperienceService]
     });
-    service = TestBed.inject(ProfileService);
+    service = TestBed.inject(ExperienceService);
   });
 
   it('should be created', () => {

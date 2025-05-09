@@ -1,0 +1,44 @@
+{
+  "header": {
+    "brand": "Mon Portfolio",
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience"
+  },
+  "profile": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "Ingénieur Logiciel",
+    "description": "Ingénieur Logiciel Junior passionné par le développement web et possédant une solide base dans les frameworks JavaScript. Désireux d'apprendre et de grandir dans un environnement dynamique.",
+    "location": "Belfort, France",
+    "email": "Email",
+    "phone": "Téléphone",
+    "skills": "Compétences",
+    "contactMe": "Me Contacter"
+  },
+  "skills": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "other": "Autres"
+  },
+  "buttons": {
+    "viewProject": "Voir le Projet",
+    "viewDetails": "Voir les Détails",
+    "download": "Télécharger CV"
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "subtitle": "Voici quelques projets sur lesquels j'ai travaillé",
+    "code": "Code",
+    "demo": "Démo",
+    "viewCode": "Voir le Code Source",
+    "viewDemo": "Voir la Démo",
+    "technologies": "Technologies",
+    "highlights": "Points Clés"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer"
+  }
+}

@@ -1,1 +1,34 @@
-<p>experience works!</p>
+<div class="experience-container">
+  <h1 class="section-title">Professional Experience</h1>
+  <p class="section-subtitle">My professional journey and work history</p>
+
+  <div class="loading-container" *ngIf="loading">
+    <p>Loading experience data...</p>
+  </div>
+
+  <div class="error-container" *ngIf="error">
+    <p class="error-message">{{ error }}</p>
+  </div>
+
+  <div class="timeline" *ngIf="!loading && !error">
+    <div class="timeline-item" *ngFor="let exp of experiences">
+      <div class="timeline-item-content">
+        <span class="date">{{ exp.startDate }} - {{ exp.endDate }}</span>
+        <h2 class="position">{{ exp.position }}</h2>
+        <h3 class="company">{{ exp.company }} <span class="location">{{ exp.location }}</span></h3>
+        <p class="description">{{ exp.description }}</p>
+
+        <div class="responsibilities" *ngIf="exp.responsibilities && exp.responsibilities.length > 0">
+          <h4>Key Responsibilities:</h4>
+          <ul>
+            <li *ngFor="let responsibility of exp.responsibilities">{{ responsibility }}</li>
+          </ul>
+        </div>
+
+        <div class="technologies">
+          <span class="tech-tag" *ngFor="let tech of exp.technologies">{{ tech }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

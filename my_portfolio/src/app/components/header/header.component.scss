@@ -3,16 +3,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #1a1a1a;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
     
     a {
-      color: #333;
+      color: #fff;
       text-decoration: none;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: #64b5f6;
+      }
     }
   }
 
@@ -26,15 +31,43 @@
       margin-left: 2rem;
 
       a {
-        color: #666;
+        color: #e0e0e0;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.3s ease;
 
         &:hover, &.active {
-          color: #000;
+          color: #64b5f6;
         }
       }
+    }
+  }
+  
+  .language-control {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    
+    .navbar-brand {
+      margin-bottom: 1rem;
+    }
+    
+    .nav-links {
+      width: 100%;
+      justify-content: space-between;
+      
+      li {
+        margin-left: 0;
+      }
+    }
+    
+    .language-control {
+      margin: 1rem 0 0 0;
     }
   }
 }
