@@ -12,44 +12,107 @@
     },
     "skills": [
       {
-        "category": "Frontend",
+        "category": "Languages and Frameworks",
         "items": [
           "JavaScript",
           "TypeScript",
           "React",
           "Angular",
-          "HTML",
-          "CSS",
-          "Sass",
-          "Bootstrap",
-          "Tailwind CSS"
-        ]
-      },
-      {
-        "category": "Backend",
-        "items": [
           "Node.js",
           "Express",
-          "MongoDB",
-          "RESTful APIs"
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "PHP",
+          "Java",
+          "Python",
+          "FastAPI",
+          "AdonisJS",
+          "Java Spring Boot",
+          "Java Swing",
+          "Selenium"
         ]
       },
       {
-        "category": "Other",
+        "category": "Databases and DataWarehouse",
         "items": [
-          "Git",
+          "PostgreSQL",
+          "MongoDB",
+          "MySQL",
+          "MariaDB",
+          "SQL Server",
+          "SQLite",
+          "Oracle",
+          "NoSQL",
+          "BigQuery"          
+        ]
+      },
+      {
+        "category": "Cloud and DevOps",
+        "items": [
+          "GCP : Associate Cloud Engineer",
+          "AWS",
+          "Bitbucket",
           "Docker",
           "Kubernetes",
           "Jenkins",
-          "GCP",
-          "AWS",
           "CI/CD",
+          "Terraform"
+        ]
+      },
+      {
+        "category": "Data visualization and ETL",
+        "items": [
+          "Relativity",
+          "Power BI",
+          "Tableau"
+        ]
+      },
+      {
+        "category": "Methodologies and Tools",
+        "items": [
           "Agile",
           "Scrum",
-          "HOSHIN KANRI - OKR",
+          "HOSHIN KANRI/OKR",
           "Kanban",
-          "Lean",
-          "Design Patterns"
+          "Lean"
+        ]
+      },
+      {
+        "category": "Collaboration and Version Control",
+        "items": [
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Confluence"
+        ]
+      },
+      {
+        "category": "Automation and Scripting",
+        "items": [
+          "Bash",
+          "PowerShell",
+          "Power Automate"
+        ]
+      },
+      {
+        "category": "Web Server",
+        "items": [
+          "NGINX",
+          "Apache"
+        ]
+      },
+      {
+        "category": "Systems and Networks",
+        "items": [
+          "VMware",
+          "Hypervisors",
+          "GNS3",
+          "Technologies Cisco",
+          "Windows",
+          "Ubuntu / Ubuntu Server",
+          "Windows Server",
+          "Linux"          
         ]
       }
     ]
@@ -67,44 +130,104 @@
     },
     "skills": [
       {
-        "category": "Frontend",
+        "category": "Langages et Frameworks",
         "items": [
           "JavaScript",
           "TypeScript",
           "React",
           "Angular",
-          "HTML",
-          "CSS",
-          "Sass",
-          "Bootstrap",
-          "Tailwind CSS"
-        ]
-      },
-      {
-        "category": "Backend",
-        "items": [
           "Node.js",
           "Express",
-          "MongoDB",
-          "RESTful APIs"
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "PHP",
+          "Java",
+          "Python",
+          "FastAPI",
+          "AdonisJS",
+          "Java Spring Boot",
+          "Java Swing",
+          "Selenium"
         ]
       },
       {
-        "category": "Autre",
+        "category": "Bases de données et DataWarehouse",
         "items": [
-          "Git",
+          "PostgreSQL",
+          "MongoDB",
+          "MySQL",
+          "MariaDB",
+          "SQL Server",
+          "SQLite",
+          "Oracle",
+          "NoSQL"
+        ]
+      },
+      {
+        "category": "Cloud et DevOps",
+        "items": [
+          "GCP : Associate Cloud Engineer",
+          "AWS",
+          "Bitbucket",
           "Docker",
           "Kubernetes",
-          "Jenkins",
-          "GCP",
-          "AWS",
-          "CI/CD",
+          "Jenkins"
+        ]
+      },
+      {
+        "category": "Visualisation de données et ETL",
+        "items": [
+          "Relativity",
+          "Power BI",
+          "Tableau"
+        ]
+      },
+      {
+        "category": "Méthodologies et Outils",
+        "items": [
           "Agile",
           "Scrum",
-          "HOSHIN KANRI - OKR",
+          "HOSHIN KANRI/OKR",
           "Kanban",
-          "Lean",
-          "Design Patterns"
+          "Lean"
+        ]
+      },
+      {
+        "category": "Collaboration et Contrôle de Version",
+        "items": [
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Confluence"
+        ]
+      },
+      {
+        "category": "Automatisation et Scripting",
+        "items": [
+          "Bash",
+          "PowerShell",
+          "Power Automate"
+        ]
+      },
+      {
+        "category": "Serveur Web",
+        "items": [
+          "NGINX",
+          "Apache"
+        ]
+      },
+      {
+        "category": "Systèmes et Réseaux",
+        "items": [
+          "VMware",
+          "Hyperviseurs",
+          "GNS3",
+          "Technologies Cisco",
+          "Windows",
+          "Ubuntu / Ubuntu Server",
+          "Windows Server",
+          "Linux"          
         ]
       }
     ]

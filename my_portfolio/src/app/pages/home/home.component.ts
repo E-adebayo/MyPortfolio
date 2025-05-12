@@ -31,4 +31,29 @@ export class HomeComponent implements OnInit {
       }
     });
   }
+  formatCategoryKey(category: string): string {
+    // For French categories, map to the English keys used in translation files
+    const frToEnMap: {[key: string]: string} = {
+      'langages et frameworks': 'languagesandframeworks',
+      'bases de données et datawarehouse': 'databasesanddatawarehouse',
+      'cloud et devops': 'cloudanddevops',
+      'visualisation de données et etl': 'datavisualizationandetl',
+      'méthodologies et outils': 'methodologiesandtools',
+      'collaboration et contrôle de version': 'collaborationandversioncontrol',
+      'automatisation et scripting': 'automationandscripting',
+      'serveur web': 'webserver',
+      'systèmes et réseaux': 'systemsandnetworks'
+    };
+    
+    // Convert category to lowercase for mapping
+    const lowerCategory = category.toLowerCase();
+    
+    // If it's a French category that needs mapping, return the mapped English key
+    if (frToEnMap[lowerCategory]) {
+      return frToEnMap[lowerCategory];
+    }
+    
+    // Otherwise use the default formatting (for English categories)
+    return lowerCategory.replace(/\s+/g, '').replace(/&/g, 'and');
+  }
 }

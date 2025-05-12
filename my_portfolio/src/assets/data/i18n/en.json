@@ -1,25 +1,29 @@
-{
-  "header": {
+{  "header": {
     "brand": "My Portfolio",
     "home": "Home",
     "about": "About",
     "projects": "Projects",
-    "experience": "Experience"
-  },
-  "profile": {
+    "experience": "Experiences"
+  },  "profile": {
     "name": "Adébayo Eudes d'ALMEIDA",
-    "title": "Software Engineer",
-    "description": "Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.",
-    "location": "Belfort, France",
+    "title": "Computer Science Engineer",
+    "description": "Junior Computer Science Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.",
+    "location": "Location",
     "email": "Email",
     "phone": "Phone",
     "skills": "Skills",
-    "contactMe": "Contact Me"
-  },
-  "skills": {
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "other": "Other"
+    "contactMe": "Contact Me",
+    "socialProfiles": "Connect With Me"
+  },  "skills": {
+    "languagesandframeworks": "Languages and Frameworks",
+    "databasesanddatawarehouse": "Databases and DataWarehouse",
+    "cloudanddevops": "Cloud and DevOps",
+    "datavisualizationandetl": "Data Visualization and ETL",
+    "methodologiesandtools": "Methodologies and Tools",
+    "collaborationandversioncontrol": "Collaboration and Version Control",
+    "automationandscripting": "Automation and Scripting",
+    "webserver": "Web Server",
+    "systemsandnetworks": "Systems and Networks"
   },
   "buttons": {
     "viewProject": "View Project",
@@ -35,10 +39,26 @@
     "viewDemo": "View Live Demo",
     "technologies": "Technologies",
     "highlights": "Highlights"
-  },
-  "common": {
+  },  "common": {
     "loading": "Loading...",
     "error": "An error occurred",
     "retry": "Retry"
+  },  "about": {
+    "title": "About Me",
+    "greeting": "Hello, I'm",
+    "bio1": "I am a dedicated software engineer based in",
+    "bio2": "who enjoys solving complex problems with clean, efficient code. My focus is on creating intuitive, responsive web applications that deliver exceptional user experiences.",
+    "bio3": "When I'm not coding, I enjoy contributing to open-source projects, attending tech meetups, and continuously expanding my knowledge through online courses and technical documentation.",
+    "contactInfo": "Contact Information",
+    "skillsExpertise": "Skills & Expertise",
+    "education": "Education",
+    "certifications": "Certifications",
+    "interests": "Professional Interests",
+    "viewCertificate": "View Certificate"
+  },  "experience": {
+    "title": "Professional Experiences",
+    "subtitle": "My professional journey and work history",
+    "keyResponsibilities": "Key Responsibilities:",
+    "present": "Present"
   }
 }

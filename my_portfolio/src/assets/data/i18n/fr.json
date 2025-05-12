@@ -1,25 +1,29 @@
-{
-  "header": {
+{  "header": {
     "brand": "Mon Portfolio",
     "home": "Accueil",
     "about": "À propos",
     "projects": "Projets",
-    "experience": "Expérience"
-  },
-  "profile": {
+    "experience": "Expériences"
+  },  "profile": {
     "name": "Adébayo Eudes d'ALMEIDA",
-    "title": "Ingénieur Logiciel",
-    "description": "Ingénieur Logiciel Junior passionné par le développement web et possédant une solide base dans les frameworks JavaScript. Désireux d'apprendre et de grandir dans un environnement dynamique.",
-    "location": "Belfort, France",
+    "title": "Ingénieur Informatique",
+    "description": "Ingénieur Informatique Junior passionné par le développement web et possédant une solide base dans les frameworks JavaScript. Désireux d'apprendre et de grandir dans un environnement dynamique.",
+    "location": "Adresse",
     "email": "Email",
     "phone": "Téléphone",
     "skills": "Compétences",
-    "contactMe": "Me Contacter"
-  },
-  "skills": {
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "other": "Autres"
+    "contactMe": "Me Contacter",
+    "socialProfiles": "Me Suivre"
+  },  "skills": {
+    "languagesandframeworks": "Langages et Frameworks",
+    "databasesanddatawarehouse": "Bases de données et DataWarehouse",
+    "cloudanddevops": "Cloud et DevOps",
+    "datavisualizationandetl": "Visualisation de données et ETL", 
+    "methodologiesandtools": "Méthodologies et Outils",
+    "collaborationandversioncontrol": "Collaboration et Contrôle de Version",
+    "automationandscripting": "Automatisation et Scripting",
+    "webserver": "Serveur Web",
+    "systemsandnetworks": "Systèmes et Réseaux" 
   },
   "buttons": {
     "viewProject": "Voir le Projet",
@@ -35,10 +39,26 @@
     "viewDemo": "Voir la Démo",
     "technologies": "Technologies",
     "highlights": "Points Clés"
-  },
-  "common": {
+  },  "common": {
     "loading": "Chargement...",
     "error": "Une erreur est survenue",
     "retry": "Réessayer"
+  },  "about": {
+    "title": "À Propos de Moi",
+    "greeting": "Bonjour, je suis",
+    "bio1": "Je suis un ingénieur logiciel dévoué basé à",
+    "bio2": "qui aime résoudre des problèmes complexes avec du code propre et efficace. Je me concentre sur la création d'applications web intuitives et réactives qui offrent des expériences utilisateur exceptionnelles.",
+    "bio3": "Lorsque je ne code pas, j'aime contribuer à des projets open source, assister à des meetups technologiques et approfondir continuellement mes connaissances à travers des cours en ligne et de la documentation technique.",
+    "contactInfo": "Coordonnées",
+    "skillsExpertise": "Compétences et Expertise",
+    "education": "Formation",
+    "certifications": "Certifications",
+    "interests": "Intérêts Professionnels",
+    "viewCertificate": "Voir le Certificat"
+  },  "experience": {
+    "title": "Expériences Professionnelles",
+    "subtitle": "Mon parcours professionnel et mon historique de travail",
+    "keyResponsibilities": "Responsabilités Principales:",
+    "present": "Présent"
   }
 }

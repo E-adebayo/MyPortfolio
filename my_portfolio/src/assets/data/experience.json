@@ -1,34 +1,112 @@
 {
-  "experiences": [
-    {
-      "id": 1,
-      "company": "Example Company",
-      "position": "Software Engineer",
-      "location": "Paris, France",
-      "startDate": "January 2022",
-      "endDate": "Present",
-      "description": "Working on developing and maintaining web applications using Angular and Node.js.",
-      "responsibilities": [
-        "Developed responsive web applications using Angular",
-        "Implemented RESTful APIs using Node.js",
-        "Collaborated with cross-functional teams to deliver high-quality software"
-      ],
-      "technologies": ["Angular", "TypeScript", "Node.js", "MongoDB"]
-    },
-    {
-      "id": 2,
-      "company": "Previous Company",
-      "position": "Junior Developer",
-      "location": "Lyon, France",
-      "startDate": "June 2020",
-      "endDate": "December 2021",
-      "description": "Worked on front-end development tasks and assisted senior developers.",
-      "responsibilities": [
-        "Implemented UI components using React",
-        "Fixed bugs and improved application performance",
-        "Participated in code reviews and team meetings"
-      ],
-      "technologies": ["React", "JavaScript", "CSS", "HTML"]
-    }
-  ]
+  "en": {
+    "experiences": [
+      {
+        "id": 1,
+        "company": "Financial Markets Authority (AMF) - Investigation Department",
+        "position": "Digital Forensics Engineer (intern)",
+        "location": "Paris, France",
+        "startDate": "September 2024",
+        "endDate": "February 2025",
+        "description": "The main objective was to actively participate in the development of Digital Forensics projects, using eDiscovery software to analyze various files (PST, MSG, PDF, etc.) and contribute to Python code.",
+        "responsibilities": [
+          "Inventory of errors and solution research",
+          "Repair of corrupted files (PST, MSG, DOCX, XLSX, PDF)",
+          "Design of software for searching and recovering passwords in Outlook mailbox",
+          "Design of Python software for capturing information from URLs extracted from Excel/CSV/TSV files and loaded in a browser",
+          "Testing functionality of software solutions: MediaSpeech for Text to Speech, XRY for extracting data from applications (social networks) via the cloud",
+          "Documentation of work completed (internship report) and writing of user guides"
+        ],
+        "technologies": ["Python", "Excel", "CSV / TSV", "Relativity", "XRY Physical & Logical / Cloud", "MediaSpeech", "Outlook", "scanPST", "Aid4Mail", "PST", "MSG", "DOCX", "XLSX", "PDF", "JPG", "PNG", "HTML", "KYR"]
+      },
+      {
+        "id": 2,
+        "company": "Frauscher Sensor Technology France",
+        "position": "Digitalization Project & Management (intern)",
+        "location": "Haguenau, France",
+        "startDate": "September 2023",
+        "endDate": "February 2024",
+        "description": "The goal was to structure the already collected employee needs, reassess pre-identified solutions and lead their implementation. Thus, our work contributed to digitalization, business process automation, information centralization, and change management.",
+        "responsibilities": [
+          "Benchmark and comparative study of solutions: HRIS: Factorial, Sage HR, Kelio, followed by the implementation and deployment of Factorial, and employee training; ERP: Divalto, Odoo, SAP S/4 Hana",
+          "Implementation of the Factorial leave and absence management solution: creation of workflows, access rights management, creation of dashboards and performance indicators",
+          "Study of Generative AI solutions and architectures (Azure OpenAI, Mistral AI) for the implementation of a RAG (retrieval augmented generation)",
+          "Design of workflows with Power Automate for SharePoint",
+          "Documentation of projects/topics and knowledge on the Confluence platform"
+        ],
+        "technologies": ["Factorial", "SharePoint", "Power Automate", "Confluence", "RAG", "Mistral AI", "Azure OpenAI", "Divalto", "Odoo", "SAP S/4 Hana", "Kelio", "Sage HR", "Excel", "Canva"]
+      }, 
+      {
+        "id": 3,
+        "company": "Sunu Santé",
+        "position": "Systems and Network Administration (intern)",
+        "location": "Lomé, Togo",
+        "startDate": "July 2021",
+        "endDate": "January 2022",
+        "description": "The objective was to set up a web server, virtualized and local, on which a service being developed by the development team would be deployed.",
+        "responsibilities": [
+          "Deployment and configuration of the NGINX web server",
+          "Configuration of the web software environment (NodeJs, React, AdonisJS) and MongoDB database",
+          "Automation of MongoDB database import and restoration with a Bash script",
+          "Implementation of a test topology (cloud, switches, Cisco ASA firewalls, virtual machines) with GNS3 for the configuration of a Site-to-Site VPN"
+        ],
+        "technologies": ["VMware", "Hypervisors", "Ubuntu / Ubuntu Server", "MongoDB", "NGINX", "NodeJs", "AdonisJS", "React", "Bash", "GNS3", "Cisco"]
+      }
+    ]
+  },
+  "fr": {
+    "experiences": [
+      {
+        "id": 1,
+        "company": "Autorité des Marchés Financiers(AMF) - Direction des enquêtes",
+        "position": "Ingénieur Digital Forensics (stagiaire)",
+        "location": "Paris, France",
+        "startDate": "Septembre 2024",
+        "endDate": "Février 2025",
+        "description": "L'objectif principal était de participer activement au développement de projets en Digital Forensics, avec utilisation d'un logiciel eDiscovery pour analyser divers fichiers (PST, MSG, PDF, etc.) et contribution au code en Python.",
+        "responsibilities": [
+          "Inventaire des erreurs et recherche de solutions",
+          "Réparation de fichiers corrompus (PST, MSG, DOCX, XLSX, PDF)",
+          "Conception d'un logiciel de recherche et de récupération de mots de passe dans une messagerie Outlook",
+          "Conception d'un logiciel en python pour la capture d'écran d'informations provenant d'URLs et extraits d'un fichier excel/csv/tsv et chargés un navigateur",
+          "Tests de fonctionnalités de solutions logicielles : MediaSpeech pour du Text to Speech, XRY pour de l'extraction de données d'applications (réseaux sociaux) via le cloud",
+          "Documentation des travaux réalisés (rapport de stage) et rédaction de guides d'utilisation"
+        ],
+        "technologies": ["Python", "Excel", "CSV / TSV", "Relativity", "XRY Physical & Logical / Cloud", "MediaSpeech", "Outlook", "scanPST", "Aid4Mail", "PST", "MSG", "DOCX", "XLSX", "PDF", "JPG", "PNG", "HTML", "KYR"]
+      },
+      {
+        "id": 2,
+        "company": "Frauscher Sensor Technology France",
+        "position": "Digitalisation Project & Management (stagiaire)",
+        "location": "Haguenau, France",
+        "startDate": "Septembre 2023",
+        "endDate": "Février 2024",
+        "description": "Le but consistait à structurer les besoins collaborateurs déjà recueillis, réévaluer les solutions pré identifiées et conduire leurs mises en œuvre. Ainsi notre travail a contribué à la digitalisation, à l'automatisation de processus métier, à la centralisation de l'information et une conduite du changement.",
+        "responsibilities": [
+          "Benchmark, étude comparative de solutions : SIRH : Factorial, Sage HR, Kelio, Factorial suivi de la mise en place et du déploiement de Factorial, et formation des collaborateurs ; ERP : Divalto, Odoo, SAP S/4 Hana",
+          "Mise en place de la solution de gestion des congés et absences Factorial : création de workflows, gestion des droits d'accès, création de tableaux de bord et d'indicateurs de performance",
+          "Étude de solutions et d'architectures d'IA Générative (Azure OpenAI, Mistral AI) pour la mise en place d'une RAG (retrieval augmented generation)",
+          "Conception de flux de travail avec Power Automate pour SharePoint",
+          "Documentation des projets/sujets et de connaissances sur la plateforme Confluence"
+        ],
+        "technologies": ["Factorial", "SharePoint", "Power Automate", "Confluence", "RAG", "Mistral AI", "Azure OpenAI", "Divalto", "Odoo", "SAP S/4 Hana", "Kelio", "Sage HR", "Excel", "Canva"]
+      }, 
+      {
+        "id": 3,
+        "company": "Sunu Santé",
+        "position": "Administration des systèmes et réseaux (stagiaire)",
+        "location": "Lomé, Togo",
+        "startDate": "Juillet 2021",
+        "endDate": "Janvier 2022",
+        "description": "L'objectif était de mettre en place un serveur web, virtualisé et en local, sur lequel serait déployé un service en cours de développement par l'équipe de développement. ",
+        "responsibilities": [
+          "Déploiement et configuration du serveur web NGINX",
+          "Configuration de l'environnement logiciel web (NodeJs, React, AdonisJS) et la base de données MongoDB",
+          "Automatisation de l'importation et de la restauration de la base de données MongoDB avec un script Bash",
+          "Mise en place d'une topologie de test (cloud, commutateurs, pares-feux Cisco ASA, machines virtuelles) avec GNS3 pour la configuration d'un VPN Site à Site"
+        ],
+        "technologies": ["VMware", "Hyperviseurs", "Ubuntu / Ubuntu Server", "MongoDB", "NGINX", "NodeJs", "AdonisJS", "React", "Bash", "GNS3", "Cisco"]
+      }
+    ]
+  }
 }

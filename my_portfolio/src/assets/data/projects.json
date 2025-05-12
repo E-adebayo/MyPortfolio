@@ -1,46 +1,124 @@
-{
-  "en": {
+{  "en": {
     "projects": [
       {
         "id": 1,
         "title": "Portfolio Website",
-        "description": "A personal portfolio website built with Angular to showcase my skills and projects.",
+        "description": "A personal portfolio website built with Angular to showcase my skills, projects, and experiences.",
         "technologies": ["Angular", "TypeScript", "SCSS", "RxJS"],
         "imageUrl": "assets/images/portfolio.jpg",
-        "githubUrl": "https://github.com/E-adebayo/portfolio",
-        "liveUrl": "https://portfolio.example.com",
+        "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
+        "liveUrl": "https://",
         "highlights": [
-          "Implemented responsive design for all screen sizes",
-          "Used Angular standalone components for better modularity",
-          "Created services to fetch and display data from JSON files"
+          "Responsive design implemented for all screen formats",
+          "Use of Angular standalone components for better modularity",
+          "Creation of services to retrieve and display data (projects, experiences) from JSON files, making future updates easier",
+          "Use of pipe to implement a French and English version of the site"
         ]
       },
       {
         "id": 2,
-        "title": "E-commerce Platform",
-        "description": "A full-stack e-commerce platform with product catalog, shopping cart, and payment integration.",
-        "technologies": ["Angular", "Node.js", "Express", "MongoDB"],
+        "title": "ICS Schedule Generator",
+        "description": "Development of a personal web application to generate ICS files from UTBM format schedules, with a modern interface, real-time preview, and calendar export.",
+        "technologies": ["React", "ViteJS", "JavaScript", "Flask", "Python"],
         "imageUrl": "assets/images/ecommerce.jpg",
-        "githubUrl": "https://github.com/E-adebayo/ecommerce",
-        "liveUrl": "https://ecommerce.example.com",
+        "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
+        "liveUrl": "https://",
         "highlights": [
-          "Implemented user authentication and authorization",
-          "Integrated payment gateway for secure transactions",
-          "Created admin dashboard for inventory management"
+          "Real-time validation and formatting of schedule data with automatic error detection",
+          "Selection of custom start and end dates for your academic schedule",
+          "Management of UTBM's A and B weeks",
+          "Automatic exclusion of French holidays from the generated calendar",
+          "Preview of your schedule in a weekly calendar before generating the ICS file",
+          "The ICS file is generated and downloaded directly in your browser, and can be imported into the student account"
         ]
       },
       {
         "id": 3,
-        "title": "Task Management App",
-        "description": "A productivity application to help users organize and track their tasks and projects.",
-        "technologies": ["React", "Redux", "Firebase", "Material UI"],
+        "title": "Auto-Associative Model for Dimension Reduction",
+        "description": "This project involves manually testing an Auto-associative model for dimension reduction step by step.",
+        "technologies": ["Python", "Jupyter Notebook", "NumPy", "Scipy", "Matplotlib"],
         "imageUrl": "assets/images/taskapp.jpg",
-        "githubUrl": "https://github.com/E-adebayo/taskmanager",
-        "liveUrl": "https://taskapp.example.com",
+        "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
+        "liveUrl": "https://",
         "highlights": [
-          "Implemented drag-and-drop task organization",
-          "Created real-time data synchronization using Firebase",
-          "Added notification system for task reminders"
+          "Initialize the model with data",
+          "Calculate direction using contiguity analysis",
+          "Project data onto the direction",
+          "Train a spline regression model",
+          "Generate predictions from the model",
+          "Calculate residuals",
+          "Calculate information ratio",
+          "Save parameters and increment dimension counter",
+          "Repeat for the next iteration"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Building a Recommendation Engine for an E-commerce Website",
+        "description": "This project focuses on creating and developing an e-commerce website specializing in movie sales, including a recommendation engine.",
+        "technologies": ["React", "Node.js", "MongoDB", "Express", "Python", "FastAPI"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
+        "liveUrl": "https://",
+        "highlights": [
+          "Selection and formatting (cleaning) of a movie database in MongoDB",
+          "Design of the recommendation website with ReactJS and FastAPI",
+          "Use of pandas, sklearn libraries for calculating the similarity quotient",
+          "Use of this quotient for recommendation based on genre, keywords, and search"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Frontend Design for a Service Proposition Website",
+        "description": "Frontend-only design of a service proposition website in Angular for a restaurant business.",
+        "technologies": ["Angular", "TypeScript", "CSS", "Json"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/Restaurant",
+        "liveUrl": "https://",
+        "highlights": [
+          "Display of restaurants, filtering, detailed view",
+          "Proposition of various menus with the ability to add, like and filter menus and restaurants",
+          "Authentication system for restaurant owners",
+          "Storage of restaurants in a Json file as a database"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Professors Evaluation System",
+        "description": "This is a PHP web application for managing and evaluating teaching: professors, classes, teaching units (UE), constituent elements (EC).",
+        "technologies": ["PHP", "Apache", "MySQL/MariaDB", "JavaScript"],
+        "imageUrl": "assets/images/",
+        "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
+        "liveUrl": "https://",
+        "highlights": [
+          "User management (registration, login, administrator)",
+          "Professor management",
+          "Class and grade level management",
+          "Management of teaching units and constituent elements",
+          "Management of professor evaluations by students based on courses",
+          "Administrator interface",
+          "Management of professor assignments to courses",
+          "Export of results in PDF format"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Bug Tracking System",
+        "description": "Java desktop application for bug tracking, using an MVC architecture with Java Swing and MySQL.",
+        "technologies": ["Java", "Java Swing", "MySQL"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
+        "liveUrl": "https://",
+        "highlights": [
+          "User registration",
+          "Secure login system",
+          "Bug reporting with complete details (description, dates, severity, frequency)",
+          "Statistical tracking of bugs with text and PDF report export",
+          "Dedicated interface for user and database management",
+          "Visualization of bug statistics",
+          "Password hashing",
+          "User session management with role-based access control",
+          "Prevention of SQL injections and input sanitization"
         ]
       }
     ]
@@ -50,43 +128,123 @@
       {
         "id": 1,
         "title": "Site Portfolio",
-        "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences et projets.",
+        "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences, projets et expériences.",
         "technologies": ["Angular", "TypeScript", "SCSS", "RxJS"],
         "imageUrl": "assets/images/portfolio.jpg",
-        "githubUrl": "https://github.com/E-adebayo/portfolio",
-        "liveUrl": "https://portfolio.example.com",
+        "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
+        "liveUrl": "https://",
         "highlights": [
           "Design responsive implémenté pour tous les formats d'écran",
           "Utilisation des composants autonomes Angular pour une meilleure modularité",
-          "Création de services pour récupérer et afficher des données de fichiers JSON"
+          "Création de services pour récupérer et afficher des données (projets, expériences) de fichiers JSON, et faciliter les mises à jour futures",
+          "Utilisation de pipe pour implémenter une version française et anglaise du site"
         ]
       },
       {
         "id": 2,
-        "title": "Plateforme E-commerce",
-        "description": "Une plateforme e-commerce full-stack avec catalogue de produits, panier d'achat et intégration de paiement.",
-        "technologies": ["Angular", "Node.js", "Express", "MongoDB"],
+        "title": "Génération d'emploi du temps au format ICS",
+        "description": "Développement d’une application web personnelle pour générer des fichiers ICS à partir d’emplois du temps au format UTBM, avec interface moderne, prévisualisation en temps réel et export de calendrier.",
+        "technologies": ["React", "ViteJS", "JavaScript", "Flask", "Python"],
         "imageUrl": "assets/images/ecommerce.jpg",
-        "githubUrl": "https://github.com/E-adebayo/ecommerce",
-        "liveUrl": "https://ecommerce.example.com",
+        "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
+        "liveUrl": "https://",
         "highlights": [
-          "Authentification et autorisation des utilisateurs",
-          "Intégration d'une passerelle de paiement sécurisée",
-          "Création d'un tableau de bord administrateur pour la gestion des stocks"
+          "Validation et mise en forme des données de l'emploi du temps en temps réel avec détection automatique des erreurs",
+          "Sélection des dates de début et de fin personnalisées pour votre emploi du temps académique",
+          "Gestion des semaines A et B de l’UTBM",
+          "Exclusion automatiquement des jours fériés français du calendrier généré",
+          "Prévisualisation de votre emploi du temps dans un calendrier hebdomadaire avant de générer le fichier ICS",
+          "Le fichier ICS est généré et téléchargé directement dans votre navigateur, et peut être importé dans le compte étudiant."
+
         ]
       },
       {
         "id": 3,
-        "title": "Application de Gestion des Tâches",
-        "description": "Une application de productivité pour aider les utilisateurs à organiser et suivre leurs tâches et projets.",
-        "technologies": ["React", "Redux", "Firebase", "Material UI"],
+        "title": "Modèle Auto associatif pour la réduction de dimension",
+        "description": "Ce projet consiste à tester manuellement et étapes par étapes un modèle Auto associatif pour la réduction de dimension.",
+        "technologies": ["Python", "Notebook Jupyter", "NumPy", "Scipy", "Matplotlib"],
         "imageUrl": "assets/images/taskapp.jpg",
-        "githubUrl": "https://github.com/E-adebayo/taskmanager",
-        "liveUrl": "https://taskapp.example.com",
+        "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
+        "liveUrl": "https://",
         "highlights": [
-          "Implémentation de l'organisation des tâches par glisser-déposer",
-          "Création d'une synchronisation des données en temps réel avec Firebase",
-          "Ajout d'un système de notifications pour les rappels de tâches"
+          "Initialiser le modèle avec les données",
+          "Calculer la direction par l'analyse de contiguïté",
+          "Projeter les données sur la direction",
+          "Entraînement d'un modèle de régression spline",
+          "Générer des prédictions à partir du modèle",
+          "Calculer les résidus",
+          "Calculer le ratio d'information",
+          "Sauvegarde des paramètres et incrémentation du compteur de dimensions",
+          "Répéter pour l'itération suivante"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Construction d’un moteur de recommandation pour un site web d’e-commerce",
+        "description": "Ce projet porte sur la création et le développement d'un site web e-commerce spécialisé dans la vente de films, incluant un moteur de recommandation.",
+        "technologies": ["React", "Node.js", "MongoDB", "Express", "Python", "FastAPI"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
+        "liveUrl": "https://",
+        "highlights": [
+          "Choix et mise en forme (cleaning) d'une base de données de films en MongoDB",
+          "Conception du site web pour la recommandation avec ReactJS et FastAPI",
+          "Utilisation des librairies pandas, sklearn pour le calcul du quotient de similarité",
+          "Utilisation de ce quotient pour la recommandation en fonction du genre, de mots clés et par recherche"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Conception du frontend d'un site de proposition de service",
+        "description": "Conception du frontend uniquement d'un site de proposition de service en Angular pour une entreprise de restauration.",
+        "technologies": ["Angular", "TypeScript", "CSS", "Json"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/Restaurant",
+        "liveUrl": "https://",
+        "highlights": [
+          "Affichage des restaurants, filtrage, vue détaillée",
+          "Proposition de divers menus avec la possibilité d'ajouter, de liker et de filtrer les menus et restaurants.",
+          "Système d'authentification de propriétaires de restaurant",
+          "Enregistrement des restaurants dans un fichier Json comme base de données"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Système d'évaluation des enseignants",
+        "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC).",
+        "technologies": ["PHP", "Apache", "MySQL/MariaDB", "JavaScript"],
+        "imageUrl": "assets/images/",
+        "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
+        "liveUrl": "https://",
+        "highlights": [
+          "Gestion des utilisateurs (inscription, connexion, administrateur)",
+          "Gestion des professeurs",
+          "Gestion des classes et des niveaux d'études",
+          "Gestion des unités d'enseignement et des éléments constitutifs",
+          "Gestion des évaluations des professeurs par les étudiants en fonction des cours",
+          "Interface administrateur",
+          "Gestion des affectations des professeurs aux cours",
+          "Exportation des résultats au format PDF"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Système de suivi de bugs",
+        "description": "Application de bureau Java pour le suivi des bugs, utilisant une architecture MVC avec Java Swing et MySQL.",
+        "technologies": ["Java", "Java Swing", "MySQL"],
+        "imageUrl": "assets/images/taskapp.jpg",
+        "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
+        "liveUrl": "https://",
+        "highlights": [
+          "Inscription des utilisateurs",
+          "Système de connexion sécurisé.",
+          "Signalement des bugs avec détails complets (description, dates, sévérité, fréquence).",
+          "Suivi statistique des bugs avec exportation de rapports en texte et PDF.",
+          "Interface dédiée pour la gestion des utilisateurs et de la base de données.",
+          "Visualisation des statistiques des bugs.",
+          "Hachage des mots de passe.",
+          "Gestion des sessions utilisateur avec contrôle d'accès basé sur les rôles.",
+          "Prévention des injections SQL et désinfection des entrées."
         ]
       }
     ]

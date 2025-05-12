@@ -22,9 +22,7 @@
           <a href="#" class="btn btn-secondary">{{ 'buttons.download' | translate }}</a>
         </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
+    </section>    <!-- Contact Section -->
     <section class="contact-section">
       <h2 class="section-title">{{ 'profile.contactMe' | translate }}</h2>
       <div class="contact-grid">
@@ -32,40 +30,42 @@
           <i class="fas fa-envelope"></i>
           <h3>{{ 'profile.email' | translate }}</h3>
           <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
-        </div>
+        </div>        
         <div class="contact-card">
           <i class="fas fa-map-marker-alt"></i>
           <h3>{{ 'profile.location' | translate }}</h3>
-          <span>{{ profile.location }}</span>
+          <!-- <span>{{ profile.location }}</span> -->
+            <a  href="https://www.google.com/maps/search/?api=1&query={{ profile.location}}" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                {{ profile.location }} 
+            </a>
         </div>
         <div class="contact-card">
           <i class="fas fa-phone"></i>
           <h3>{{ 'profile.phone' | translate }}</h3>
           <a href="tel:{{ profile.phone }}">{{ profile.phone }}</a>
         </div>
+        <div class="contact-card social-card">
+          <h3>{{ 'profile.socialProfiles' | translate }}</h3>
+          <div class="social-links-container">
+            <a [href]="profile.social.linkedin" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <!-- Social Links Section -->
-    <section class="social-section">
-      <div class="social-links">
-        <a [href]="profile.social.linkedin" target="_blank" rel="noopener noreferrer" class="social-link">
-          <i class="fab fa-linkedin"></i>
-          <span>LinkedIn</span>
-        </a>
-        <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="social-link">
-          <i class="fab fa-github"></i>
-          <span>GitHub</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
+    </section>      <!-- Skills Section -->
     <section class="skills-section">
       <h2 class="section-title">{{ 'profile.skills' | translate }}</h2>
       <div class="skills-container">
         <div *ngFor="let skillGroup of profile.skills" class="skill-category">
-          <h3>{{ 'skills.' + skillGroup.category.toLowerCase() | translate }}</h3>
+          <h3>{{ 'skills.' + formatCategoryKey(skillGroup.category) | translate }}</h3>
           <div class="skill-tags">
             <span *ngFor="let skill of skillGroup.items" class="skill-tag">{{ skill }}</span>
           </div>
