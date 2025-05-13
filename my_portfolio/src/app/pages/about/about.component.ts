@@ -1,12 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { 
+  faEnvelope, 
+  faLocationDot, 
+  faPhone, 
+  faUser,
+  faCode,
+  faSpinner,
+  faExclamationCircle,
+  faHeart
+} from '@fortawesome/free-solid-svg-icons';
+import {
+  faLinkedinIn,
+  faGithub
+} from '@fortawesome/free-brands-svg-icons';
 import { ProfileService, Profile } from '../../services/profile.service';
 import { TranslatePipe } from '../../pipes/translate.pipe';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [CommonModule, TranslatePipe],
+  imports: [CommonModule, FontAwesomeModule, TranslatePipe],
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
@@ -14,6 +29,19 @@ export class AboutComponent implements OnInit {
   profile?: Profile;
   loading = true;
   error = '';
+
+  // Font Awesome icons
+  faEnvelope = faEnvelope;
+  faMapMarker = faLocationDot;
+  faPhone = faPhone;
+  faLinkedin = faLinkedinIn;
+  faGithub = faGithub;
+  faUser = faUser;
+  faCode = faCode;
+  faSpinner = faSpinner;
+  faExclamationCircle = faExclamationCircle;
+  faHeart = faHeart;
+  
   // Education data
   education = [
     {

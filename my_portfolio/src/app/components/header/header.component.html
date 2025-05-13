@@ -1,14 +1,42 @@
 <nav class="navbar">
   <div class="navbar-brand">
-    <a routerLink="/">{{ 'header.brand' | translate }}</a>
+    <a routerLink="/" class="brand-link">
+      <fa-icon [icon]="faCode" class="brand-icon"></fa-icon>
+      {{ 'header.brand' | translate }}
+    </a>
   </div>
   <ul class="nav-links">
-    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ 'header.home' | translate }}</a></li>
-    <li><a routerLink="/about" routerLinkActive="active">{{ 'header.about' | translate }}</a></li>
-    <li><a routerLink="/projects" routerLinkActive="active">{{ 'header.projects' | translate }}</a></li>
-    <li><a routerLink="/experience" routerLinkActive="active">{{ 'header.experience' | translate }}</a></li>
+    <li>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <fa-icon [icon]="faHome"></fa-icon>
+        <span>{{ 'header.home' | translate }}</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/about" routerLinkActive="active">
+        <fa-icon [icon]="faUser"></fa-icon>
+        <span>{{ 'header.about' | translate }}</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/projects" routerLinkActive="active">
+        <fa-icon [icon]="faProjectDiagram"></fa-icon>
+        <span>{{ 'header.projects' | translate }}</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/experience" routerLinkActive="active">
+        <fa-icon [icon]="faBriefcase"></fa-icon>
+        <span>{{ 'header.experience' | translate }}</span>
+      </a>
+    </li>
   </ul>
-  <div class="language-control">
-    <app-language-switcher></app-language-switcher>
+  <div class="nav-actions">
+    <div class="theme-toggle">
+      <fa-icon [icon]="isDarkMode ? faSun : faMoon" (click)="toggleTheme()" class="theme-icon"></fa-icon>
+    </div>
+    <div class="language-control">
+      <app-language-switcher></app-language-switcher>
+    </div>
   </div>
 </nav>

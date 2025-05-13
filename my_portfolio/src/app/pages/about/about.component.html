@@ -1,115 +1,65 @@
-<div class="about-container">  <div class="loading-container" *ngIf="loading">
+<div class="about-container container">
+  <div class="loading-container fade-in" *ngIf="loading">
+    <fa-icon [icon]="faSpinner"></fa-icon>
     <p>{{ 'common.loading' | translate }}</p>
   </div>
 
-  <div class="error-container" *ngIf="error">
+  <div class="error-container fade-in" *ngIf="error">
+    <fa-icon [icon]="faExclamationCircle"></fa-icon>
     <p class="error-message">{{ error }}</p>
   </div>
 
   <ng-container *ngIf="profile && !loading && !error">    
-    
-    <section class="about-section">
-      <div class="about-header">
-        <h1>{{ 'about.title' | translate }}</h1>
-        <div class="divider"></div>
-      </div>
+    <section class="about-section slide-up">
+      <h1 class="section-title">{{ 'about.title' | translate }}</h1>
       <div class="bio-container">
-        <div class="bio-text">
+        <div class="bio-text card">
           <h2>{{ 'about.greeting' | translate }} {{ profile.name }}</h2>
           <p class="bio-description">
             {{ profile.description ? profile.description : 'Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.' }}
           </p>
-          <p>
+          <p class="bio-location">
             {{ 'about.bio1' | translate }} {{ profile.location }} {{ 'about.bio2' | translate }}
           </p>
-          <p>
+          <p class="bio-passion">
             {{ 'about.bio3' | translate }}
           </p>
-        </div>        <div class="contact-info">
-          <div class="info-card">
-            <h3>{{ 'about.contactInfo' | translate }}</h3>
-            <ul>
-              <li>
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
-              </li>
-              <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <span>{{ profile.location }}</span>
-              </li>
-              <li>
-                <i class="fas fa-phone"></i>
-                <a href="tel:{{ profile.phone }}">{{ profile.phone }}</a>
-              </li>
-              <li>
-                <i class="fab fa-linkedin"></i>
-                <a [href]="profile.social.linkedin" target="_blank">LinkedIn</a>
-              </li>
-              <li>
-                <i class="fab fa-github"></i>
-                <a [href]="profile.social.github" target="_blank">GitHub</a>
-              </li>
-            </ul>
-          </div>
+        </div>
+
+        <div class="contact-info card">
+          <h3>{{ 'about.contactInfo' | translate }}</h3>
+          <ul class="contact-list">
+            <li>
+              <fa-icon [icon]="faEnvelope"></fa-icon>
+              <a href="mailto:{{ profile.email }}" class="contact-link">{{ profile.email }}</a>
+            </li>
+            <li>
+              <fa-icon [icon]="faMapMarker"></fa-icon>
+              <span>{{ profile.location }}</span>
+            </li>
+            <li>
+              <fa-icon [icon]="faPhone"></fa-icon>
+              <a href="tel:{{ profile.phone }}" class="contact-link">{{ profile.phone }}</a>
+            </li>
+            <li>
+              <fa-icon [icon]="faLinkedin"></fa-icon>
+              <a [href]="profile.social.linkedin" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+            </li>
+            <li>
+              <fa-icon [icon]="faGithub"></fa-icon>
+              <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>    
+    </section>
     
-    <section class="skills-section">
-      <div class="about-header">
-        <h2>{{ 'about.skillsExpertise' | translate }}</h2>
-        <div class="divider"></div>
-      </div><div class="skills-container">
-        <div class="skill-category" *ngFor="let category of profile.skills">
-          <h3>{{ 'skills.' + formatCategoryKey(category.category) | translate }}</h3>
-          <div class="skill-items">
-            <span class="skill-tag" *ngFor="let item of category.items">{{ item }}</span>
-          </div>
-        </div>
-      </div>
-    </section>    
-    
-    <section class="education-section">
-      <div class="about-header">
-        <h2>{{ 'about.education' | translate }}</h2>
-        <div class="divider"></div>
-      </div>      <div class="education-container">
-        <div class="education-item" *ngFor="let edu of education">
-          <div class="edu-period">{{ edu.period[profileService.getCurrentLang()] }}</div>
-          <div class="edu-content">
-            <h3>{{ edu.degree[profileService.getCurrentLang()] }}</h3>
-            <h4>{{ edu.institution[profileService.getCurrentLang()] }}, {{ edu.location[profileService.getCurrentLang()] }}</h4>
-            <p>{{ edu.description[profileService.getCurrentLang()] }}</p>
-          </div>
-        </div>
-      </div>
-    </section>    
-    
-    <section class="certifications-section">
-      <div class="about-header">
-        <h2>{{ 'about.certifications' | translate }}</h2>
-        <div class="divider"></div>
-      </div>      <div class="certifications-container">
-        <div class="certification-item" *ngFor="let cert of certifications">
-          <div class="cert-icon">
-            <i class="fas fa-certificate"></i>
-          </div>
-          <div class="cert-content">
-            <h3>{{ cert.name[profileService.getCurrentLang()] }}</h3>
-            <p>{{ cert.issuer[profileService.getCurrentLang()] }} | {{ cert.date[profileService.getCurrentLang()] }}</p>
-            <a [href]="cert.link" target="_blank" class="view-cert">{{ 'about.viewCertificate' | translate }}</a>
-          </div>
-        </div>
-      </div>
-    </section>    
-    
-    <section class="interests-section">
-      <div class="about-header">
-        <h2>{{ 'about.interests' | translate }}</h2>
-        <div class="divider"></div>
-      </div>      <div class="interests-container">
-        <div class="interest-tag" *ngFor="let interest of interests">
-          <i class="fas fa-star"></i> {{ interest[profileService.getCurrentLang()] }}
+    <section class="interests-section slide-up" *ngIf="profile.interests?.length">
+      <h2 class="section-title">{{ 'about.interests' | translate }}</h2>
+      <div class="interests-grid">
+        <div class="interest-card card" *ngFor="let interest of profile.interests">
+          <fa-icon [icon]="faHeart"></fa-icon>
+          <p>{{ interest }}</p>
         </div>
       </div>
     </section>

@@ -1,33 +1,58 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ExperienceService, Experience } from '../../services/experience.service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {
+  faBriefcase,
+  faCalendarAlt,
+  faBuilding,
+  faMapMarkerAlt,
+  faCode,
+  faSpinner,
+  faExclamationCircle
+} from '@fortawesome/free-solid-svg-icons';
 import { TranslatePipe } from '../../pipes/translate.pipe';
+import { ExperienceService, Experience } from '../../services/experience.service';
 
 @Component({
   selector: 'app-experience',
-  standalone: true,
-  imports: [CommonModule, TranslatePipe],
   templateUrl: './experience.component.html',
-  styleUrls: ['./experience.component.scss']
+  styleUrls: ['./experience.component.scss'],
+  standalone: true,
+  imports: [CommonModule, FontAwesomeModule, TranslatePipe]
 })
 export class ExperienceComponent implements OnInit {
   experiences: Experience[] = [];
   loading = true;
-  error = '';
+  error: string | null = null;
+
+  // Font Awesome icons
+  faBriefcase = faBriefcase;
+  faCalendar = faCalendarAlt;
+  faBuilding = faBuilding;
+  faMapMarker = faMapMarkerAlt;
+  faCode = faCode;
+  faSpinner = faSpinner;
+  faExclamationCircle = faExclamationCircle;
 
   constructor(private experienceService: ExperienceService) {}
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.experienceService.getExperiences().subscribe({
       next: (data) => {
         this.experiences = data.experiences;
         this.loading = false;
       },
-      error: (error) => {
-        this.error = 'Failed to load experience data';
+      error: (err) => {
+        this.error = err.message;
         this.loading = false;
-        console.error('Error loading experience:', error);
       }
+    });
+  }
+
+  getFormattedDate(date: string): string {
+    return new Date(date).toLocaleDateString(undefined, {
+      year: 'numeric',
+      month: 'short'
     });
   }
 }

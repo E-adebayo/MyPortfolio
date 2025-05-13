@@ -18,6 +18,7 @@ export interface Profile {
     category: string;
     items: string[];
   }[];
+  interests?: string[];
 }
 
 interface LocalizedProfiles {

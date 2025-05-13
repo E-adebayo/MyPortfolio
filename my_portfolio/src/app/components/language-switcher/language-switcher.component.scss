@@ -4,21 +4,43 @@
   
   button {
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
-    color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-color);
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
     padding: 0.3rem 0.6rem;
-    transition: all 0.3s ease;
+    transition: all 0.3s var(--ease-out);
+    font-size: 0.9rem;
     
     &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: var(--background-hover);
+      border-color: var(--primary-color);
+      color: var(--primary-color);
     }
     
     &.active {
-      background-color: rgba(255, 255, 255, 0.2);
-      border-color: rgba(255, 255, 255, 0.4);
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+      color: white;
+    }
+  }
+}
+
+// Dark theme adjustments
+:host-context(.dark-theme) {
+  .language-switcher {
+    button {
+      border-color: var(--border-color);
+      
+      &:hover {
+        background-color: var(--background-hover);
+      }
+      
+      &.active {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+      }
     }
   }
 }
