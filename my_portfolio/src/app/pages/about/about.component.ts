@@ -9,7 +9,9 @@ import {
   faCode,
   faSpinner,
   faExclamationCircle,
-  faHeart
+  faHeart,
+  faGraduationCap,
+  faCertificate
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faLinkedinIn,
@@ -29,7 +31,6 @@ export class AboutComponent implements OnInit {
   profile?: Profile;
   loading = true;
   error = '';
-
   // Font Awesome icons
   faEnvelope = faEnvelope;
   faMapMarker = faLocationDot;
@@ -41,6 +42,8 @@ export class AboutComponent implements OnInit {
   faSpinner = faSpinner;
   faExclamationCircle = faExclamationCircle;
   faHeart = faHeart;
+  faGraduationCap = faGraduationCap;
+  faCertificate = faCertificate;
   
   // Education data
   education = [

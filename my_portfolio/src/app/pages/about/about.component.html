@@ -53,13 +53,50 @@
         </div>
       </div>
     </section>
+      <!-- Education Section -->
+    <section class="education-section slide-up">
+      <h2 class="section-title">{{ 'about.education' | translate }}</h2>
+      <div class="education-grid">
+        <div class="education-card card" *ngFor="let edu of education">
+          <div class="education-header">
+            <h3><fa-icon [icon]="faGraduationCap"></fa-icon> {{ edu.degree[profileService.getCurrentLang()] }}</h3>
+            <span class="education-period">{{ edu.period[profileService.getCurrentLang()] }}</span>
+          </div>
+          <div class="education-body">
+            <p class="institution">{{ edu.institution[profileService.getCurrentLang()] }}</p>
+            <p class="location">{{ edu.location[profileService.getCurrentLang()] }}</p>
+            <p class="description">{{ edu.description[profileService.getCurrentLang()] }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
     
-    <section class="interests-section slide-up" *ngIf="profile.interests?.length">
+    <!-- Certifications Section -->
+    <section class="certifications-section slide-up">
+      <h2 class="section-title">{{ 'about.certifications' | translate }}</h2>
+      <div class="certifications-grid">
+        <div class="certification-card card" *ngFor="let cert of certifications">
+          <div class="certification-header">
+            <h3><fa-icon [icon]="faCertificate"></fa-icon> {{ cert.name[profileService.getCurrentLang()] }}</h3>
+            <span class="certification-date">{{ cert.date[profileService.getCurrentLang()] }}</span>
+          </div>
+          <div class="certification-body">
+            <p class="issuer">{{ cert.issuer[profileService.getCurrentLang()] }}</p>
+            <a [href]="cert.link" target="_blank" rel="noopener noreferrer" class="view-certificate">
+              {{ 'about.viewCertificate' | translate }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Interests Section - Updated to use component data instead of profile data -->
+    <section class="interests-section slide-up">
       <h2 class="section-title">{{ 'about.interests' | translate }}</h2>
       <div class="interests-grid">
-        <div class="interest-card card" *ngFor="let interest of profile.interests">
+        <div class="interest-card card" *ngFor="let interest of interests">
           <fa-icon [icon]="faHeart"></fa-icon>
-          <p>{{ interest }}</p>
+          <p>{{ interest[profileService.getCurrentLang()] }}</p>
         </div>
       </div>
     </section>

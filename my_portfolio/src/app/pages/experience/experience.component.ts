@@ -52,7 +52,7 @@ export class ExperienceComponent implements OnInit {
   getFormattedDate(date: string): string {
     return new Date(date).toLocaleDateString(undefined, {
       year: 'numeric',
-      month: 'short'
+      month: 'long',
     });
   }
 }
