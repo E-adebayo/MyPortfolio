@@ -1,13 +1,12 @@
-<nav class="navbar">
-  <div class="navbar-brand">
+<nav class="navbar">  <div class="navbar-brand">
     <a routerLink="/" class="brand-link">
-      <fa-icon [icon]="faCode" class="brand-icon"></fa-icon>
-      {{ 'header.brand' | translate }}
+      <img src="assets/images/profilGH.png" class="brand-image" alt="Profile" />
     </a>
   </div>
   <ul class="nav-links">
     <li>
-      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <a routerLink="/" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">
         <fa-icon [icon]="faHome"></fa-icon>
         <span>{{ 'header.home' | translate }}</span>
       </a>
@@ -33,7 +32,8 @@
   </ul>
   <div class="nav-actions">
     <div class="theme-toggle">
-      <fa-icon [icon]="isDarkMode ? faSun : faMoon" (click)="toggleTheme()" class="theme-icon"></fa-icon>
+      <fa-icon [icon]="isDarkMode ? faSun : faMoon" (click)="toggleTheme()"
+        class="theme-icon"></fa-icon>
     </div>
     <div class="language-control">
       <app-language-switcher></app-language-switcher>

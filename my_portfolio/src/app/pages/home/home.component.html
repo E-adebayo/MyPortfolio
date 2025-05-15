@@ -12,30 +12,35 @@
   <!-- Main Content -->
   <div *ngIf="!loading && !error && profile" class="content-wrapper">
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section class="hero-section slide-up">
       <div class="hero-content">
         <h1>{{ profile.name }}</h1>
         <h2>{{ profile.title }}</h2>
-        <p class="description" *ngIf="profile.description">{{ profile.description }}</p>
+        <p class="description" *ngIf="profile.description">{{
+          profile.description }}</p>
         <div class="hero-actions">
-          <a [routerLink]="['/about']" class="btn">{{ 'buttons.viewDetails' | translate }}</a>
-          <a href="#" class="btn btn-secondary">{{ 'buttons.download' | translate }}</a>
+          <a [routerLink]="['/about']" class="btn">{{ 'buttons.viewDetails' |
+            translate }}</a>
+          <a href="#" class="btn btn-secondary">{{ 'buttons.download' |
+            translate }}</a>
         </div>
       </div>
-    </section>    <!-- Contact Section -->
-    <section class="contact-section">
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section slide-up">
       <h2 class="section-title">{{ 'profile.contactMe' | translate }}</h2>
       <div class="contact-grid">
         <div class="contact-row">
           <div class="contact-card">
-            <i class="fas fa-envelope"></i>
+            <fa-icon [icon]="faEnvelope"></fa-icon>
             <h3>{{ 'profile.email' | translate }}</h3>
             <a href="mailto:{{ profile.email }}" class="contact-link email-link" title="{{ profile.email }}">
               <span>{{ profile.email }}</span>
             </a>
           </div>
           <div class="contact-card">
-            <i class="fas fa-phone-alt"></i>
+            <fa-icon [icon]="faPhone"></fa-icon>
             <h3>{{ 'profile.phone' | translate }}</h3>
             <a href="tel:{{ profile.phone }}" class="contact-link">
               <span>{{ profile.phone }}</span>
@@ -45,37 +50,39 @@
         <div class="contact-row">
           <div class="contact-card social-card">
             <h3>{{ 'profile.socialProfiles' | translate }}</h3>
-            <div class="social-links-container">
-              <a [href]="profile.social.linkedin" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
-                <span class="material-icons-round">person</span>
+            <div class="social-links-container"> <a [href]="profile.social.linkedin" target="_blank"
+                rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"> <fa-icon [icon]="faLinkedin"
+                  [size]="'xs'"></fa-icon>
                 <span>LinkedIn</span>
               </a>
-              <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
-                <span class="material-icons-round">code</span>
+              <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="social-link"
+                aria-label="GitHub"> <fa-icon [icon]="faGithub" [size]="'xs'"></fa-icon>
                 <span>GitHub</span>
               </a>
             </div>
           </div>
           <div class="contact-card">
-            <i class="fas fa-map-marker-alt"></i>
+            <fa-icon [icon]="faLocationDot"></fa-icon>
             <h3>{{ 'profile.location' | translate }}</h3>
-            <a href="https://www.google.com/maps/search/?api=1&query={{ profile.location }}"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="contact-link">
+            <a href="https://www.google.com/maps/search/?api=1&query={{ profile.location }}" target="_blank"
+              rel="noopener noreferrer" class="contact-link">
               <span>{{ profile.location }}</span>
             </a>
           </div>
         </div>
       </div>
-    </section><!-- Skills Section -->
-    <section class="skills-section">
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section slide-up">
       <h2 class="section-title">{{ 'profile.skills' | translate }}</h2>
       <div class="skills-container">
         <div *ngFor="let skillGroup of profile.skills" class="skill-category">
-          <h3>{{ 'skills.' + formatCategoryKey(skillGroup.category) | translate }}</h3>
+          <h3>{{ 'skills.' + formatCategoryKey(skillGroup.category) | translate
+            }}</h3>
           <div class="skill-tags">
-            <span *ngFor="let skill of skillGroup.items" class="skill-tag">{{ skill }}</span>
+            <span *ngFor="let skill of skillGroup.items" class="skill-tag">{{
+              skill }}</span>
           </div>
         </div>
       </div>

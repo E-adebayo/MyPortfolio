@@ -12,7 +12,7 @@ import { TranslationService } from '../../services/translation.service';
 export class LanguageSwitcherComponent implements OnInit {
   currentLanguage: string = 'en';
 
-  constructor(private translationService: TranslationService) {}
+  constructor(private translationService: TranslationService) { }
 
   ngOnInit(): void {
     this.translationService.currentLanguage$.subscribe(lang => {

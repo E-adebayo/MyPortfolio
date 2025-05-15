@@ -1,8 +1,8 @@
 {
   "en": {
     "name": "Adébayo Eudes d'ALMEIDA",
-    "title": "Software Engineer",
-    "description": "Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.",
+    "title": "IT Engineer",
+    "description": "Junior IT Engineer with a passion for web development, cloud technologies, data science and project management. My curriculum is marked by an insatiable curiosity for data mining, innovative solution design and effective project management. I'm motivated by a desire to learn and continually improve, seeking challenges that push me out of my comfort zone. My goal is to contribute to meaningful projects that have a positive impact on society.",
     "email": "adebayoeudes.dalmeida@gmail.com",
     "location": "Belfort, France",
     "phone": "+33 6 52 34 17 02",
@@ -30,7 +30,31 @@
           "AdonisJS",
           "Java Spring Boot",
           "Java Swing",
-          "Selenium"
+          "Selenium",
+          "SharePoint"
+        ]
+      },
+      {
+        "category": "Cloud and DevOps",
+        "items": [
+          "GCP : Associate Cloud Engineer",
+          "IAM : Identity and Access Management",
+          "Cloud Functions",
+          "Cloud Run",
+          "Cloud Storage",
+          "Cloud SQL",
+          "Cloud Pub/Sub",
+          "Cloud Monitoring",
+          "Cloud Logging",
+          "Bitbucket",
+          "AWS : Amazon Web Services",
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "CI/CD",
+          "Jenkins",
+          "Ansible"
         ]
       },
       {
@@ -39,25 +63,14 @@
           "PostgreSQL",
           "MongoDB",
           "MySQL",
+          "T-SQL",
+          "PL/SQL",
           "MariaDB",
           "SQL Server",
           "SQLite",
           "Oracle",
           "NoSQL",
-          "BigQuery"          
-        ]
-      },
-      {
-        "category": "Cloud and DevOps",
-        "items": [
-          "GCP : Associate Cloud Engineer",
-          "AWS",
-          "Bitbucket",
-          "Docker",
-          "Kubernetes",
-          "Jenkins",
-          "CI/CD",
-          "Terraform"
+          "BigQuery"
         ]
       },
       {
@@ -75,7 +88,8 @@
           "Scrum",
           "HOSHIN KANRI/OKR",
           "Kanban",
-          "Lean"
+          "Lean",
+          "Cycle V"
         ]
       },
       {
@@ -91,15 +105,9 @@
         "category": "Automation and Scripting",
         "items": [
           "Bash",
+          "Yaml",
           "PowerShell",
           "Power Automate"
-        ]
-      },
-      {
-        "category": "Web Server",
-        "items": [
-          "NGINX",
-          "Apache"
         ]
       },
       {
@@ -112,15 +120,22 @@
           "Windows",
           "Ubuntu / Ubuntu Server",
           "Windows Server",
-          "Linux"          
+          "Linux"
+        ]
+      },
+      {
+        "category": "Web Server",
+        "items": [
+          "NGINX",
+          "Apache Tomcat"
         ]
       }
     ]
   },
   "fr": {
     "name": "Adébayo Eudes d'ALMEIDA",
-    "title": "Ingénieur Logiciel",
-    "description": "Ingénieur Logiciel Junior passionné par le développement web et possédant une solide base dans les frameworks JavaScript. Désireux d'apprendre et de grandir dans un environnement dynamique.",
+    "title": "Ingénieur IT",
+    "description": "Ingénieur Informatique Junior passionné par le développement web, les technologies cloud, la science des données et la gestion des projets. Mon parcours est marqué par une curiosité insatiable pour l'exploration des données, la conception de solutions innovantes et la gestion efficace des projets. Je suis motivé par le désir d'apprendre et de m'améliorer continuellement, cherchant à relever des défis qui me poussent à sortir de ma zone de confort. Mon objectif est de contribuer à des projets significatifs qui ont un impact positif sur la société.",
     "email": "adebayoeudes.dalmeida@gmail.com",
     "location": "Belfort, France",
     "phone": "+33 6 52 34 17 02",
@@ -148,7 +163,31 @@
           "AdonisJS",
           "Java Spring Boot",
           "Java Swing",
-          "Selenium"
+          "Selenium",
+          "SharePoint"
+        ]
+      },
+      {
+        "category": "Cloud et DevOps",
+        "items": [
+          "GCP : Associate Cloud Engineer",
+          "IAM : Identity and Access Management",
+          "Cloud Functions",
+          "Cloud Run",
+          "Cloud Storage",
+          "Cloud SQL",
+          "Cloud Pub/Sub",
+          "Cloud Monitoring",
+          "Cloud Logging",
+          "Bitbucket",
+          "AWS : Amazon Web Services",
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "CI/CD",
+          "Jenkins",
+          "Ansible"
         ]
       },
       {
@@ -157,22 +196,14 @@
           "PostgreSQL",
           "MongoDB",
           "MySQL",
+          "T-SQL",
+          "PL/SQL",
           "MariaDB",
           "SQL Server",
           "SQLite",
           "Oracle",
-          "NoSQL"
-        ]
-      },
-      {
-        "category": "Cloud et DevOps",
-        "items": [
-          "GCP : Associate Cloud Engineer",
-          "AWS",
-          "Bitbucket",
-          "Docker",
-          "Kubernetes",
-          "Jenkins"
+          "NoSQL",
+          "BigQuery"
         ]
       },
       {
@@ -190,7 +221,8 @@
           "Scrum",
           "HOSHIN KANRI/OKR",
           "Kanban",
-          "Lean"
+          "Lean",
+          "Cycle de vie en V"
         ]
       },
       {
@@ -206,15 +238,9 @@
         "category": "Automatisation et Scripting",
         "items": [
           "Bash",
+          "Yaml",
           "PowerShell",
           "Power Automate"
-        ]
-      },
-      {
-        "category": "Serveur Web",
-        "items": [
-          "NGINX",
-          "Apache"
         ]
       },
       {
@@ -227,7 +253,14 @@
           "Windows",
           "Ubuntu / Ubuntu Server",
           "Windows Server",
-          "Linux"          
+          "Linux"
+        ]
+      },
+      {
+        "category": "Serveur Web",
+        "items": [
+          "NGINX",
+          "Apache Tomcat"
         ]
       }
     ]

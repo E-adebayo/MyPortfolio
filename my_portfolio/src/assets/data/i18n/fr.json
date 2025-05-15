@@ -1,29 +1,32 @@
-{  "header": {
+{
+  "header": {
     "brand": "Mon Portfolio",
     "home": "Accueil",
     "about": "À propos",
     "projects": "Projets",
     "experience": "Expériences"
-  },  "profile": {
+  },
+  "profile": {
     "name": "Adébayo Eudes d'ALMEIDA",
     "title": "Ingénieur Informatique",
-    "description": "Ingénieur Informatique Junior passionné par le développement web et possédant une solide base dans les frameworks JavaScript. Désireux d'apprendre et de grandir dans un environnement dynamique.",
+    "description": "Ingénieur Informatique Junior passionné par le développement web, les technologies cloud, la science des données et la gestion des projets. Mon parcours est marqué par une curiosité insatiable pour l'exploration des données, la conception de solutions innovantes et la gestion efficace des projets. Je suis motivé par le désir d'apprendre et de m'améliorer continuellement, cherchant à relever des défis qui me poussent à sortir de ma zone de confort. Mon objectif est de contribuer à des projets significatifs qui ont un impact positif sur la société.",
     "location": "Adresse",
     "email": "Email",
     "phone": "Téléphone",
     "skills": "Compétences",
     "contactMe": "Me Contacter",
     "socialProfiles": "Me Suivre"
-  },  "skills": {
+  },
+  "skills": {
     "languagesandframeworks": "Langages et Frameworks",
     "databasesanddatawarehouse": "Bases de données et DataWarehouse",
     "cloudanddevops": "Cloud et DevOps",
-    "datavisualizationandetl": "Visualisation de données et ETL", 
+    "datavisualizationandetl": "Visualisation de données et ETL",
     "methodologiesandtools": "Méthodologies et Outils",
     "collaborationandversioncontrol": "Collaboration et Contrôle de Version",
     "automationandscripting": "Automatisation et Scripting",
     "webserver": "Serveur Web",
-    "systemsandnetworks": "Systèmes et Réseaux" 
+    "systemsandnetworks": "Systèmes et Réseaux"
   },
   "buttons": {
     "viewProject": "Voir le Projet",
@@ -39,23 +42,28 @@
     "viewDemo": "Voir la Démo",
     "technologies": "Technologies",
     "highlights": "Points Clés"
-  },  "common": {
+  },
+  "common": {
     "loading": "Chargement...",
     "error": "Une erreur est survenue",
     "retry": "Réessayer"
-  },  "about": {
+  },
+  "about": {
     "title": "À Propos de Moi",
     "greeting": "Bonjour, je suis",
-    "bio1": "Je suis un ingénieur logiciel dévoué basé à",
-    "bio2": "qui aime résoudre des problèmes complexes avec du code propre et efficace. Je me concentre sur la création d'applications web intuitives et réactives qui offrent des expériences utilisateur exceptionnelles.",
+    "bio": "Ingénieur Informatique Junior passionné par le développement web, les technologies cloud, la science des données et la gestion des projets.",
+    "bio1": "Je suis un ingénieur en informatique vivant à",
+    "bio2": "qui aime résoudre des problèmes complexes avec du code propre et efficace. Je m'intéresse également aux métiers de devOps, de la data (analyst, enginner, science), du cloud, de gestions de projets.",
     "bio3": "Lorsque je ne code pas, j'aime contribuer à des projets open source, assister à des meetups technologiques et approfondir continuellement mes connaissances à travers des cours en ligne et de la documentation technique.",
     "contactInfo": "Coordonnées",
     "skillsExpertise": "Compétences et Expertise",
     "education": "Formation",
     "certifications": "Certifications",
     "interests": "Intérêts Professionnels",
+    "languages": "Langues",
     "viewCertificate": "Voir le Certificat"
-  },  "experience": {
+  },
+  "experience": {
     "title": "Expériences Professionnelles",
     "subtitle": "Mon parcours professionnel et mon historique de travail",
     "keyResponsibilities": "Responsabilités Principales:",

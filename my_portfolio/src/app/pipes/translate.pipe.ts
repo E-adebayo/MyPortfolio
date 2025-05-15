@@ -7,7 +7,7 @@ import { TranslationService } from '../services/translation.service';
   pure: false // Make it impure so it updates when language changes
 })
 export class TranslatePipe implements PipeTransform {
-  constructor(private translationService: TranslationService) {}
+  constructor(private translationService: TranslationService) { }
 
   transform(key: string): string {
     return this.translationService.get(key) || key;

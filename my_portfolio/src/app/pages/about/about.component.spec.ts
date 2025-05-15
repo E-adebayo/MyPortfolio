@@ -32,7 +32,7 @@ describe('AboutComponent', () => {
         { provide: ProfileService, useValue: spy }
       ]
     })
-    .compileComponents();
+      .compileComponents();
 
     profileServiceSpy = TestBed.inject(ProfileService) as jasmine.SpyObj<ProfileService>;
     fixture = TestBed.createComponent(AboutComponent);

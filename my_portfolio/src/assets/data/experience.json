@@ -17,7 +17,26 @@
           "Testing functionality of software solutions: MediaSpeech for Text to Speech, XRY for extracting data from applications (social networks) via the cloud",
           "Documentation of work completed (internship report) and writing of user guides"
         ],
-        "technologies": ["Python", "Excel", "CSV / TSV", "Relativity", "XRY Physical & Logical / Cloud", "MediaSpeech", "Outlook", "scanPST", "Aid4Mail", "PST", "MSG", "DOCX", "XLSX", "PDF", "JPG", "PNG", "HTML", "KYR"]
+        "technologies": [
+          "Python",
+          "Excel",
+          "CSV / TSV",
+          "Relativity",
+          "XRY Physical & Logical / Cloud",
+          "MediaSpeech",
+          "Outlook",
+          "scanPST",
+          "Aid4Mail",
+          "PST",
+          "MSG",
+          "DOCX",
+          "XLSX",
+          "PDF",
+          "JPG",
+          "PNG",
+          "HTML",
+          "KYR"
+        ]
       },
       {
         "id": 2,
@@ -34,8 +53,23 @@
           "Design of workflows with Power Automate for SharePoint",
           "Documentation of projects/topics and knowledge on the Confluence platform"
         ],
-        "technologies": ["Factorial", "SharePoint", "Power Automate", "Confluence", "RAG", "Mistral AI", "Azure OpenAI", "Divalto", "Odoo", "SAP S/4 Hana", "Kelio", "Sage HR", "Excel", "Canva"]
-      }, 
+        "technologies": [
+          "Factorial",
+          "SharePoint",
+          "Power Automate",
+          "Confluence",
+          "RAG",
+          "Mistral AI",
+          "Azure OpenAI",
+          "Divalto",
+          "Odoo",
+          "SAP S/4 Hana",
+          "Kelio",
+          "Sage HR",
+          "Excel",
+          "Canva"
+        ]
+      },
       {
         "id": 3,
         "company": "Sunu Santé",
@@ -50,7 +84,19 @@
           "Automation of MongoDB database import and restoration with a Bash script",
           "Implementation of a test topology (cloud, switches, Cisco ASA firewalls, virtual machines) with GNS3 for the configuration of a Site-to-Site VPN"
         ],
-        "technologies": ["VMware", "Hypervisors", "Ubuntu / Ubuntu Server", "MongoDB", "NGINX", "NodeJs", "AdonisJS", "React", "Bash", "GNS3", "Cisco"]
+        "technologies": [
+          "VMware",
+          "Hypervisors",
+          "Ubuntu / Ubuntu Server",
+          "MongoDB",
+          "NGINX",
+          "NodeJs",
+          "AdonisJS",
+          "React",
+          "Bash",
+          "GNS3",
+          "Cisco"
+        ]
       }
     ]
   },
@@ -72,7 +118,26 @@
           "Tests de fonctionnalités de solutions logicielles : MediaSpeech pour du Text to Speech, XRY pour de l'extraction de données d'applications (réseaux sociaux) via le cloud",
           "Documentation des travaux réalisés (rapport de stage) et rédaction de guides d'utilisation"
         ],
-        "technologies": ["Python", "Excel", "CSV / TSV", "Relativity", "XRY Physical & Logical / Cloud", "MediaSpeech", "Outlook", "scanPST", "Aid4Mail", "PST", "MSG", "DOCX", "XLSX", "PDF", "JPG", "PNG", "HTML", "KYR"]
+        "technologies": [
+          "Python",
+          "Excel",
+          "CSV / TSV",
+          "Relativity",
+          "XRY Physical & Logical / Cloud",
+          "MediaSpeech",
+          "Outlook",
+          "scanPST",
+          "Aid4Mail",
+          "PST",
+          "MSG",
+          "DOCX",
+          "XLSX",
+          "PDF",
+          "JPG",
+          "PNG",
+          "HTML",
+          "KYR"
+        ]
       },
       {
         "id": 2,
@@ -89,8 +154,23 @@
           "Conception de flux de travail avec Power Automate pour SharePoint",
           "Documentation des projets/sujets et de connaissances sur la plateforme Confluence"
         ],
-        "technologies": ["Factorial", "SharePoint", "Power Automate", "Confluence", "RAG", "Mistral AI", "Azure OpenAI", "Divalto", "Odoo", "SAP S/4 Hana", "Kelio", "Sage HR", "Excel", "Canva"]
-      }, 
+        "technologies": [
+          "Factorial",
+          "SharePoint",
+          "Power Automate",
+          "Confluence",
+          "RAG",
+          "Mistral AI",
+          "Azure OpenAI",
+          "Divalto",
+          "Odoo",
+          "SAP S/4 Hana",
+          "Kelio",
+          "Sage HR",
+          "Excel",
+          "Canva"
+        ]
+      },
       {
         "id": 3,
         "company": "Sunu Santé",
@@ -105,7 +185,19 @@
           "Automatisation de l'importation et de la restauration de la base de données MongoDB avec un script Bash",
           "Mise en place d'une topologie de test (cloud, commutateurs, pares-feux Cisco ASA, machines virtuelles) avec GNS3 pour la configuration d'un VPN Site à Site"
         ],
-        "technologies": ["VMware", "Hyperviseurs", "Ubuntu / Ubuntu Server", "MongoDB", "NGINX", "NodeJs", "AdonisJS", "React", "Bash", "GNS3", "Cisco"]
+        "technologies": [
+          "VMware",
+          "Hyperviseurs",
+          "Ubuntu / Ubuntu Server",
+          "MongoDB",
+          "NGINX",
+          "NodeJs",
+          "AdonisJS",
+          "React",
+          "Bash",
+          "GNS3",
+          "Cisco"
+        ]
       }
     ]
   }

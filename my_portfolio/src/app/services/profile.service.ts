@@ -33,7 +33,7 @@ export class ProfileService {
   constructor(
     private http: HttpClient,
     private translationService: TranslationService
-  ) { }  getProfile(): Observable<Profile> {
+  ) { } getProfile(): Observable<Profile> {
     return this.http.get<LocalizedProfiles>('/assets/data/profile.json').pipe(
       switchMap(profiles => this.translationService.currentLanguage$.pipe(
         map(lang => {
@@ -43,7 +43,7 @@ export class ProfileService {
       ))
     );
   }
-  
+
   getCurrentLang(): 'en' | 'fr' {
     // Get the current language from local storage or default to 'en'
     const lang = localStorage.getItem('preferred_language') || 'en';

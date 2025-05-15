@@ -43,7 +43,7 @@ export class ExperienceService {
       ))
     );
   }
-  
+
   getCurrentLang(): 'en' | 'fr' {
     // Get the current language from local storage or default to 'en'
     const lang = localStorage.getItem('preferred_language') || 'en';

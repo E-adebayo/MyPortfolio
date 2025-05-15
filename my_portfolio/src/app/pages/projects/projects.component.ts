@@ -15,7 +15,7 @@ export class ProjectsComponent implements OnInit {
   loading = true;
   error = '';
 
-  constructor(private projectsService: ProjectsService) {}
+  constructor(private projectsService: ProjectsService) { }
 
   ngOnInit(): void {
     this.projectsService.getProjects().subscribe({

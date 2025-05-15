@@ -34,7 +34,7 @@ export class ExperienceComponent implements OnInit {
   faSpinner = faSpinner;
   faExclamationCircle = faExclamationCircle;
 
-  constructor(private experienceService: ExperienceService) {}
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit() {
     this.experienceService.getExperiences().subscribe({

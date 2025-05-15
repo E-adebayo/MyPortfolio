@@ -9,17 +9,23 @@
     <p class="error-message">{{ error }}</p>
   </div>
 
-  <ng-container *ngIf="profile && !loading && !error">    
+  <ng-container *ngIf="profile && !loading && !error">
     <section class="about-section slide-up">
-      <h1 class="section-title">{{ 'about.title' | translate }}</h1>
+      <h1 class="section-title">{{ 'about.title' | translate }}</h1>      
       <div class="bio-container">
         <div class="bio-text card">
-          <h2>{{ 'about.greeting' | translate }} {{ profile.name }}</h2>
+          <div class="bio-header">
+            <div class="profile-image-container">
+              <img src="assets/images/profil.jpeg" alt="Profile" class="profile-image" />
+            </div>
+            <h2>{{ 'about.greeting' | translate }} {{ profile.name }}</h2>
+          </div>
           <p class="bio-description">
-            {{ profile.description ? profile.description : 'Junior Software Engineer with a passion for web development and a strong foundation in JavaScript frameworks. Eager to learn and grow in a dynamic environment.' }}
+            {{ 'about.bio' | translate }}
           </p>
           <p class="bio-location">
-            {{ 'about.bio1' | translate }} {{ profile.location }} {{ 'about.bio2' | translate }}
+            {{ 'about.bio1' | translate }} {{ profile.location }} {{
+            'about.bio2' | translate }}
           </p>
           <p class="bio-passion">
             {{ 'about.bio3' | translate }}
@@ -31,65 +37,109 @@
           <ul class="contact-list">
             <li>
               <fa-icon [icon]="faEnvelope"></fa-icon>
-              <a href="mailto:{{ profile.email }}" class="contact-link">{{ profile.email }}</a>
+              <a href="mailto:{{ profile.email }}" class="contact-link">
+                {{ profile.email }}</a>
             </li>
             <li>
               <fa-icon [icon]="faMapMarker"></fa-icon>
-              <span>{{ profile.location }}</span>
+              <a href="https://www.google.com/maps/search/?api=1&query={{ profile.location }}" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span>{{ profile.location }}</span>
+              </a>
             </li>
             <li>
               <fa-icon [icon]="faPhone"></fa-icon>
-              <a href="tel:{{ profile.phone }}" class="contact-link">{{ profile.phone }}</a>
+              <a href="tel:{{ profile.phone }}" class="contact-link">{{
+                profile.phone }}</a>
             </li>
             <li>
               <fa-icon [icon]="faLinkedin"></fa-icon>
-              <a [href]="profile.social.linkedin" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+              <a [href]="profile.social.linkedin" target="_blank"
+                rel="noopener noreferrer" class="contact-link">LinkedIn</a>
             </li>
             <li>
               <fa-icon [icon]="faGithub"></fa-icon>
-              <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+              <a [href]="profile.social.github" target="_blank"
+                rel="noopener noreferrer" class="contact-link">GitHub</a>
             </li>
           </ul>
         </div>
       </div>
-    </section>
-      <!-- Education Section -->
+    </section>    <!-- Education Section -->
     <section class="education-section slide-up">
       <h2 class="section-title">{{ 'about.education' | translate }}</h2>
       <div class="education-grid">
-        <div class="education-card card" *ngFor="let edu of education">
+        <div class="education-card" *ngFor="let edu of education; let i = index" [attr.data-aos]="i % 2 === 0 ? 'fade-right' : 'fade-left'" [attr.data-aos-delay]="i * 100">
           <div class="education-header">
-            <h3><fa-icon [icon]="faGraduationCap"></fa-icon> {{ edu.degree[profileService.getCurrentLang()] }}</h3>
-            <span class="education-period">{{ edu.period[profileService.getCurrentLang()] }}</span>
+            <h3><fa-icon [icon]="faGraduationCap"></fa-icon> {{
+              edu.degree[profileService.getCurrentLang()] }}</h3>
+            <span class="education-period">{{
+              edu.period[profileService.getCurrentLang()] }}</span>
           </div>
           <div class="education-body">
-            <p class="institution">{{ edu.institution[profileService.getCurrentLang()] }}</p>
-            <p class="location">{{ edu.location[profileService.getCurrentLang()] }}</p>
-            <p class="description">{{ edu.description[profileService.getCurrentLang()] }}</p>
+            <p class="institution">{{
+              edu.institution[profileService.getCurrentLang()] }}</p>
+            <p class="location">{{ edu.location[profileService.getCurrentLang()]
+              }}</p>
+            <p class="description">{{
+              edu.description[profileService.getCurrentLang()] }}</p>
           </div>
         </div>
       </div>
-    </section>
-    
-    <!-- Certifications Section -->
+    </section>    <!-- Certifications Section -->
     <section class="certifications-section slide-up">
       <h2 class="section-title">{{ 'about.certifications' | translate }}</h2>
       <div class="certifications-grid">
-        <div class="certification-card card" *ngFor="let cert of certifications">
+        <div class="certification-card"
+          *ngFor="let cert of certifications; let i = index"
+          [attr.data-aos]="'fade-up'"
+          [attr.data-aos-delay]="i * 100">
           <div class="certification-header">
-            <h3><fa-icon [icon]="faCertificate"></fa-icon> {{ cert.name[profileService.getCurrentLang()] }}</h3>
-            <span class="certification-date">{{ cert.date[profileService.getCurrentLang()] }}</span>
+            <div class="certificate-icon">
+              <fa-icon [icon]="faCertificate"></fa-icon>
+            </div>
+            <h3>{{ cert.name[profileService.getCurrentLang()] }}</h3>
+            <span class="certification-date">{{
+              cert.date[profileService.getCurrentLang()] }}</span>
           </div>
           <div class="certification-body">
-            <p class="issuer">{{ cert.issuer[profileService.getCurrentLang()] }}</p>
-            <a [href]="cert.link" target="_blank" rel="noopener noreferrer" class="view-certificate">
+            <p class="issuer">
+              <fa-icon [icon]="faBuilding"></fa-icon>
+              {{ cert.issuer[profileService.getCurrentLang()] }}
+            </p>
+            <a [href]="cert.link" target="_blank" rel="noopener noreferrer"
+              class="view-certificate">
+              <fa-icon [icon]="faExternalLink"></fa-icon>
               {{ 'about.viewCertificate' | translate }}
             </a>
           </div>
         </div>
       </div>
+    </section>    <!-- Languages Section -->
+    <section class="languages-section slide-up">
+      <h2 class="section-title">{{ 'about.languages' | translate }}</h2>
+      <div class="languages-grid">
+        <div class="language-card" 
+          *ngFor="let language of languages; let i = index"
+          [attr.data-aos]="'zoom-in'"
+          [attr.data-aos-delay]="i * 100">
+          <div class="language-icon">
+            <fa-icon [icon]="faLanguage"></fa-icon>
+          </div>
+          <div class="language-content">
+            <h3>{{ language.name[profileService.getCurrentLang()] }}</h3>
+            <div class="level-indicator">
+              <div class="level-bar">
+                <div class="level-progress" 
+                  [style.width]="getLevelPercentage(language.level[profileService.getCurrentLang()])">
+                </div>
+              </div>
+              <span class="level-text">{{ language.level[profileService.getCurrentLang()] }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <!-- Interests Section - Updated to use component data instead of profile data -->
     <section class="interests-section slide-up">
       <h2 class="section-title">{{ 'about.interests' | translate }}</h2>

@@ -7,7 +7,6 @@ describe('ExperienceService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
       providers: [ExperienceService]
     });
     service = TestBed.inject(ExperienceService);

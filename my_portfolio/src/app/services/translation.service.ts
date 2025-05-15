@@ -10,18 +10,18 @@ export class TranslationService {
   private readonly LANGUAGE_KEY = 'preferred_language';
   private currentLanguageSubject = new BehaviorSubject<string>(this.getInitialLanguage());
   public currentLanguage$ = this.currentLanguageSubject.asObservable();
-  
+
   private translations: Record<string, any> = {};
   private translationsCache$: Observable<any> | null = null;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   private getInitialLanguage(): string {
     const savedLang = localStorage.getItem(this.LANGUAGE_KEY);
     if (savedLang) {
       return savedLang;
     }
-    
+
     // Default to browser language or fallback to English
     const browserLang = navigator.language.split('-')[0];
     return ['fr', 'en'].includes(browserLang) ? browserLang : 'en';

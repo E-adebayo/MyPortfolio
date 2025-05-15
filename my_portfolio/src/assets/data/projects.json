@@ -1,10 +1,16 @@
-{  "en": {
+{
+  "en": {
     "projects": [
       {
         "id": 1,
         "title": "Portfolio Website",
         "description": "A personal portfolio website built with Angular to showcase my skills, projects, and experiences.",
-        "technologies": ["Angular", "TypeScript", "SCSS", "RxJS"],
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "SCSS",
+          "JSON"
+        ],
         "imageUrl": "assets/images/portfolio.jpg",
         "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
         "liveUrl": "https://",
@@ -17,10 +23,16 @@
       },
       {
         "id": 2,
-        "title": "ICS Schedule Generator",
+        "title": "ICS format Schedule Generator",
         "description": "Development of a personal web application to generate ICS files from UTBM format schedules, with a modern interface, real-time preview, and calendar export.",
-        "technologies": ["React", "ViteJS", "JavaScript", "Flask", "Python"],
-        "imageUrl": "assets/images/ecommerce.jpg",
+        "technologies": [
+          "React",
+          "ViteJS",
+          "JavaScript",
+          "Flask",
+          "Python"
+        ],
+        "imageUrl": "assets/images/timetable.png",
         "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
         "liveUrl": "https://",
         "highlights": [
@@ -36,8 +48,14 @@
         "id": 3,
         "title": "Auto-Associative Model for Dimension Reduction",
         "description": "This project involves manually testing an Auto-associative model for dimension reduction step by step.",
-        "technologies": ["Python", "Jupyter Notebook", "NumPy", "Scipy", "Matplotlib"],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "technologies": [
+          "Python",
+          "Jupyter Notebook",
+          "NumPy",
+          "Scipy",
+          "Matplotlib"
+        ],
+        "imageUrl": "assets/images/aam.png",
         "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
         "liveUrl": "https://",
         "highlights": [
@@ -54,12 +72,45 @@
       },
       {
         "id": 4,
+        "title": "Text-mining exploration tool",
+        "description": "This project focuses on developing a software tool for searching and extracting knowledge from abstracts of scientific publications and applying Text-Mining techniques to the data.",
+        "technologies": [
+          "Python",
+          "Nltk",
+          "Sklearn",
+          "Pandas ",
+          "NumPy",
+          "Tkinter ",
+          "PIL (Pillow)",
+          "HTTPX",
+          "JSON",
+          "CSV"
+        ],
+        "imageUrl": "assets/images/mo50.png",
+        "githubUrl": "https://github.com/ssbat/MO50-Project",
+        "liveUrl": "https://",
+        "highlights": [
+          "Extraction of scientific articles (web scrapping)",
+          "Word cleaning and filtering (lemmatization, elimination of encoded photos, excluded words)",
+          "Creation of CSV files containing metadata and the full text (document-term matrix)",
+          "Analysis and visualisation of text data (clustering, word cloud, etc.)"
+        ]
+      },
+      {
+        "id": 5,
         "title": "Building a Recommendation Engine for an E-commerce Website",
         "description": "This project focuses on creating and developing an e-commerce website specializing in movie sales, including a recommendation engine.",
-        "technologies": ["React", "Node.js", "MongoDB", "Express", "Python", "FastAPI"],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "technologies": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express",
+          "Python",
+          "FastAPI"
+        ],
+        "imageUrl": "assets/images/ds50.jpg",
         "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
-        "liveUrl": "https://",
+        "liveUrl": "https://www.youtube.com/watch?v=zxFwQX7zXc4",
         "highlights": [
           "Selection and formatting (cleaning) of a movie database in MongoDB",
           "Design of the recommendation website with ReactJS and FastAPI",
@@ -68,10 +119,15 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "Frontend Design for a Service Proposition Website",
         "description": "Frontend-only design of a service proposition website in Angular for a restaurant business.",
-        "technologies": ["Angular", "TypeScript", "CSS", "Json"],
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "CSS",
+          "Json"
+        ],
         "imageUrl": "assets/images/taskapp.jpg",
         "githubUrl": "https://github.com/E-adebayo/Restaurant",
         "liveUrl": "https://",
@@ -83,10 +139,15 @@
         ]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "Professors Evaluation System",
         "description": "This is a PHP web application for managing and evaluating teaching: professors, classes, teaching units (UE), constituent elements (EC).",
-        "technologies": ["PHP", "Apache", "MySQL/MariaDB", "JavaScript"],
+        "technologies": [
+          "PHP",
+          "Apache",
+          "MySQL/MariaDB",
+          "JavaScript"
+        ],
         "imageUrl": "assets/images/",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
         "liveUrl": "https://",
@@ -102,10 +163,14 @@
         ]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Bug Tracking System",
         "description": "Java desktop application for bug tracking, using an MVC architecture with Java Swing and MySQL.",
-        "technologies": ["Java", "Java Swing", "MySQL"],
+        "technologies": [
+          "Java",
+          "Java Swing",
+          "MySQL"
+        ],
         "imageUrl": "assets/images/taskapp.jpg",
         "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
         "liveUrl": "https://",
@@ -129,7 +194,12 @@
         "id": 1,
         "title": "Site Portfolio",
         "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences, projets et expériences.",
-        "technologies": ["Angular", "TypeScript", "SCSS", "RxJS"],
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "SCSS",
+          "JSON"
+        ],
         "imageUrl": "assets/images/portfolio.jpg",
         "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
         "liveUrl": "https://",
@@ -144,8 +214,14 @@
         "id": 2,
         "title": "Génération d'emploi du temps au format ICS",
         "description": "Développement d’une application web personnelle pour générer des fichiers ICS à partir d’emplois du temps au format UTBM, avec interface moderne, prévisualisation en temps réel et export de calendrier.",
-        "technologies": ["React", "ViteJS", "JavaScript", "Flask", "Python"],
-        "imageUrl": "assets/images/ecommerce.jpg",
+        "technologies": [
+          "React",
+          "ViteJS",
+          "JavaScript",
+          "Flask",
+          "Python"
+        ],
+        "imageUrl": "assets/images/timetable.png",
         "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
         "liveUrl": "https://",
         "highlights": [
@@ -155,15 +231,20 @@
           "Exclusion automatiquement des jours fériés français du calendrier généré",
           "Prévisualisation de votre emploi du temps dans un calendrier hebdomadaire avant de générer le fichier ICS",
           "Le fichier ICS est généré et téléchargé directement dans votre navigateur, et peut être importé dans le compte étudiant."
-
         ]
       },
       {
         "id": 3,
         "title": "Modèle Auto associatif pour la réduction de dimension",
         "description": "Ce projet consiste à tester manuellement et étapes par étapes un modèle Auto associatif pour la réduction de dimension.",
-        "technologies": ["Python", "Notebook Jupyter", "NumPy", "Scipy", "Matplotlib"],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "technologies": [
+          "Python",
+          "Notebook Jupyter",
+          "NumPy",
+          "Scipy",
+          "Matplotlib"
+        ],
+        "imageUrl": "assets/images/aam.png",
         "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
         "liveUrl": "https://",
         "highlights": [
@@ -180,12 +261,45 @@
       },
       {
         "id": 4,
+        "title": "Outil d’exploration de textes par du text-mining",
+        "description": "Ce projet porte sur la conception d'un outil logiciel permettant de rechercher et d'extraire des connaissances à partir de résumés de publications scientifiques et d'appliquer des techniques de Text-Mining aux données",
+        "technologies": [
+          "Python",
+          "Nltk",
+          "Sklearn",
+          "Pandas ",
+          "NumPy",
+          "Tkinter ",
+          "PIL (Pillow)",
+          "HTTPX",
+          "JSON",
+          "CSV"
+        ],
+        "imageUrl": "assets/images/mo50.png",
+        "githubUrl": "https://github.com/ssbat/MO50-Project",
+        "liveUrl": "https://",
+        "highlights": [          
+          "Extraction d'articles scientifiques (web scrapping)",
+          "Nettoyage et filtrage des mots (lemmatisation, élimination des photos codées, mots exclus)",
+          "Création de fichiers CSV contenant des métadonnées et le texte intégral (matrice document-terme)",
+          "Analyse et visualisation des données textuelles (clustering, nuage de mots, etc.)"
+        ]
+      },
+      {
+        "id": 5,
         "title": "Construction d’un moteur de recommandation pour un site web d’e-commerce",
         "description": "Ce projet porte sur la création et le développement d'un site web e-commerce spécialisé dans la vente de films, incluant un moteur de recommandation.",
-        "technologies": ["React", "Node.js", "MongoDB", "Express", "Python", "FastAPI"],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "technologies": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express",
+          "Python",
+          "FastAPI"
+        ],
+        "imageUrl": "assets/images/ds50.jpg",
         "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
-        "liveUrl": "https://",
+        "liveUrl": "https://www.youtube.com/watch?v=zxFwQX7zXc4",
         "highlights": [
           "Choix et mise en forme (cleaning) d'une base de données de films en MongoDB",
           "Conception du site web pour la recommandation avec ReactJS et FastAPI",
@@ -194,10 +308,15 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "Conception du frontend d'un site de proposition de service",
         "description": "Conception du frontend uniquement d'un site de proposition de service en Angular pour une entreprise de restauration.",
-        "technologies": ["Angular", "TypeScript", "CSS", "Json"],
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "CSS",
+          "Json"
+        ],
         "imageUrl": "assets/images/taskapp.jpg",
         "githubUrl": "https://github.com/E-adebayo/Restaurant",
         "liveUrl": "https://",
@@ -209,10 +328,15 @@
         ]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "Système d'évaluation des enseignants",
         "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC).",
-        "technologies": ["PHP", "Apache", "MySQL/MariaDB", "JavaScript"],
+        "technologies": [
+          "PHP",
+          "Apache",
+          "MySQL/MariaDB",
+          "JavaScript"
+        ],
         "imageUrl": "assets/images/",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
         "liveUrl": "https://",
@@ -228,10 +352,14 @@
         ]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Système de suivi de bugs",
         "description": "Application de bureau Java pour le suivi des bugs, utilisant une architecture MVC avec Java Swing et MySQL.",
-        "technologies": ["Java", "Java Swing", "MySQL"],
+        "technologies": [
+          "Java",
+          "Java Swing",
+          "MySQL"
+        ],
         "imageUrl": "assets/images/taskapp.jpg",
         "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
         "liveUrl": "https://",

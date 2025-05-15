@@ -1,17 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { 
-  faEnvelope, 
-  faLocationDot, 
-  faPhone, 
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
   faUser,
   faCode,
   faSpinner,
   faExclamationCircle,
   faHeart,
   faGraduationCap,
-  faCertificate
+  faCertificate,
+  faLanguage,
+  faBuilding,
+  faArrowUpRightFromSquare
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faLinkedinIn,
@@ -44,12 +47,15 @@ export class AboutComponent implements OnInit {
   faHeart = faHeart;
   faGraduationCap = faGraduationCap;
   faCertificate = faCertificate;
-  
+  faLanguage = faLanguage;
+  faBuilding = faBuilding;
+  faExternalLink = faArrowUpRightFromSquare;
+
   // Education data
   education = [
     {
       degree: {
-        en: "Engineer in Computer Science",
+        en: "IT Engineer",
         fr: "Ingénieur en Informatique"
       },
       institution: {
@@ -107,7 +113,7 @@ export class AboutComponent implements OnInit {
         en: 'June 2024',
         fr: 'Juin 2024'
       },
-      link: 'https://www.cloudskillsboost.google/public_profiles/c5e0dde0-0646-4e1b-af22-a06e5a1dc423/'     
+      link: 'https://www.cloudskillsboost.google/public_profiles/c5e0dde0-0646-4e1b-af22-a06e5a1dc423/'
     },
     {
       name: {
@@ -122,7 +128,7 @@ export class AboutComponent implements OnInit {
         en: 'March 2025',
         fr: 'Mars 2025'
       },
-      link: 'https://example.com/certification/aws'
+      link: 'https://www.udemy.com/course/learn-amazon-web-services-aws-easily-to-become-architect/'
     },
     {
       name: {
@@ -137,7 +143,7 @@ export class AboutComponent implements OnInit {
         en: 'November 2022',
         fr: 'Novembre 2022'
       },
-      link: 'https://example.com/certification/angular'
+      link: 'https://www.credly.com/badges/e3cd4c95-c8b3-4582-b613-ceaf00a33b27/'
     },
     {
       name: {
@@ -152,7 +158,7 @@ export class AboutComponent implements OnInit {
         en: 'October 2023',
         fr: 'Octobre 2023'
       },
-      link: 'https://example.com/certification/aws'
+      link: 'https://www.linkedin.com/learning/certificates/19023a93ae446138b1bd37eb601eabcbea7ed852a0988c51472a1a458a5e5fa4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BEL2OlmRZRdyoZfQBf8XY4g%3D%3D'
     },
     {
       name: {
@@ -167,7 +173,7 @@ export class AboutComponent implements OnInit {
         en: 'June 2023',
         fr: 'Juin 2023'
       },
-      link: 'https://example.com/certification/nvidia'
+      link: 'https://learn.nvidia.com/certificates?id=15e11f2711cc4c07a7f38934729d93fc'
     },
     {
       name: {
@@ -182,7 +188,7 @@ export class AboutComponent implements OnInit {
         en: 'June 2023',
         fr: 'Juin 2023'
       },
-      link: 'https://example.com/certification/mongodb'
+      link: 'https://learn.mongodb.com/c/tLq7zJ-gR12_LrTD2v6LRA'
     }
   ];
   // Interests data
@@ -208,7 +214,32 @@ export class AboutComponent implements OnInit {
       fr: 'Gestion de Projet'
     }
   ];
-  constructor(public profileService: ProfileService) {}
+
+  // Languages data
+  languages = [
+    {
+      name: {
+        en: 'English',
+        fr: 'Anglais'
+      },
+      level: {
+        en: 'C1 - Advanced (Proficient user)',
+        fr: 'C1 - Avancé (Utilisateur autonome)'
+      }
+    },
+    {
+      name: {
+        en: 'French',
+        fr: 'Français'
+      },
+      level: {
+        en: 'Native (Fluent)',
+        fr: 'Courant (Langue maternelle)'
+      }
+    }
+  ];
+
+  constructor(public profileService: ProfileService) { }
   ngOnInit(): void {
     this.profileService.getProfile().subscribe({
       next: (data) => {
@@ -221,9 +252,9 @@ export class AboutComponent implements OnInit {
         console.error('Error loading profile:', error);
       }
     });
-  }    formatCategoryKey(category: string): string {
+  } formatCategoryKey(category: string): string {
     // For French categories, map to the English keys used in translation files
-    const frToEnMap: {[key: string]: string} = {
+    const frToEnMap: { [key: string]: string } = {
       'langages et frameworks': 'languagesandframeworks',
       'bases de données et datawarehouse': 'databasesanddatawarehouse',
       'cloud et devops': 'cloudanddevops',
@@ -234,16 +265,35 @@ export class AboutComponent implements OnInit {
       'serveur web': 'webserver',
       'systèmes et réseaux': 'systemsandnetworks'
     };
-    
+
     // Convert category to lowercase for mapping
     const lowerCategory = category.toLowerCase();
-    
+
     // If it's a French category that needs mapping, return the mapped English key
     if (frToEnMap[lowerCategory]) {
       return frToEnMap[lowerCategory];
     }
-    
+
     // Otherwise use the default formatting (for English categories)
     return lowerCategory.replace(/\s+/g, '').replace(/&/g, 'and');
+  }
+  getLevelPercentage(level: string): string {
+    const levels: { [key: string]: number } = {
+      'Native': 100,
+      'Fluent': 95,
+      'Advanced': 85,
+      'Intermediate': 65,
+      'Basic': 40,
+      'Natif': 100,
+      'Courant': 95,
+      'Avancé': 85,
+      'Intermédiaire': 65,
+      'Débutant': 40,
+      'C1': 85  // Adding CEFR levels
+    };
+
+    // Extract the level from the string by looking for known keywords
+    const matchingLevel = Object.keys(levels).find(key => level.includes(key));
+    return `${matchingLevel ? levels[matchingLevel] : 0}%`;
   }
 }

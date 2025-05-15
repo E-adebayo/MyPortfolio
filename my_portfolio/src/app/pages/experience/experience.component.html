@@ -13,21 +13,27 @@
     <fa-icon [icon]="faExclamationCircle" size="2x"></fa-icon>
     <p class="error-message">{{ error }}</p>
   </div>
-
-  <div class="timeline" *ngIf="!loading && !error">
-    <div class="timeline-item card fade-in" *ngFor="let exp of experiences; let i = index" [style.animation-delay]="i * 0.2 + 's'">
+  <div class="timeline" *ngIf="!loading && !error">    <div class="timeline-item"
+      *ngFor="let exp of experiences; let i = index"
+      [class.slide-in-left]="i % 2 === 0"
+      [class.slide-in-right]="i % 2 !== 0"
+      [style.animation-delay]="i * 0.3 + 's'"
+      [class.from-left]="i % 2 === 0"
+      [class.from-right]="i % 2 !== 0">
       <div class="timeline-marker">
         <fa-icon [icon]="faBriefcase"></fa-icon>
       </div>
       <div class="timeline-item-content">
         <div class="timeline-header">
           <div class="date-badge">
-            <fa-icon [icon]="faCalendar"></fa-icon>
-            <span>{{ getFormattedDate(exp.startDate) }} - {{ exp.endDate === 'Present' ? ('experience.present' | translate) : getFormattedDate(exp.endDate) }}</span>
+            <fa-icon [icon]="faCalendar"  ></fa-icon>
+            <span>{{ getFormattedDate(exp.startDate) }} - {{ exp.endDate ===
+              'Present' ? ('experience.present' | translate) :
+              getFormattedDate(exp.endDate) }}</span>
           </div>
           <h2 class="position">{{ exp.position }}</h2>
           <h3 class="company">
-            <fa-icon [icon]="faBuilding"></fa-icon>
+            <fa-icon [icon]="faBuilding" class="company-icon"></fa-icon>
             {{ exp.company }}
             <span class="location">
               <fa-icon [icon]="faMapMarker"></fa-icon>
@@ -40,7 +46,8 @@
 
         <div class="responsibilities" *ngIf="exp.responsibilities?.length">
           <ul>
-            <li *ngFor="let responsibility of exp.responsibilities">{{ responsibility }}</li>
+            <li *ngFor="let responsibility of exp.responsibilities">{{
+              responsibility }}</li>
           </ul>
         </div>
 

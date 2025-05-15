@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { 
-  faCode, 
-  faHome, 
-  faUser, 
-  faProjectDiagram, 
+import {
+  faCode,
+  faHome,
+  faUser,
+  faProjectDiagram,
   faBriefcase,
   faSun,
-  faMoon 
+  faMoon
 } from '@fortawesome/free-solid-svg-icons';
 import { LanguageSwitcherComponent } from '../language-switcher/language-switcher.component';
 import { TranslatePipe } from '../../pipes/translate.pipe';
@@ -23,10 +23,9 @@ import { TranslatePipe } from '../../pipes/translate.pipe';
     RouterLinkActive,
     FontAwesomeModule,
     LanguageSwitcherComponent,
-    TranslatePipe
-  ]
+    TranslatePipe  ]
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   faCode = faCode;
   faHome = faHome;
   faUser = faUser;
@@ -34,7 +33,12 @@ export class HeaderComponent {
   faBriefcase = faBriefcase;
   faSun = faSun;
   faMoon = faMoon;
-  isDarkMode = false;
+  isDarkMode = true;
+
+  ngOnInit() {
+    // Set dark mode as default
+    document.body.classList.add('dark-theme');
+  }
 
   toggleTheme() {
     this.isDarkMode = !this.isDarkMode;

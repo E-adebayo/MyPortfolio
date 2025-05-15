@@ -12,38 +12,46 @@
 
   <div class="projects-grid" *ngIf="!loading && !error">
     <div class="project-card card" *ngFor="let project of projects">
-      <div class="project-image" [style.background-image]="'url(' + project.imageUrl + ')'">
+      <div class="project-image"
+        [style.background-image]="'url(' + project.imageUrl + ')'">
         <div class="project-overlay">
           <div class="project-links">
-            <a [href]="project.githubUrl" *ngIf="project.githubUrl" target="_blank" rel="noopener noreferrer" 
-               class="btn btn-secondary" [attr.aria-label]="'projects.viewCode' | translate">
+            <a [href]="project.githubUrl" *ngIf="project.githubUrl"
+              target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary"
+              [attr.aria-label]="'projects.viewCode' | translate">
               <span class="material-icons-round">code</span>
               <span>{{ 'projects.code' | translate }}</span>
             </a>
-            <a [href]="project.liveUrl" *ngIf="project.liveUrl" target="_blank" rel="noopener noreferrer"
-               class="btn btn-primary" [attr.aria-label]="'projects.viewDemo' | translate">
+            <a [href]="project.liveUrl" *ngIf="project.liveUrl" target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              [attr.aria-label]="'projects.viewDemo' | translate">
               <span class="material-icons-round">launch</span>
               <span>{{ 'projects.demo' | translate }}</span>
             </a>
           </div>
         </div>
       </div>
-      
+
       <div class="project-content">
         <h2 class="project-title">{{ project.title }}</h2>
         <p class="project-description">{{ project.description }}</p>
-        
+
         <div class="project-technologies">
           <h3 class="tech-title">{{ 'projects.technologies' | translate }}:</h3>
           <div class="tech-tags">
-            <span class="tech-tag" *ngFor="let tech of project.technologies">{{ tech }}</span>
+            <span class="tech-tag" *ngFor="let tech of project.technologies">{{
+              tech }}</span>
           </div>
         </div>
-        
+
         <div class="project-highlights" *ngIf="project.highlights?.length">
-          <h3 class="highlights-title">{{ 'projects.highlights' | translate }}:</h3>
+          <h3 class="highlights-title">{{ 'projects.highlights' | translate
+            }}:</h3>
           <ul>
-            <li *ngFor="let highlight of project.highlights">{{ highlight }}</li>
+            <li *ngFor="let highlight of project.highlights">{{ highlight
+              }}</li>
           </ul>
         </div>
       </div>
