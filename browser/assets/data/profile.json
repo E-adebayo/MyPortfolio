@@ -1,0 +1,268 @@
+{
+  "en": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "IT Engineer",
+    "description": "Junior IT Engineer with a passion for web development, cloud technologies, data science and project management. My curriculum is marked by an insatiable curiosity for data mining, innovative solution design and effective project management. I'm motivated by a desire to learn and continually improve, seeking challenges that push me out of my comfort zone. My goal is to contribute to meaningful projects that have a positive impact on society.",
+    "email": "adebayoeudes.dalmeida@gmail.com",
+    "location": "Belfort, France",
+    "phone": "+33 6 52 34 17 02",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
+      "github": "https://github.com/E-adebayo"
+    },
+    "skills": [
+      {
+        "category": "Languages and Frameworks",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Angular",
+          "Node.js",
+          "Express",
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "PHP",
+          "Java",
+          "Python",
+          "FastAPI",
+          "AdonisJS",
+          "Java Spring Boot",
+          "Java Swing",
+          "Selenium",
+          "SharePoint"
+        ]
+      },
+      {
+        "category": "Cloud and DevOps",
+        "items": [
+          "GCP : Associate Cloud Engineer",
+          "IAM : Identity and Access Management",
+          "Cloud Functions",
+          "Cloud Run",
+          "Cloud Storage",
+          "Cloud SQL",
+          "Cloud Pub/Sub",
+          "Cloud Monitoring",
+          "Cloud Logging",
+          "Bitbucket",
+          "AWS : Amazon Web Services",
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "CI/CD",
+          "Jenkins",
+          "Ansible"
+        ]
+      },
+      {
+        "category": "Databases and DataWarehouse",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "MySQL",
+          "T-SQL",
+          "PL/SQL",
+          "MariaDB",
+          "SQL Server",
+          "SQLite",
+          "Oracle",
+          "NoSQL",
+          "BigQuery"
+        ]
+      },
+      {
+        "category": "Data visualization and ETL",
+        "items": [
+          "Relativity",
+          "Power BI",
+          "Tableau"
+        ]
+      },
+      {
+        "category": "Methodologies and Tools",
+        "items": [
+          "Agile",
+          "Scrum",
+          "HOSHIN KANRI/OKR",
+          "Kanban",
+          "Lean",
+          "Cycle V"
+        ]
+      },
+      {
+        "category": "Collaboration and Version Control",
+        "items": [
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Confluence"
+        ]
+      },
+      {
+        "category": "Automation and Scripting",
+        "items": [
+          "Bash",
+          "Yaml",
+          "PowerShell",
+          "Power Automate"
+        ]
+      },
+      {
+        "category": "Systems and Networks",
+        "items": [
+          "VMware",
+          "Hypervisors",
+          "GNS3",
+          "Technologies Cisco",
+          "Windows",
+          "Ubuntu / Ubuntu Server",
+          "Windows Server",
+          "Linux"
+        ]
+      },
+      {
+        "category": "Web Server",
+        "items": [
+          "NGINX",
+          "Apache Tomcat"
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "Ingénieur IT",
+    "description": "Ingénieur Informatique Junior passionné par le développement web, les technologies cloud, la science des données et la gestion des projets. Mon parcours est marqué par une curiosité insatiable pour l'exploration des données, la conception de solutions innovantes et la gestion efficace des projets. Je suis motivé par le désir d'apprendre et de m'améliorer continuellement, cherchant à relever des défis qui me poussent à sortir de ma zone de confort. Mon objectif est de contribuer à des projets significatifs qui ont un impact positif sur la société.",
+    "email": "adebayoeudes.dalmeida@gmail.com",
+    "location": "Belfort, France",
+    "phone": "+33 6 52 34 17 02",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
+      "github": "https://github.com/E-adebayo"
+    },
+    "skills": [
+      {
+        "category": "Langages et Frameworks",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Angular",
+          "Node.js",
+          "Express",
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "PHP",
+          "Java",
+          "Python",
+          "FastAPI",
+          "AdonisJS",
+          "Java Spring Boot",
+          "Java Swing",
+          "Selenium",
+          "SharePoint"
+        ]
+      },
+      {
+        "category": "Cloud et DevOps",
+        "items": [
+          "GCP : Associate Cloud Engineer",
+          "IAM : Identity and Access Management",
+          "Cloud Functions",
+          "Cloud Run",
+          "Cloud Storage",
+          "Cloud SQL",
+          "Cloud Pub/Sub",
+          "Cloud Monitoring",
+          "Cloud Logging",
+          "Bitbucket",
+          "AWS : Amazon Web Services",
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "CI/CD",
+          "Jenkins",
+          "Ansible"
+        ]
+      },
+      {
+        "category": "Bases de données et DataWarehouse",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "MySQL",
+          "T-SQL",
+          "PL/SQL",
+          "MariaDB",
+          "SQL Server",
+          "SQLite",
+          "Oracle",
+          "NoSQL",
+          "BigQuery"
+        ]
+      },
+      {
+        "category": "Visualisation de données et ETL",
+        "items": [
+          "Relativity",
+          "Power BI",
+          "Tableau"
+        ]
+      },
+      {
+        "category": "Méthodologies et Outils",
+        "items": [
+          "Agile",
+          "Scrum",
+          "HOSHIN KANRI/OKR",
+          "Kanban",
+          "Lean",
+          "Cycle de vie en V"
+        ]
+      },
+      {
+        "category": "Collaboration et Contrôle de Version",
+        "items": [
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Confluence"
+        ]
+      },
+      {
+        "category": "Automatisation et Scripting",
+        "items": [
+          "Bash",
+          "Yaml",
+          "PowerShell",
+          "Power Automate"
+        ]
+      },
+      {
+        "category": "Systèmes et Réseaux",
+        "items": [
+          "VMware",
+          "Hyperviseurs",
+          "GNS3",
+          "Technologies Cisco",
+          "Windows",
+          "Ubuntu / Ubuntu Server",
+          "Windows Server",
+          "Linux"
+        ]
+      },
+      {
+        "category": "Serveur Web",
+        "items": [
+          "NGINX",
+          "Apache Tomcat"
+        ]
+      }
+    ]
+  }
+}
