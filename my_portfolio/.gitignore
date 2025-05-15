@@ -75,6 +75,7 @@ debug.log
 *report.html
 stats.json
 
+#######
+.npmrc
 
-# ******
-.trash
+
