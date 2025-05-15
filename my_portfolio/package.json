@@ -5,11 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href=/MyPortfolio/",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "ng test",    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/my_portfolio"
   },
   "private": true,
   "dependencies": {
