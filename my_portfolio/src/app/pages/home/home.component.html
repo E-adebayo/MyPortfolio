@@ -18,11 +18,9 @@
         <h2>{{ profile.title }}</h2>
         <p class="description" *ngIf="profile.description">{{
           profile.description }}</p>
-        <div class="hero-actions">
-          <a [routerLink]="['/about']" class="btn">{{ 'buttons.viewDetails' |
-            translate }}</a>
-          <a href="#" class="btn btn-secondary">{{ 'buttons.download' |
-            translate }}</a>
+        <div class="hero-actions"> <a [routerLink]="['/about']" class="btn">{{ 'buttons.viewDetails' | translate }}</a>
+          <a href="assets/pdf/CV.pdf" download="Curriculum vitæ Adébayo Eudes d'ALMEIDA.pdf" target="_blank"
+            rel="noopener noreferrer" class="btn btn-secondary">{{ 'buttons.download' | translate }}</a>
         </div>
       </div>
     </section>

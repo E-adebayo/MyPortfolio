@@ -25,8 +25,7 @@ import { TranslatePipe } from '../../pipes/translate.pipe';
     LanguageSwitcherComponent,
     TranslatePipe  ]
 })
-export class HeaderComponent implements OnInit {
-  faCode = faCode;
+export class HeaderComponent implements OnInit {  faCode = faCode;
   faHome = faHome;
   faUser = faUser;
   faProjectDiagram = faProjectDiagram;
