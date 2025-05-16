@@ -27,6 +27,7 @@
             "assets": [
               "src/assets",
               "src/favicon.ico",
+              "src/404.html",
               {
                 "glob": "**/*",
                 "input": "public",
@@ -40,6 +41,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/MyPortfolio/",
               "budgets": [
                 {
                   "type": "initial",

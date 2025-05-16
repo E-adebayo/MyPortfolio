@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, switchMap } from 'rxjs';
 import { TranslationService } from './translation.service';
+import { environment } from '../../environments/environment';
 
 export interface Project {
   id: number;
@@ -33,7 +34,7 @@ export class ProjectsService {
   ) { }
 
   getProjects(): Observable<ProjectsResponse> {
-    return this.http.get<LocalizedProjects>('/assets/data/projects.json').pipe(
+    return this.http.get<LocalizedProjects>(`${environment.baseUrl}/assets/data/projects.json`).pipe(
       switchMap(response => this.translationService.currentLanguage$.pipe(
         map(lang => {
           // Return projects for the current language, fallback to English

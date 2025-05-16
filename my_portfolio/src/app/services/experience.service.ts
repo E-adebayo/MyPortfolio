@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, switchMap } from 'rxjs';
 import { TranslationService } from './translation.service';
+import { environment } from '../../environments/environment';
 
 export interface Experience {
   id: number;
@@ -34,7 +35,7 @@ export class ExperienceService {
   ) { }
 
   getExperiences(): Observable<ExperienceResponse> {
-    return this.http.get<LocalizedExperiences>('/assets/data/experience.json').pipe(
+    return this.http.get<LocalizedExperiences>(`${environment.baseUrl}/assets/data/experience.json`).pipe(
       switchMap(experienceData => this.translationService.currentLanguage$.pipe(
         map(lang => {
           // Return the experiences for the current language, fallback to English

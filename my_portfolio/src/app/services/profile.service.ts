@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, switchMap } from 'rxjs';
 import { TranslationService } from './translation.service';
+import { environment } from '../../environments/environment';
 
 export interface Profile {
   name: string;
@@ -34,7 +35,7 @@ export class ProfileService {
     private http: HttpClient,
     private translationService: TranslationService
   ) { } getProfile(): Observable<Profile> {
-    return this.http.get<LocalizedProfiles>('/assets/data/profile.json').pipe(
+    return this.http.get<LocalizedProfiles>(`${environment.baseUrl}/assets/data/profile.json`).pipe(
       switchMap(profiles => this.translationService.currentLanguage$.pipe(
         map(lang => {
           // Return the profile for the current language, fallback to English
