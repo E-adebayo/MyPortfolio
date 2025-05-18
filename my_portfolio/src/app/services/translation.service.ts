@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { map, shareReplay, switchMap } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -30,7 +31,7 @@ export class TranslationService {
   loadTranslations(): Observable<any> {
     if (!this.translationsCache$) {
       this.translationsCache$ = this.currentLanguage$.pipe(
-        switchMap(lang => this.http.get<any>(`/assets/data/i18n/${lang}.json`)),
+        switchMap(lang => this.http.get<any>(`${environment.baseUrl}/assets/data/i18n/${lang}.json`)),
         map(translations => {
           this.translations = translations;
           return translations;

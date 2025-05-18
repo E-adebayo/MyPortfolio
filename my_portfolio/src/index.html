@@ -4,6 +4,19 @@
     <title>MyPortfolio</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      // Redirect script for GitHub Pages SPA
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          // Extract the path after '/MyPortfolio/' and use that for the history state
+          var segments = redirect.split('/MyPortfolio/');
+          var path = segments.length > 1 ? '/' + segments[1] : '/';
+          history.replaceState(null, null, path);
+        }
+      })();
+    </script>
     <link rel="icon" type="image/x-icon" 
       href="assets/images/profilGH.png">
     <link rel="stylesheet"
