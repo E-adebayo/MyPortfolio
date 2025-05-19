@@ -17,7 +17,10 @@ export interface Profile {
   };
   skills: {
     category: string;
-    items: string[];
+    items: {
+      name: string;
+      icon: string;
+    }[];
   }[];
   interests?: string[];
 }

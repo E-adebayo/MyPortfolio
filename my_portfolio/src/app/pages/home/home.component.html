@@ -78,9 +78,8 @@
         <div *ngFor="let skillGroup of profile.skills" class="skill-category">
           <h3>{{ 'skills.' + formatCategoryKey(skillGroup.category) | translate
             }}</h3>
-          <div class="skill-tags">
-            <span *ngFor="let skill of skillGroup.items" class="skill-tag">{{
-              skill }}</span>
+          <div class="skill-icons">
+            <app-skill-icon *ngFor="let skill of skillGroup.items" [skill]="skill" class="skill-icon"></app-skill-icon>
           </div>
         </div>
       </div>

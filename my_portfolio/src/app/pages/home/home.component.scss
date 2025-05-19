@@ -514,6 +514,19 @@ section:nth-child(3) {
           }
         }
       }
+      
+      .skill-icons {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+        
+        .skill-icon {
+          display: block;
+          transition: all 0.3s var(--ease-out);
+          margin-bottom: 1.5rem; /* Add extra margin to accommodate the hover tooltip */
+        }
+      }
     }
   }
 }

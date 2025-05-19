@@ -13,11 +13,12 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { ProfileService, Profile } from '../../services/profile.service';
 import { TranslatePipe } from '../../pipes/translate.pipe';
+import { SkillIconComponent } from '../../components/skill-icon/skill-icon.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, RouterLink, TranslatePipe, FontAwesomeModule],
+  imports: [CommonModule, RouterLink, TranslatePipe, FontAwesomeModule, SkillIconComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
