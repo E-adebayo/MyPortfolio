@@ -28,7 +28,7 @@
           { "name": "Python", "icon": "python.svg" },
           { "name": "FastAPI", "icon": "fastapi.svg" },
           { "name": "AdonisJS", "icon": "adonisjs.svg" },
-          { "name": "Java Spring Boot", "icon": "spring.svg" },
+          { "name": "Spring Boot", "icon": "spring.svg" },
           { "name": "Selenium", "icon": "selenium.svg" },
           { "name": "SharePoint", "icon": "sharepoint.svg" }
         ]
@@ -157,7 +157,7 @@
           { "name": "Python", "icon": "python.svg" },
           { "name": "FastAPI", "icon": "fastapi.svg" },
           { "name": "AdonisJS", "icon": "adonisjs.svg" },
-          { "name": "Java Spring Boot", "icon": "spring.svg" },
+          { "name": "Spring Boot", "icon": "spring.svg" },
           { "name": "Selenium", "icon": "selenium.svg" },
           { "name": "SharePoint", "icon": "sharepoint.svg" }
         ]
