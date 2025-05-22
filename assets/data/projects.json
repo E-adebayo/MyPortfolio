@@ -57,7 +57,7 @@
         ],
         "imageUrl": "assets/images/aam.png",
         "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
-        "liveUrl": "https://",
+        "liveUrl": "https://youtu.be/wbE4iu0YwZ4",
         "highlights": [
           "Initialize the model with data",
           "Calculate direction using contiguity analysis",
@@ -125,12 +125,12 @@
         "technologies": [
           "Angular",
           "TypeScript",
-          "CSS",
+          "Tailwind CSS",
           "Json"
         ],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "imageUrl": "assets/images/restaurant.png",
         "githubUrl": "https://github.com/E-adebayo/Restaurant",
-        "liveUrl": "https://",
+        "liveUrl": "https://youtu.be/DTshY0_rJO8",
         "highlights": [
           "Display of restaurants, filtering, detailed view",
           "Proposition of various menus with the ability to add, like and filter menus and restaurants",
@@ -141,25 +141,30 @@
       {
         "id": 7,
         "title": "Professors Evaluation System",
-        "description": "This is a PHP web application for managing and evaluating teaching: professors, classes, teaching units (UE), constituent elements (EC).",
+        "description": "This is a PHP web application for the management and assessment of teachers: lecturers, classes, teaching units (TUs) and components (CEs) by students.",
         "technologies": [
           "PHP",
           "Apache",
           "MySQL/MariaDB",
           "JavaScript"
         ],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "imageUrl": "assets/images/evaluation.png",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
         "liveUrl": "https://",
         "highlights": [
-          "User management (registration, login, administrator)",
-          "Professor management",
-          "Class and grade level management",
-          "Management of teaching units and constituent elements",
-          "Management of professor evaluations by students based on courses",
-          "Administrator interface",
-          "Management of professor assignments to courses",
-          "Export of results in PDF format"
+          "Complete management of teachers by level (L1, L2, L3G, L3S, L3M)",
+          "Administration of teaching units (TU): Creation, modification and deletion; allocation to teachers and classes",
+          "Management of components (CE): Association with TUs; allocation to teachers",
+          "Viewing assessment statistics",
+          "Assigning teachers to courses",
+          "Customised dashboard by class",
+          "Teaching assessment system",
+          "Overview of available TUs and CEs",
+          "Access to assessment forms",
+          "Registering new users",
+          "Secure connection with session",
+          "Role differentiation (administrator/student)",
+          "Secure logout"
         ]
       },
       {
@@ -246,7 +251,7 @@
         ],
         "imageUrl": "assets/images/aam.png",
         "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
-        "liveUrl": "https://",
+        "liveUrl": "https://youtu.be/wbE4iu0YwZ4",
         "highlights": [
           "Initialiser le modèle avec les données",
           "Calculer la direction par l'analyse de contiguïté",
@@ -314,12 +319,12 @@
         "technologies": [
           "Angular",
           "TypeScript",
-          "CSS",
+          "Tailwind   CSS",
           "Json"
         ],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "imageUrl": "assets/images/restaurant.png",
         "githubUrl": "https://github.com/E-adebayo/Restaurant",
-        "liveUrl": "https://",
+        "liveUrl": "https://youtu.be/DTshY0_rJO8",
         "highlights": [
           "Affichage des restaurants, filtrage, vue détaillée",
           "Proposition de divers menus avec la possibilité d'ajouter, de liker et de filtrer les menus et restaurants.",
@@ -330,25 +335,30 @@
       {
         "id": 7,
         "title": "Système d'évaluation des enseignants",
-        "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC).",
+        "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC) par les étudiants.",
         "technologies": [
           "PHP",
           "Apache",
           "MySQL/MariaDB",
           "JavaScript"
         ],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "imageUrl": "assets/images/evaluation.png",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
         "liveUrl": "https://",
         "highlights": [
-          "Gestion des utilisateurs (inscription, connexion, administrateur)",
-          "Gestion des professeurs",
-          "Gestion des classes et des niveaux d'études",
-          "Gestion des unités d'enseignement et des éléments constitutifs",
-          "Gestion des évaluations des professeurs par les étudiants en fonction des cours",
-          "Interface administrateur",
-          "Gestion des affectations des professeurs aux cours",
-          "Exportation des résultats au format PDF"
+          "Gestion complète des professeurs par niveau (L1, L2, L3G, L3S, L3M)",
+          "Administration des unités d'enseignement (UE) : Création, modification et suppression ; attribution aux professeurs et aux classes",
+          "Gestion des éléments constitutifs (EC) : Association avec les UE ; attribution aux professeurs",
+          "Visualisation des statistiques d'évaluation",
+          "Affectation des enseignants aux cours",
+          "Tableau de bord personnalisé par classe",
+          "Système d'évaluation des enseignements",
+          "Vue d'ensemble des UE et EC disponibles",
+          "Accès aux formulaires d'évaluation",
+          "Inscription des nouveaux utilisateurs",
+          "Connexion sécurisée avec session",
+          "Différenciation des rôles (administrateur/étudiant)",
+          "Déconnexion sécurisée"
         ]
       },
       {
