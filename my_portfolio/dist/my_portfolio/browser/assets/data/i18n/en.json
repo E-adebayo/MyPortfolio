@@ -5,6 +5,10 @@
     "projects": "Projects",
     "experience": "Experiences"
   },
+  "jobPopup": {
+    "message": "I am actively seeking full-time employment opportunities (CDI) !",
+    "dismiss": "Close"
+  },
   "profile": {
     "name": "Adébayo Eudes d'ALMEIDA",
     "title": "IT Engineer",

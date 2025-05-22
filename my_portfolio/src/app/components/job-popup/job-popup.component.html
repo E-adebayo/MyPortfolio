@@ -1,0 +1,9 @@
+<div class="job-popup" [class.hidden]="isHidden" [@fadeInOut]>
+  <div class="popup-content">
+    <fa-icon [icon]="faBriefcase" class="job-icon"></fa-icon>
+    <span class="job-message">{{ 'jobPopup.message' | translate }}</span>
+    <button class="dismiss-btn" (click)="dismissPopup()" [title]="'jobPopup.dismiss' | translate">
+      <fa-icon [icon]="faTimes"></fa-icon>
+    </button>
+  </div>
+</div>

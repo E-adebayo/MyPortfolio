@@ -12,6 +12,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { LanguageSwitcherComponent } from '../language-switcher/language-switcher.component';
 import { TranslatePipe } from '../../pipes/translate.pipe';
+import { JobPopupComponent } from '../job-popup/job-popup.component';
 
 @Component({
   selector: 'app-header',
@@ -23,7 +24,8 @@ import { TranslatePipe } from '../../pipes/translate.pipe';
     RouterLinkActive,
     FontAwesomeModule,
     LanguageSwitcherComponent,
-    TranslatePipe  ]
+    TranslatePipe,
+    JobPopupComponent  ]
 })
 export class HeaderComponent implements OnInit {  faCode = faCode;
   faHome = faHome;

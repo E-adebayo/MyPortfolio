@@ -15,10 +15,15 @@
   background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;  .navbar-brand {
+  transition: all 0.3s ease;
+
+  .navbar-brand {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     animation: brandEntrance 1.2s cubic-bezier(0.23, 1, 0.32, 1) forwards;
-    
+
     @keyframes brandEntrance {
       0% {
         opacity: 0;
@@ -29,7 +34,7 @@
         transform: translateY(0) scale(1);
       }
     }
-    
+
     .brand-link {
       display: flex;
       align-items: center;
@@ -53,7 +58,7 @@
         filter: saturate(1.1) brightness(1.05);
         background-color: var(--background-alt, #f8f9fa);
         position: relative;
-        
+
         &::after {
           content: '';
           position: absolute;
@@ -74,7 +79,7 @@
           transform: scale(1.08) rotate(2deg);
           border-color: var(--primary-color);
           box-shadow: 0 6px 16px rgba(var(--primary-rgb), 0.25);
-          
+
           &::after {
             opacity: 0.6;
           }
@@ -144,19 +149,22 @@
 }
 
 // Dark theme styles
-:host-context(.dark-theme) {  .navbar {
+:host-context(.dark-theme) {
+  .navbar {
     background-color: rgba(23, 23, 23, 0.95);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);    .navbar-brand .brand-link .brand-image {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+    .navbar-brand .brand-link .brand-image {
       border: 2px solid transparent;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), 0 0 2px rgba(255, 255, 255, 0.2);
       filter: brightness(1.1) contrast(1.05);
       background-color: var(--background-alt, #2c2c2c);
-      
+
       &::after {
         background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
         opacity: 0.2;
       }
-      
+
       &:hover {
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 5px rgba(255, 255, 255, 0.3);
       }

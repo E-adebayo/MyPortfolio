@@ -1,0 +1,96 @@
+.job-popup {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color, #3498db);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  max-width: 300px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  z-index: 1010; // Higher than navbar's z-index
+  top: 80px; // Position below the navbar
+  left: 20px;
+  animation: fadeIn 0.5s ease-out forwards, pulse 2s infinite;
+  
+  &.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .popup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .job-icon {
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+
+  .job-message {
+    flex: 1;
+    margin-right: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .dismiss-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: all 0.2s ease;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.1);
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(52, 152, 219, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
+  }
+}
+
+// Dark theme compatibility
+:host-context(.dark-theme) {
+  .job-popup {
+    background-color: var(--primary-color-dark, #2980b9);
+    animation: fadeIn 0.5s ease-out forwards, pulse 2s infinite;
+  }
+}
