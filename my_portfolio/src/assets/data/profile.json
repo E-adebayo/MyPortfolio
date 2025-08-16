@@ -141,7 +141,10 @@
         "category": "Artificial Intelligence & LLM",
         "items": [
           { "name": "RAG (Retrieval-Augmented Generation)", "icon": "rag.svg" },
-          { "name": "Mistral", "icon": "mistral.svg" }
+          { "name": "Mistral", "icon": "mistral.svg" },
+          { "name": "Hugging Face", "icon": "huggingface.svg" },
+          { "name": "ChatGPT", "icon": "chatgpt.svg" },
+          { "name": "Claude", "icon": "claude.svg" }
         ]
       },
       {

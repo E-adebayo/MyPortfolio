@@ -21,15 +21,20 @@
     "socialProfiles": "Me Suivre"
   },
   "skills": {
-    "languagesandframeworks": "Langages et Frameworks",
-    "databasesanddatawarehouse": "Bases de données et DataWarehouse",
-    "cloudanddevops": "Cloud et DevOps",
-    "datavisualizationandetl": "Visualisation de données et ETL",
-    "methodologiesandtools": "Méthodologies et Outils",
-    "collaborationandversioncontrol": "Collaboration et Contrôle de Version",
+    "programminglanguages": "Langages de programmation",
+    "webframeworksandlibraries": "Frameworks et bibliothèques Web",
+    "cloudandinfrastructure": "Cloud et Infrastructure",
+    "devopsandorchestration": "DevOps et Orchestration",
+    "databases": "Bases de données",
+    "businessintelligenceandvisualization": "Business Intelligence et Visualisation",
+    "projectmanagementmethodologies": "Méthodologies de gestion",
+    "versioncontrolandcollaboration": "Contrôle de version et Collaboration",
     "automationandscripting": "Automatisation et Scripting",
-    "webserver": "Serveur Web",
-    "systemsandnetworks": "Systèmes et Réseaux"
+    "operatingsystems": "Systèmes d'exploitation",
+    "webservers": "Serveurs Web",
+    "networkingandvirtualization": "Réseaux et Virtualisation",
+    "artificialintelligenceandllm": "Intelligence Artificielle et LLM",
+    "testingandspecializedtools": "Tests et Outils spécialisés"
   },
   "buttons": {
     "viewProject": "Voir le Projet",
