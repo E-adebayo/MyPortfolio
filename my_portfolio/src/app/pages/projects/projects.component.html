@@ -16,14 +16,14 @@
         [style.background-image]="'url(' + project.imageUrl + ')'">
         <div class="project-overlay">
           <div class="project-links">
-            <a [href]="project.githubUrl" *ngIf="project.githubUrl"
+            <a [href]="project.githubUrl" *ngIf="project.githubUrl && project.status === 'Public'"
               target="_blank" rel="noopener noreferrer"
               class="btn btn-secondary"
               [attr.aria-label]="'projects.viewCode' | translate">
               <span class="material-icons-round">code</span>
               <span>{{ 'projects.code' | translate }}</span>
             </a>
-            <a [href]="project.liveUrl" *ngIf="project.liveUrl" target="_blank"
+            <a [href]="project.liveUrl" *ngIf="project.liveUrl && (project.liveUrl.includes('youtube') || project.liveUrl.includes('youtu.be') || project.id === 8)" target="_blank"
               rel="noopener noreferrer"
               class="btn btn-primary"
               [attr.aria-label]="'projects.viewDemo' | translate">
