@@ -8,7 +8,8 @@
     "build": "ng build --configuration production --base-href=/MyPortfolio/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "npm run build",
+    "commit": "git add . && git commit -m \"Update before deployment\" && git push",
+    "predeploy": "npm run commit && npm run build",
     "deploy": "gh-pages -d dist/my_portfolio/browser"
   },
   "private": true,

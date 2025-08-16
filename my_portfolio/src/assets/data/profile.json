@@ -9,35 +9,35 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
       "github": "https://github.com/E-adebayo"
-    },
+    },    
     "skills": [
       {
-        "category": "Languages and Frameworks",
+        "category": "Programming Languages",
         "items": [
+          { "name": "Python", "icon": "python.svg" },
+          { "name": "Java", "icon": "java.svg" },
           { "name": "JavaScript", "icon": "javascript.svg" },
           { "name": "TypeScript", "icon": "typescript.svg" },
-          { "name": "React", "icon": "react.svg" },
-          { "name": "Angular", "icon": "angular.svg" },
-          { "name": "Node.js", "icon": "nodejs.svg" },
-          { "name": "Express.js", "icon": "expressjs.svg" },
-          { "name": "HTML", "icon": "html5.svg" },
-          { "name": "CSS", "icon": "css3.svg" },
-          { "name": "Bootstrap", "icon": "bootstrap.svg" },
           { "name": "PHP", "icon": "php.svg" },
-          { "name": "Java", "icon": "java.svg" },
-          { "name": "Python", "icon": "python.svg" },
-          { "name": "FastAPI", "icon": "fastapi.svg" },
-          { "name": "AdonisJS", "icon": "adonisjs.svg" },
-          { "name": "Spring Boot", "icon": "spring.svg" },
-          { "name": "Selenium", "icon": "selenium.svg" },
-          { "name": "SharePoint", "icon": "sharepoint.svg" }
+          { "name": "HTML/CSS", "icon": "html5.svg" }
         ]
       },
       {
-        "category": "Cloud and DevOps",
+        "category": "Web Frameworks & Libraries",
+        "items": [
+          { "name": "React", "icon": "react.svg" },
+          { "name": "Angular", "icon": "angular.svg" },
+          { "name": "Spring Boot", "icon": "spring.svg" },
+          { "name": "Express.js", "icon": "expressjs.svg" },
+          { "name": "FastAPI", "icon": "fastapi.svg" },
+          { "name": "AdonisJS", "icon": "adonisjs.svg" },
+          { "name": "Bootstrap", "icon": "bootstrap.svg" }
+        ]
+      },
+      {
+        "category": "Cloud & Infrastructure",
         "items": [
           { "name": "GCP : Associate Cloud Engineer", "icon": "gcp.svg" },
-          { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
           { "name": "Cloud Functions", "icon": "gcfunctions.svg" },
           { "name": "Cloud Run", "icon": "gcrun.svg" },
           { "name": "Cloud Storage", "icon": "gcstorage.svg" },
@@ -45,51 +45,57 @@
           { "name": "Cloud Pub/Sub", "icon": "gcpubsub.svg" },
           { "name": "Cloud Monitoring", "icon": "gcmonitoring.svg" },
           { "name": "Cloud Logging", "icon": "gclogging.svg" },
+          { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
           { "name": "AWS : Amazon Web Services", "icon": "aws.svg" },
-          { "name": "Azure", "icon": "azure.svg" },
+          { "name": "Azure", "icon": "azure.svg" }
+        ]
+      },
+      {
+        "category": "DevOps & Orchestration",
+        "items": [
           { "name": "Docker", "icon": "docker.svg" },
           { "name": "Kubernetes", "icon": "kubernetes.svg" },
           { "name": "Terraform", "icon": "terraform.svg" },
+          { "name": "Ansible", "icon": "ansible.svg" },
           { "name": "CI/CD", "icon": "devops.svg" },
-          { "name": "Jenkins", "icon": "jenkins.svg" },
-          { "name": "Ansible", "icon": "ansible.svg" }
+          { "name": "Jenkins", "icon": "jenkins.svg" }
         ]
       },
       {
-        "category": "Databases and DataWarehouse",
+        "category": "Databases",
         "items": [
           { "name": "PostgreSQL", "icon": "postgresql.svg" },
-          { "name": "MongoDB", "icon": "mongodb.svg" },
           { "name": "MySQL", "icon": "mysql.svg" },
-          { "name": "T-SQL", "icon": "tsql.svg" },
-          { "name": "PL/SQL", "icon": "plsql.svg" },
+          { "name": "MongoDB", "icon": "mongodb.svg" },
           { "name": "MariaDB", "icon": "mariadb.svg" },
           { "name": "SQL Server", "icon": "sqlserver.svg" },
-          { "name": "SQLite", "icon": "sqlite.svg" },
           { "name": "Oracle", "icon": "oracle.svg" },
-          { "name": "NoSQL", "icon": "nosql.svg" },
-          { "name": "BigQuery", "icon": "gcbigquery.svg" }
+          { "name": "SQLite", "icon": "sqlite.svg" },
+          { "name": "BigQuery", "icon": "gcbigquery.svg" },
+          { "name": "T-SQL", "icon": "tsql.svg" },
+          { "name": "PL/SQL", "icon": "plsql.svg" },
+          { "name": "NoSQL", "icon": "nosql.svg" }
         ]
       },
       {
-        "category": "Data visualization and ETL",
+        "category": "Business Intelligence & Visualization",
         "items": [
           { "name": "Power BI", "icon": "powerbi.svg" },
           { "name": "Tableau", "icon": "tableau.svg" }
         ]
       },
       {
-        "category": "Methodologies and Tools",
+        "category": "Project Management Methodologies",
         "items": [
           { "name": "Agile", "icon": "agile.svg" },
           { "name": "Scrum", "icon": "scrum.svg" },
-          { "name": "HOSHIN KANRI/OKR", "icon": "okr.svg" },
+          { "name": "Hoshin Kanri/OKR", "icon": "okr.svg" },
           { "name": "Kanban", "icon": "kanban.svg" },
           { "name": "Lean Management", "icon": "leanmanagement.svg" }
         ]
       },
       {
-        "category": "Collaboration and Version Control",
+        "category": "Version Control & Collaboration",
         "items": [
           { "name": "Git", "icon": "git.svg" },
           { "name": "GitHub", "icon": "github.svg" },
@@ -98,32 +104,53 @@
         ]
       },
       {
-        "category": "Automation and Scripting",
+        "category": "Automation & Scripting",
         "items": [
           { "name": "Bash", "icon": "bash.svg" },
-          { "name": "Yaml", "icon": "yaml.svg" },
           { "name": "PowerShell", "icon": "powershell.svg" },
+          { "name": "Yaml", "icon": "yaml.svg" },
           { "name": "Power Automate", "icon": "powerautomate.svg" }
         ]
       },
       {
-        "category": "Systems and Networks",
+        "category": "Operating Systems",
         "items": [
-          { "name": "VMware", "icon": "vmware.svg" },
-          { "name": "GNS3", "icon": "gns3.svg" },
-          { "name": "Technologies Cisco", "icon": "cisco.svg" },
-          { "name": "Windows", "icon": "windows.svg" },
+          { "name": "Linux", "icon": "linux.svg" },
           { "name": "Ubuntu / Ubuntu Server", "icon": "ubuntu.svg" },
           { "name": "Debian", "icon": "debian.svg" },
-          { "name": "Windows Server", "icon": "windowsserver.svg" },
-          { "name": "Linux", "icon": "linux.svg" }
+          { "name": "Windows", "icon": "windows.svg" },
+          { "name": "Windows Server", "icon": "windowsserver.svg" }
         ]
       },
       {
-        "category": "Web Server",
+        "category": "Web Servers",
         "items": [
           { "name": "NGINX", "icon": "nginx.svg" },
           { "name": "Apache", "icon": "apache.svg" }
+        ]
+      },
+      {
+        "category": "Networking & Virtualization",
+        "items": [
+          { "name": "VMware", "icon": "vmware.svg" },
+          { "name": "GNS3", "icon": "gns3.svg" },
+          { "name": "Cisco Technologies", "icon": "cisco.svg" }
+        ]
+      },
+      {
+        "category": "Artificial Intelligence & LLM",
+        "items": [
+          { "name": "RAG (Retrieval-Augmented Generation)", "icon": "rag.svg" },
+          { "name": "Mistral", "icon": "mistral.svg" }
+        ]
+      },
+      {
+        "category": "Testing & Specialized Tools",
+        "items": [
+          { "name": "Selenium", "icon": "selenium.svg" },
+          { "name": "SharePoint", "icon": "sharepoint.svg" },
+          { "name": "Factorial", "icon": "factorial.svg" },
+          { "name": "Relativity", "icon": "relativity.svg" }
         ]
       }
     ]
@@ -138,35 +165,35 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
       "github": "https://github.com/E-adebayo"
-    },
+    },    
     "skills": [
       {
-        "category": "Langages et Frameworks",
+        "category": "Langages de programmation",
         "items": [
+          { "name": "Python", "icon": "python.svg" },
+          { "name": "Java", "icon": "java.svg" },
           { "name": "JavaScript", "icon": "javascript.svg" },
           { "name": "TypeScript", "icon": "typescript.svg" },
-          { "name": "React", "icon": "react.svg" },
-          { "name": "Angular", "icon": "angular.svg" },
-          { "name": "Node.js", "icon": "nodejs.svg" },
-          { "name": "Express.js", "icon": "expressjs.svg" },
-          { "name": "HTML", "icon": "html5.svg" },
-          { "name": "CSS", "icon": "css3.svg" },
-          { "name": "Bootstrap", "icon": "bootstrap.svg" },
           { "name": "PHP", "icon": "php.svg" },
-          { "name": "Java", "icon": "java.svg" },
-          { "name": "Python", "icon": "python.svg" },
-          { "name": "FastAPI", "icon": "fastapi.svg" },
-          { "name": "AdonisJS", "icon": "adonisjs.svg" },
-          { "name": "Spring Boot", "icon": "spring.svg" },
-          { "name": "Selenium", "icon": "selenium.svg" },
-          { "name": "SharePoint", "icon": "sharepoint.svg" }
+          { "name": "HTML/CSS", "icon": "html5.svg" }
         ]
       },
       {
-        "category": "Cloud et DevOps",
+        "category": "Frameworks et bibliothèques Web",
+        "items": [
+          { "name": "React", "icon": "react.svg" },
+          { "name": "Angular", "icon": "angular.svg" },
+          { "name": "Spring Boot", "icon": "spring.svg" },
+          { "name": "Express.js", "icon": "expressjs.svg" },
+          { "name": "FastAPI", "icon": "fastapi.svg" },
+          { "name": "AdonisJS", "icon": "adonisjs.svg" },
+          { "name": "Bootstrap", "icon": "bootstrap.svg" }
+        ]
+      },
+      {
+        "category": "Cloud et Infrastructure",
         "items": [
           { "name": "GCP : Associate Cloud Engineer", "icon": "gcp.svg" },
-          { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
           { "name": "Cloud Functions", "icon": "gcfunctions.svg" },
           { "name": "Cloud Run", "icon": "gcrun.svg" },
           { "name": "Cloud Storage", "icon": "gcstorage.svg" },
@@ -174,51 +201,57 @@
           { "name": "Cloud Pub/Sub", "icon": "gcpubsub.svg" },
           { "name": "Cloud Monitoring", "icon": "gcmonitoring.svg" },
           { "name": "Cloud Logging", "icon": "gclogging.svg" },
+          { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
           { "name": "AWS : Amazon Web Services", "icon": "aws.svg" },
-          { "name": "Azure", "icon": "azure.svg" },
+          { "name": "Azure", "icon": "azure.svg" }
+        ]
+      },
+      {
+        "category": "DevOps et Orchestration",
+        "items": [
           { "name": "Docker", "icon": "docker.svg" },
           { "name": "Kubernetes", "icon": "kubernetes.svg" },
           { "name": "Terraform", "icon": "terraform.svg" },
+          { "name": "Ansible", "icon": "ansible.svg" },
           { "name": "CI/CD", "icon": "devops.svg" },
-          { "name": "Jenkins", "icon": "jenkins.svg" },
-          { "name": "Ansible", "icon": "ansible.svg" }
+          { "name": "Jenkins", "icon": "jenkins.svg" }
         ]
       },
       {
-        "category": "Bases de données et DataWarehouse",
+        "category": "Bases de données",
         "items": [
           { "name": "PostgreSQL", "icon": "postgresql.svg" },
-          { "name": "MongoDB", "icon": "mongodb.svg" },
           { "name": "MySQL", "icon": "mysql.svg" },
-          { "name": "T-SQL", "icon": "tsql.svg" },
-          { "name": "PL/SQL", "icon": "plsql.svg" },
+          { "name": "MongoDB", "icon": "mongodb.svg" },
           { "name": "MariaDB", "icon": "mariadb.svg" },
           { "name": "SQL Server", "icon": "sqlserver.svg" },
-          { "name": "SQLite", "icon": "sqlite.svg" },
           { "name": "Oracle", "icon": "oracle.svg" },
-          { "name": "NoSQL", "icon": "nosql.svg" },
-          { "name": "BigQuery", "icon": "gcbigquery.svg" }
+          { "name": "SQLite", "icon": "sqlite.svg" },
+          { "name": "BigQuery", "icon": "gcbigquery.svg" },
+          { "name": "T-SQL", "icon": "tsql.svg" },
+          { "name": "PL/SQL", "icon": "plsql.svg" },
+          { "name": "NoSQL", "icon": "nosql.svg" }
         ]
       },
       {
-        "category": "Visualisation de données et ETL",
+        "category": "Business Intelligence et Visualisation",
         "items": [
           { "name": "Power BI", "icon": "powerbi.svg" },
           { "name": "Tableau", "icon": "tableau.svg" }
         ]
       },
       {
-        "category": "Méthodologies et Outils",
+        "category": "Méthodologies de gestion",
         "items": [
           { "name": "Agile", "icon": "agile.svg" },
           { "name": "Scrum", "icon": "scrum.svg" },
-          { "name": "HOSHIN KANRI/OKR", "icon": "okr.svg" },
+          { "name": "Hoshin Kanri/OKR", "icon": "okr.svg" },
           { "name": "Kanban", "icon": "kanban.svg" },
           { "name": "Lean Management", "icon": "leanmanagement.svg" }
         ]
       },
       {
-        "category": "Collaboration et Contrôle de Version",
+        "category": "Contrôle de version et Collaboration",
         "items": [
           { "name": "Git", "icon": "git.svg" },
           { "name": "GitHub", "icon": "github.svg" },
@@ -230,29 +263,53 @@
         "category": "Automatisation et Scripting",
         "items": [
           { "name": "Bash", "icon": "bash.svg" },
-          { "name": "Yaml", "icon": "yaml.svg" },
           { "name": "PowerShell", "icon": "powershell.svg" },
+          { "name": "Yaml", "icon": "yaml.svg" },
           { "name": "Power Automate", "icon": "powerautomate.svg" }
         ]
       },
       {
-        "category": "Systèmes et Réseaux",
+        "category": "Systèmes d'exploitation",
         "items": [
-          { "name": "VMware", "icon": "vmware.svg" },
-          { "name": "GNS3", "icon": "gns3.svg" },
-          { "name": "Technologies Cisco", "icon": "cisco.svg" },
-          { "name": "Windows", "icon": "windows.svg" },
+          { "name": "Linux", "icon": "linux.svg" },
           { "name": "Ubuntu / Ubuntu Server", "icon": "ubuntu.svg" },
           { "name": "Debian", "icon": "debian.svg" },
-          { "name": "Windows Server", "icon": "windowsserver.svg" },
-          { "name": "Linux", "icon": "linux.svg" }
+          { "name": "Windows", "icon": "windows.svg" },
+          { "name": "Windows Server", "icon": "windowsserver.svg" }
         ]
       },
       {
-        "category": "Serveur Web",
+        "category": "Serveurs Web",
         "items": [
           { "name": "NGINX", "icon": "nginx.svg" },
           { "name": "Apache", "icon": "apache.svg" }
+        ]
+      },
+      {
+        "category": "Réseaux et Virtualisation",
+        "items": [
+          { "name": "VMware", "icon": "vmware.svg" },
+          { "name": "GNS3", "icon": "gns3.svg" },
+          { "name": "Technologies Cisco", "icon": "cisco.svg" }
+        ]
+      },
+      {
+        "category": "Intelligence Artificielle et LLM",
+        "items": [
+          { "name": "RAG (Retrieval-Augmented Generation)", "icon": "rag.svg" },
+          { "name": "Mistral", "icon": "mistral.svg" },
+          { "name": "Hugging Face", "icon": "huggingface.svg" },
+          { "name": "ChatGPT", "icon": "chatgpt.svg" },
+          { "name": "Claude", "icon": "claude.svg" }
+        ]
+      },
+      {
+        "category": "Tests et Outils spécialisés",
+        "items": [
+          { "name": "Selenium", "icon": "selenium.svg" },
+          { "name": "SharePoint", "icon": "sharepoint.svg" },
+          { "name": "Factorial", "icon": "factorial.svg" },
+          { "name": "Relativity", "icon": "relativity.svg" }
         ]
       }
     ]

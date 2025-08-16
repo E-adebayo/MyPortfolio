@@ -52,15 +52,20 @@ export class HomeComponent implements OnInit {
   formatCategoryKey(category: string): string {
     // For French categories, map to the English keys used in translation files
     const frToEnMap: { [key: string]: string } = {
-      'langages et frameworks': 'languagesandframeworks',
-      'bases de données et datawarehouse': 'databasesanddatawarehouse',
-      'cloud et devops': 'cloudanddevops',
-      'visualisation de données et etl': 'datavisualizationandetl',
-      'méthodologies et outils': 'methodologiesandtools',
-      'collaboration et contrôle de version': 'collaborationandversioncontrol',
+      'langages de programmation': 'programminglanguages',
+      'frameworks et bibliothèques web': 'webframeworksandlibraries',
+      'cloud et infrastructure': 'cloudandinfrastructure',
+      'devops et orchestration': 'devopsandorchestration',
+      'bases de données': 'databases',
+      'business intelligence et visualisation': 'businessintelligenceandvisualization',
+      'méthodologies de gestion': 'projectmanagementmethodologies',
+      'contrôle de version et collaboration': 'versioncontrolandcollaboration',
       'automatisation et scripting': 'automationandscripting',
-      'serveur web': 'webserver',
-      'systèmes et réseaux': 'systemsandnetworks'
+      'systèmes d\'exploitation': 'operatingsystems',
+      'serveurs web': 'webservers',
+      'réseaux et virtualisation': 'networkingandvirtualization',
+      'intelligence artificielle et llm': 'artificialintelligenceandllm',
+      'tests et outils spécialisés': 'testingandspecializedtools'
     };
 
     // Convert category to lowercase for mapping

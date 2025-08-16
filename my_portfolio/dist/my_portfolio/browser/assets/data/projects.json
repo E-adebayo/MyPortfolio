@@ -2,7 +2,29 @@
   "en": {
     "projects": [
       {
-        "id": 1,
+        "id": 9,
+        "title": "WhatsApp Automation Project with Manychat Pro",
+        "description": "Implementation of a WhatsApp business communication automation solution using Manychat Pro, with automatic response storage in Google Sheets.",
+        "technologies": [
+          "Manychat Pro",
+          "WhatsApp Business API",
+          "Google Sheets",
+          "Cloud Integration"
+        ],
+        "imageUrl": "assets/images/manychat.png",
+        "githubUrl": "https://github.com/E-adebayo/",
+        "liveUrl": "https://",
+        "highlights": [
+          "Dynamic conversational flows with conditional logic for professional and individual profiles",
+          "Automated responses triggered by keywords, questions, or interactive menus",
+          "Native integration with Google Sheets for data transfer",
+          "Automatic storage of all responses in the corresponding row and column of Google Sheets at the end of the flow",
+          "Implementation plan from analysis to launch with complete user journey verification",
+          "Scalable cost structure based on number of active users and conversations"
+        ]
+      },
+      {
+        "id": 8,
         "title": "Portfolio Website",
         "description": "A personal portfolio website built with Angular to showcase my skills, projects, and experiences.",
         "technologies": [
@@ -22,7 +44,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 7,
         "title": "ICS format Schedule Generator",
         "description": "Development of a personal web application to generate ICS files from UTBM format schedules, with a modern interface, real-time preview, and calendar export.",
         "technologies": [
@@ -45,7 +67,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 6,
         "title": "Auto-Associative Model for Dimension Reduction",
         "description": "This project involves manually testing an Auto-associative model for dimension reduction step by step.",
         "technologies": [
@@ -71,8 +93,8 @@
         ]
       },
       {
-        "id": 4,
-        "title": "Text-mining exploration tool",
+        "id": 5,
+        "title": "Text Mining and Text Analysis tool",
         "description": "This project focuses on developing a software tool for searching and extracting knowledge from abstracts of scientific publications and applying Text-Mining techniques to the data.",
         "technologies": [
           "Python",
@@ -84,11 +106,12 @@
           "PIL (Pillow)",
           "HTTPX",
           "JSON",
-          "CSV"
+          "CSV",
+          "WordCloud"
         ],
         "imageUrl": "assets/images/mo50.png",
-        "githubUrl": "https://github.com/ssbat/MO50-Project",
-        "liveUrl": "https://",
+        "githubUrl": "https://github.com/E-adebayo/Text-mining-analysis-tool",
+        "liveUrl": "https://youtu.be/TzqKkh2p8xg",
         "highlights": [
           "Extraction of scientific articles (web scrapping)",
           "Word cleaning and filtering (lemmatization, elimination of encoded photos, excluded words)",
@@ -97,7 +120,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 4,
         "title": "Building a Recommendation Engine for an E-commerce Website",
         "description": "This project focuses on creating and developing an e-commerce website specializing in movie sales, including a recommendation engine.",
         "technologies": [
@@ -119,7 +142,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 3,
         "title": "Frontend Design for a Service Proposition Website",
         "description": "Frontend-only design of a service proposition website in Angular for a restaurant business.",
         "technologies": [
@@ -139,7 +162,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 2,
         "title": "Professors Evaluation System",
         "description": "This is a PHP web application for the management and assessment of teachers: lecturers, classes, teaching units (TUs) and components (CEs) by students.",
         "technologies": [
@@ -150,14 +173,14 @@
         ],
         "imageUrl": "assets/images/evaluation.png",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
-        "liveUrl": "https://",
+        "liveUrl": "https://youtu.be/xjniL0IExBA",
         "highlights": [
           "Complete management of teachers by level (L1, L2, L3G, L3S, L3M)",
           "Administration of teaching units (TU): Creation, modification and deletion; allocation to teachers and classes",
           "Management of components (CE): Association with TUs; allocation to teachers",
           "Viewing assessment statistics",
           "Assigning teachers to courses",
-          "Customised dashboard by class",
+          "Customized dashboard by class",
           "Teaching assessment system",
           "Overview of available TUs and CEs",
           "Access to assessment forms",
@@ -168,7 +191,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 1,
         "title": "Bug Tracking System",
         "description": "Java desktop application for bug tracking, using an MVC architecture with Java Swing and MySQL.",
         "technologies": [
@@ -176,7 +199,7 @@
           "Java Swing",
           "MySQL"
         ],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "imageUrl": "assets/images/bug.jpg",
         "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
         "liveUrl": "https://",
         "highlights": [
@@ -196,7 +219,29 @@
   "fr": {
     "projects": [
       {
-        "id": 1,
+        "id": 9,
+        "title": "Projet d'Automatisation WhatsApp via Manychat Pro",
+        "description": "Mise en place d'une solution d'automatisation de la communication client via WhatsApp, basée sur un chatbot conversationnel utilisant Manychat Pro, avec stockage automatique des réponses dans Google Sheets.",
+        "technologies": [
+          "Manychat Pro",
+          "WhatsApp Business API",
+          "Google Sheets",
+          "Intégration Cloud"
+        ],
+        "imageUrl": "assets/images/manychat.png",
+        "githubUrl": "https://github.com/E-adebayo/",
+        "liveUrl": "https://",
+        "highlights": [
+          "Flux conversationnels dynamiques avec logique conditionnelle pour profils professionnels et particuliers",
+          "Réponses automatiques déclenchées par des mots-clés, des questions ou des menus interactifs",
+          "Intégration native à Google Sheets pour le transfert des données",
+          "Stockage automatique de toutes les réponses dans la ligne et colonne correspondante du Google Sheets à la fin du flux",
+          "Plan d'implémentation de l'analyse au lancement avec vérification complète du parcours utilisateur",
+          "Structure de coûts évolutive basée sur le nombre d'utilisateurs actifs et de conversations"
+        ]
+      },
+      {
+        "id": 8,
         "title": "Site Portfolio",
         "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences, projets et expériences.",
         "technologies": [
@@ -216,9 +261,9 @@
         ]
       },
       {
-        "id": 2,
+        "id": 7,
         "title": "Génération d'emploi du temps au format ICS",
-        "description": "Développement d’une application web personnelle pour générer des fichiers ICS à partir d’emplois du temps au format UTBM, avec interface moderne, prévisualisation en temps réel et export de calendrier.",
+        "description": "Développement d'une application web personnelle pour générer des fichiers ICS à partir d'emplois du temps au format UTBM, avec interface moderne, prévisualisation en temps réel et export de calendrier.",
         "technologies": [
           "React",
           "ViteJS",
@@ -232,14 +277,14 @@
         "highlights": [
           "Validation et mise en forme des données de l'emploi du temps en temps réel avec détection automatique des erreurs",
           "Sélection des dates de début et de fin personnalisées pour votre emploi du temps académique",
-          "Gestion des semaines A et B de l’UTBM",
+          "Gestion des semaines A et B de l'UTBM",
           "Exclusion automatiquement des jours fériés français du calendrier généré",
           "Prévisualisation de votre emploi du temps dans un calendrier hebdomadaire avant de générer le fichier ICS",
           "Le fichier ICS est généré et téléchargé directement dans votre navigateur, et peut être importé dans le compte étudiant."
         ]
       },
       {
-        "id": 3,
+        "id": 6,
         "title": "Modèle Auto associatif pour la réduction de dimension",
         "description": "Ce projet consiste à tester manuellement et étapes par étapes un modèle Auto associatif pour la réduction de dimension.",
         "technologies": [
@@ -265,8 +310,8 @@
         ]
       },
       {
-        "id": 4,
-        "title": "Outil d’exploration de textes par du text-mining",
+        "id": 5,
+        "title": "Outil d'analyse de textes par du text-mining",
         "description": "Ce projet porte sur la conception d'un outil logiciel permettant de rechercher et d'extraire des connaissances à partir de résumés de publications scientifiques et d'appliquer des techniques de Text-Mining aux données",
         "technologies": [
           "Python",
@@ -278,11 +323,12 @@
           "PIL (Pillow)",
           "HTTPX",
           "JSON",
-          "CSV"
+          "CSV",
+          "WordCloud"
         ],
         "imageUrl": "assets/images/mo50.png",
-        "githubUrl": "https://github.com/ssbat/MO50-Project",
-        "liveUrl": "https://",
+        "githubUrl": "https://github.com/E-adebayo/Text-mining-analysis-tool",
+        "liveUrl": "https://youtu.be/TzqKkh2p8xg",
         "highlights": [          
           "Extraction d'articles scientifiques (web scrapping)",
           "Nettoyage et filtrage des mots (lemmatisation, élimination des photos codées, mots exclus)",
@@ -291,8 +337,8 @@
         ]
       },
       {
-        "id": 5,
-        "title": "Construction d’un moteur de recommandation pour un site web d’e-commerce",
+        "id": 4,
+        "title": "Construction d'un moteur de recommandation pour un site web d'e-commerce",
         "description": "Ce projet porte sur la création et le développement d'un site web e-commerce spécialisé dans la vente de films, incluant un moteur de recommandation.",
         "technologies": [
           "React",
@@ -313,13 +359,13 @@
         ]
       },
       {
-        "id": 6,
+        "id": 3,
         "title": "Conception du frontend d'un site de proposition de service",
         "description": "Conception du frontend uniquement d'un site de proposition de service en Angular pour une entreprise de restauration.",
         "technologies": [
           "Angular",
           "TypeScript",
-          "Tailwind   CSS",
+          "Tailwind CSS",
           "Json"
         ],
         "imageUrl": "assets/images/restaurant.png",
@@ -333,7 +379,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 2,
         "title": "Système d'évaluation des enseignants",
         "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC) par les étudiants.",
         "technologies": [
@@ -344,7 +390,7 @@
         ],
         "imageUrl": "assets/images/evaluation.png",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
-        "liveUrl": "https://",
+        "liveUrl": "https://youtu.be/xjniL0IExBA",
         "highlights": [
           "Gestion complète des professeurs par niveau (L1, L2, L3G, L3S, L3M)",
           "Administration des unités d'enseignement (UE) : Création, modification et suppression ; attribution aux professeurs et aux classes",
@@ -362,7 +408,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 1,
         "title": "Système de suivi de bugs",
         "description": "Application de bureau Java pour le suivi des bugs, utilisant une architecture MVC avec Java Swing et MySQL.",
         "technologies": [
@@ -370,12 +416,12 @@
           "Java Swing",
           "MySQL"
         ],
-        "imageUrl": "assets/images/taskapp.jpg",
+        "imageUrl": "assets/images/bug.jpg",
         "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
         "liveUrl": "https://",
         "highlights": [
           "Inscription des utilisateurs",
-          "Système de connexion sécurisé.",
+          "Système de connexion sécurisée.",
           "Signalement des bugs avec détails complets (description, dates, sévérité, fréquence).",
           "Suivi statistique des bugs avec exportation de rapports en texte et PDF.",
           "Interface dédiée pour la gestion des utilisateurs et de la base de données.",

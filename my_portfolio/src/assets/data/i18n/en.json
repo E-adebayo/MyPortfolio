@@ -21,15 +21,20 @@
     "socialProfiles": "Connect With Me"
   },
   "skills": {
-    "languagesandframeworks": "Languages and Frameworks",
-    "databasesanddatawarehouse": "Databases and DataWarehouse",
-    "cloudanddevops": "Cloud and DevOps",
-    "datavisualizationandetl": "Data Visualization and ETL",
-    "methodologiesandtools": "Methodologies and Tools",
-    "collaborationandversioncontrol": "Collaboration and Version Control",
-    "automationandscripting": "Automation and Scripting",
-    "webserver": "Web Server",
-    "systemsandnetworks": "Systems and Networks"
+    "programminglanguages": "Programming Languages",
+    "webframeworksandlibraries": "Web Frameworks & Libraries",
+    "cloudandinfrastructure": "Cloud & Infrastructure",
+    "devopsandorchestration": "DevOps & Orchestration",
+    "databases": "Databases",
+    "businessintelligenceandvisualization": "Business Intelligence & Visualization",
+    "projectmanagementmethodologies": "Project Management Methodologies",
+    "versioncontrolandcollaboration": "Version Control & Collaboration",
+    "automationandscripting": "Automation & Scripting",
+    "operatingsystems": "Operating Systems",
+    "webservers": "Web Servers",
+    "networkingandvirtualization": "Networking & Virtualization",
+    "artificialintelligenceandllm": "Artificial Intelligence & LLM",
+    "testingandspecializedtools": "Testing & Specialized Tools"
   },
   "buttons": {
     "viewProject": "View Project",
