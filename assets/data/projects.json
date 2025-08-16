@@ -213,6 +213,28 @@
           "Implementation plan from analysis to launch with complete user journey verification",
           "Scalable cost structure based on number of active users and conversations"
         ]
+      },
+      {
+        "id": 10,
+        "title": "WhatsApp Automation Project with Manychat Pro",
+        "description": "Implementation of a WhatsApp business communication automation solution using Manychat Pro, with automatic response storage in Google Sheets.",
+        "technologies": [
+          "Manychat Pro",
+          "WhatsApp Business API",
+          "Google Sheets",
+          "Cloud Integration"
+        ],
+        "imageUrl": "assets/images/manychat.png",
+        "githubUrl": "https://github.com/E-adebayo/",
+        "liveUrl": "https://",
+        "highlights": [
+          "Dynamic conversational flows with conditional logic for professional and individual profiles",
+          "Automated responses triggered by keywords, questions, or interactive menus",
+          "Native integration with Google Sheets for data transfer",
+          "Automatic storage of all responses in the corresponding row and column of Google Sheets at the end of the flow",
+          "Implementation plan from analysis to launch with complete user journey verification",
+          "Scalable cost structure based on number of active users and conversations"
+        ]
       }
     ]
   },
@@ -411,6 +433,28 @@
       },
       {
         "id": 9,
+        "title": "Projet d'Automatisation WhatsApp via Manychat Pro",
+        "description": "Mise en place d'une solution d'automatisation de la communication client via WhatsApp, basée sur un chatbot conversationnel utilisant Manychat Pro, avec stockage automatique des réponses dans Google Sheets.",
+        "technologies": [
+          "Manychat Pro",
+          "WhatsApp Business API",
+          "Google Sheets",
+          "Intégration Cloud"
+        ],
+        "imageUrl": "assets/images/manychat.png",
+        "githubUrl": "https://github.com/E-adebayo/",
+        "liveUrl": "https://",
+        "highlights": [
+          "Flux conversationnels dynamiques avec logique conditionnelle pour profils professionnels et particuliers",
+          "Réponses automatiques déclenchées par des mots-clés, des questions ou des menus interactifs",
+          "Intégration native à Google Sheets pour le transfert des données",
+          "Stockage automatique de toutes les réponses dans la ligne et colonne correspondante du Google Sheets à la fin du flux",
+          "Plan d'implémentation de l'analyse au lancement avec vérification complète du parcours utilisateur",
+          "Structure de coûts évolutive basée sur le nombre d'utilisateurs actifs et de conversations"
+        ]
+      },
+      {
+        "id": 10,
         "title": "Projet d'Automatisation WhatsApp via Manychat Pro",
         "description": "Mise en place d'une solution d'automatisation de la communication client via WhatsApp, basée sur un chatbot conversationnel utilisant Manychat Pro, avec stockage automatique des réponses dans Google Sheets.",
         "technologies": [
