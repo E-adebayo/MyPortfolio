@@ -2,7 +2,7 @@
   "en": {
     "projects": [
       {
-        "id": 1,
+        "id": 9,
         "title": "WhatsApp Automation Project with Manychat Pro",
         "description": "Implementation of a WhatsApp business communication automation solution using Manychat Pro, with automatic response storage in Google Sheets.",
         "technologies": [
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 8,
         "title": "Portfolio Website",
         "description": "A personal portfolio website built with Angular to showcase my skills, projects, and experiences.",
         "technologies": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 7,
         "title": "ICS format Schedule Generator",
         "description": "Development of a personal web application to generate ICS files from UTBM format schedules, with a modern interface, real-time preview, and calendar export.",
         "technologies": [
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 6,
         "title": "Auto-Associative Model for Dimension Reduction",
         "description": "This project involves manually testing an Auto-associative model for dimension reduction step by step.",
         "technologies": [
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 4,
         "title": "Building a Recommendation Engine for an E-commerce Website",
         "description": "This project focuses on creating and developing an e-commerce website specializing in movie sales, including a recommendation engine.",
         "technologies": [
@@ -142,7 +142,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 3,
         "title": "Frontend Design for a Service Proposition Website",
         "description": "Frontend-only design of a service proposition website in Angular for a restaurant business.",
         "technologies": [
@@ -162,7 +162,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 2,
         "title": "Professors Evaluation System",
         "description": "This is a PHP web application for the management and assessment of teachers: lecturers, classes, teaching units (TUs) and components (CEs) by students.",
         "technologies": [
@@ -191,7 +191,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 1,
         "title": "Bug Tracking System",
         "description": "Java desktop application for bug tracking, using an MVC architecture with Java Swing and MySQL.",
         "technologies": [
@@ -219,9 +219,9 @@
   "fr": {
     "projects": [
       {
-        "id": 1,
+        "id": 9,
         "title": "Projet d'Automatisation WhatsApp via Manychat Pro",
-        "description": "Mise en place d'une solution d'automatisation de la communication client via WhatsApp, bas�e sur un chatbot conversationnel utilisant Manychat Pro, avec stockage automatique des r�ponses dans Google Sheets.",
+        "description": "Mise en place d'une solution d'automatisation de la communication client via WhatsApp, basée sur un chatbot conversationnel utilisant Manychat Pro, avec stockage automatique des réponses dans Google Sheets.",
         "technologies": [
           "Manychat Pro",
           "WhatsApp Business API",
@@ -241,7 +241,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 8,
         "title": "Site Portfolio",
         "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences, projets et expériences.",
         "technologies": [
@@ -261,7 +261,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 7,
         "title": "Génération d'emploi du temps au format ICS",
         "description": "Développement d'une application web personnelle pour générer des fichiers ICS à partir d'emplois du temps au format UTBM, avec interface moderne, prévisualisation en temps réel et export de calendrier.",
         "technologies": [
@@ -284,7 +284,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 6,
         "title": "Modèle Auto associatif pour la réduction de dimension",
         "description": "Ce projet consiste à tester manuellement et étapes par étapes un modèle Auto associatif pour la réduction de dimension.",
         "technologies": [
@@ -337,7 +337,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 4,
         "title": "Construction d'un moteur de recommandation pour un site web d'e-commerce",
         "description": "Ce projet porte sur la création et le développement d'un site web e-commerce spécialisé dans la vente de films, incluant un moteur de recommandation.",
         "technologies": [
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 3,
         "title": "Conception du frontend d'un site de proposition de service",
         "description": "Conception du frontend uniquement d'un site de proposition de service en Angular pour une entreprise de restauration.",
         "technologies": [
@@ -379,7 +379,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": 2,
         "title": "Système d'évaluation des enseignants",
         "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC) par les étudiants.",
         "technologies": [
@@ -408,7 +408,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 1,
         "title": "Système de suivi de bugs",
         "description": "Application de bureau Java pour le suivi des bugs, utilisant une architecture MVC avec Java Swing et MySQL.",
         "technologies": [
