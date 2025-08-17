@@ -142,7 +142,7 @@ section:nth-child(3) {
 
 // Hero section
 .home-container {
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
@@ -151,18 +151,18 @@ section:nth-child(3) {
 
 .hero-section {
   text-align: center;
-  padding: 4rem 0;
+  padding: 3rem 0;
   position: relative;
   z-index: 2;
   
   .hero-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 2rem;
     
     h1 {
       font-size: clamp(2.5rem, 5vw, 4rem);
-      margin-bottom: 1rem;
+      margin-bottom: 0.8rem;
       font-weight: 700;
       line-height: 1.2;
       // Apply section-title gradient styling to profile name
@@ -175,7 +175,7 @@ section:nth-child(3) {
     h2 {
       font-size: clamp(1.2rem, 3vw, 1.8rem);
       color: #666;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       font-weight: 300;
       line-height: 1.4;
     }
@@ -184,8 +184,8 @@ section:nth-child(3) {
       font-size: clamp(1rem, 2.5vw, 1.2rem);
       color: var(--text-light);
       line-height: 1.6;
-      margin-bottom: 3rem;
-      max-width: 600px;
+      margin-bottom: 2.5rem;
+      max-width: 700px;
       margin-left: auto;
       margin-right: auto;
       // Better text formatting for long descriptions
@@ -221,7 +221,7 @@ section:nth-child(3) {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      margin-top: 3rem;
+      margin-top: 2.5rem;
       flex-wrap: wrap;
       
       .btn {
@@ -627,24 +627,26 @@ section:nth-child(3) {
   }
   
   .hero-section {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     
     .hero-content {
       padding: 0 1rem;
       
       h1 {
         font-size: clamp(2rem, 8vw, 3rem);
+        margin-bottom: 0.6rem;
       }
       
       h2 {
         font-size: clamp(1rem, 4vw, 1.4rem);
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
       }
       
       .description {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         padding: 1rem 1.5rem;
         font-size: 1rem;
+        max-width: 100%;
       }
       
       .hero-actions {
