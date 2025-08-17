@@ -58,7 +58,8 @@ export class ExperienceComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe({
         next: (data) => {
-          this.experiences = data.experiences;
+          // Sort experiences by ID in descending order (most recent first)
+          this.experiences = data.experiences.sort((a, b) => b.id - a.id);
           this.loading = false;
           this.animateOnScroll();
         },

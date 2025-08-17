@@ -3,38 +3,30 @@
     "experiences": [
       {
         "id": 1,
-        "company": "Financial Markets Authority (AMF) - Investigation Department",
-        "position": "Digital Forensics Engineer (intern)",
-        "location": "Paris, France",
-        "startDate": "September 2024",
-        "endDate": "February 2025",
-        "description": "The main objective was to actively participate in the development of Digital Forensics projects, using eDiscovery software to analyze various files (PST, MSG, PDF, etc.) and contribute to Python code.",
+        "company": "Sunu Santé",
+        "position": "Systems and Network Administration (intern)",
+        "location": "Lomé, Togo",
+        "startDate": "July 2021",
+        "endDate": "January 2022",
+        "description": "The objective was to set up a web server, virtualized and local, on which a service being developed by the development team would be deployed.",
         "responsibilities": [
-          "Inventory of errors and solution research",
-          "Repair of corrupted files (PST, MSG, DOCX, XLSX, PDF)",
-          "Design of software for searching and recovering passwords in Outlook mailbox",
-          "Design of Python software for capturing information from URLs extracted from Excel/CSV/TSV files and loaded in a browser",
-          "Testing functionality of software solutions: MediaSpeech for Text to Speech, XRY for extracting data from applications (social networks) via the cloud",
-          "Documentation of work completed (internship report) and writing of user guides"
+          "Deployment and configuration of the NGINX web server",
+          "Configuration of the web software environment (NodeJs, React, AdonisJS) and MongoDB database",
+          "Automation of MongoDB database import and restoration with a Bash script",
+          "Implementation of a test topology (cloud, switches, Cisco ASA firewalls, virtual machines) with GNS3 for the configuration of a Site-to-Site VPN"
         ],
         "technologies": [
-          "Python",
-          "Excel",
-          "CSV / TSV",
-          "Relativity",
-          "XRY Physical & Logical / Cloud",
-          "MediaSpeech",
-          "Outlook",
-          "scanPST",
-          "Aid4Mail",
-          "PST",
-          "MSG",
-          "DOCX",
-          "XLSX",
-          "PDF",
-          "JPG",
-          "PNG",
-          "HTML"
+          "VMware",
+          "Hypervisors",
+          "Ubuntu / Ubuntu Server",
+          "MongoDB",
+          "NGINX",
+          "NodeJs",
+          "AdonisJS",
+          "React",
+          "Bash",
+          "GNS3",
+          "Cisco"
         ]
       },
       {
@@ -71,51 +63,19 @@
       },
       {
         "id": 3,
-        "company": "Sunu Santé",
-        "position": "Systems and Network Administration (intern)",
-        "location": "Lomé, Togo",
-        "startDate": "July 2021",
-        "endDate": "January 2022",
-        "description": "The objective was to set up a web server, virtualized and local, on which a service being developed by the development team would be deployed.",
-        "responsibilities": [
-          "Deployment and configuration of the NGINX web server",
-          "Configuration of the web software environment (NodeJs, React, AdonisJS) and MongoDB database",
-          "Automation of MongoDB database import and restoration with a Bash script",
-          "Implementation of a test topology (cloud, switches, Cisco ASA firewalls, virtual machines) with GNS3 for the configuration of a Site-to-Site VPN"
-        ],
-        "technologies": [
-          "VMware",
-          "Hypervisors",
-          "Ubuntu / Ubuntu Server",
-          "MongoDB",
-          "NGINX",
-          "NodeJs",
-          "AdonisJS",
-          "React",
-          "Bash",
-          "GNS3",
-          "Cisco"
-        ]
-      }
-    ]
-  },
-  "fr": {
-    "experiences": [
-      {
-        "id": 1,
-        "company": "Autorité des Marchés Financiers(AMF) - Direction des enquêtes",
-        "position": "Ingénieur Digital Forensics (stagiaire)",
+        "company": "Financial Markets Authority (AMF) - Investigation Department",
+        "position": "Digital Forensics Engineer (intern)",
         "location": "Paris, France",
-        "startDate": "Septembre 2024",
-        "endDate": "Février 2025",
-        "description": "L'objectif principal était de participer activement au développement de projets en Digital Forensics, avec utilisation d'un logiciel eDiscovery pour analyser divers fichiers (PST, MSG, PDF, etc.) et contribution au code en Python.",
+        "startDate": "September 2024",
+        "endDate": "February 2025",
+        "description": "The main objective was to actively participate in the development of Digital Forensics projects, using eDiscovery software to analyze various files (PST, MSG, PDF, etc.) and contribute to Python code.",
         "responsibilities": [
-          "Inventaire des erreurs et recherche de solutions",
-          "Réparation de fichiers corrompus (PST, MSG, DOCX, XLSX, PDF)",
-          "Conception d'un logiciel de recherche et de récupération de mots de passe dans une messagerie Outlook",
-          "Conception d'un logiciel en python pour la capture d'écran d'informations provenant d'URLs et extraits d'un fichier excel/csv/tsv et chargés un navigateur",
-          "Tests de fonctionnalités de solutions logicielles : MediaSpeech pour du Text to Speech, XRY pour de l'extraction de données d'applications (réseaux sociaux) via le cloud",
-          "Documentation des travaux réalisés (rapport de stage) et rédaction de guides d'utilisation"
+          "Inventory of errors and solution research",
+          "Repair of corrupted files (PST, MSG, DOCX, XLSX, PDF)",
+          "Design of software for searching and recovering passwords in Outlook mailbox",
+          "Design of Python software for capturing information from URLs extracted from Excel/CSV/TSV files and loaded in a browser",
+          "Testing functionality of software solutions: MediaSpeech for Text to Speech, XRY for extracting data from applications (social networks) via the cloud",
+          "Documentation of work completed (internship report) and writing of user guides"
         ],
         "technologies": [
           "Python",
@@ -135,6 +95,38 @@
           "JPG",
           "PNG",
           "HTML"
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "experiences": [
+      {
+        "id": 1,
+        "company": "Sunu Santé",
+        "position": "Administration des systèmes et réseaux (stagiaire)",
+        "location": "Lomé, Togo",
+        "startDate": "Juillet 2021",
+        "endDate": "Janvier 2022",
+        "description": "L'objectif était de mettre en place un serveur web, virtualisé et en local, sur lequel serait déployé un service en cours de développement par l'équipe de développement. ",
+        "responsibilities": [
+          "Déploiement et configuration du serveur web NGINX",
+          "Configuration de l'environnement logiciel web (NodeJs, React, AdonisJS) et la base de données MongoDB",
+          "Automatisation de l'importation et de la restauration de la base de données MongoDB avec un script Bash",
+          "Mise en place d'une topologie de test (cloud, commutateurs, pares-feux Cisco ASA, machines virtuelles) avec GNS3 pour la configuration d'un VPN Site à Site"
+        ],
+        "technologies": [
+          "VMware",
+          "Hyperviseurs",
+          "Ubuntu / Ubuntu Server",
+          "MongoDB",
+          "NGINX",
+          "NodeJs",
+          "AdonisJS",
+          "React",
+          "Bash",
+          "GNS3",
+          "Cisco"
         ]
       },
       {
@@ -171,30 +163,38 @@
       },
       {
         "id": 3,
-        "company": "Sunu Santé",
-        "position": "Administration des systèmes et réseaux (stagiaire)",
-        "location": "Lomé, Togo",
-        "startDate": "Juillet 2021",
-        "endDate": "Janvier 2022",
-        "description": "L'objectif était de mettre en place un serveur web, virtualisé et en local, sur lequel serait déployé un service en cours de développement par l'équipe de développement. ",
+        "company": "Autorité des Marchés Financiers(AMF) - Direction des enquêtes",
+        "position": "Ingénieur Digital Forensics (stagiaire)",
+        "location": "Paris, France",
+        "startDate": "Septembre 2024",
+        "endDate": "Février 2025",
+        "description": "L'objectif principal était de participer activement au développement de projets en Digital Forensics, avec utilisation d'un logiciel eDiscovery pour analyser divers fichiers (PST, MSG, PDF, etc.) et contribution au code en Python.",
         "responsibilities": [
-          "Déploiement et configuration du serveur web NGINX",
-          "Configuration de l'environnement logiciel web (NodeJs, React, AdonisJS) et la base de données MongoDB",
-          "Automatisation de l'importation et de la restauration de la base de données MongoDB avec un script Bash",
-          "Mise en place d'une topologie de test (cloud, commutateurs, pares-feux Cisco ASA, machines virtuelles) avec GNS3 pour la configuration d'un VPN Site à Site"
+          "Inventaire des erreurs et recherche de solutions",
+          "Réparation de fichiers corrompus (PST, MSG, DOCX, XLSX, PDF)",
+          "Conception d'un logiciel de recherche et de récupération de mots de passe dans une messagerie Outlook",
+          "Conception d'un logiciel en python pour la capture d'écran d'informations provenant d'URLs et extraits d'un fichier excel/csv/tsv et chargés un navigateur",
+          "Tests de fonctionnalités de solutions logicielles : MediaSpeech pour du Text to Speech, XRY pour de l'extraction de données d'applications (réseaux sociaux) via le cloud",
+          "Documentation des travaux réalisés (rapport de stage) et rédaction de guides d'utilisation"
         ],
         "technologies": [
-          "VMware",
-          "Hyperviseurs",
-          "Ubuntu / Ubuntu Server",
-          "MongoDB",
-          "NGINX",
-          "NodeJs",
-          "AdonisJS",
-          "React",
-          "Bash",
-          "GNS3",
-          "Cisco"
+          "Python",
+          "Excel",
+          "CSV / TSV",
+          "Relativity",
+          "XRY Physical & Logical / Cloud",
+          "MediaSpeech",
+          "Outlook",
+          "scanPST",
+          "Aid4Mail",
+          "PST",
+          "MSG",
+          "DOCX",
+          "XLSX",
+          "PDF",
+          "JPG",
+          "PNG",
+          "HTML"
         ]
       }
     ]

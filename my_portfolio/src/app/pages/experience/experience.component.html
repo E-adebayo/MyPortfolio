@@ -40,8 +40,7 @@
           
           <h3 class="company">
             <div class="company-info">
-              <fa-icon [icon]="faBuilding" class="company-icon"></fa-icon>
-              <span class="company-name">{{ exp.company }}</span>
+              <fa-icon [icon]="faBuilding" class="company-icon"></fa-icon>{{ exp.company }}
             </div>
             <div class="location">
               <fa-icon [icon]="faMapMarker"></fa-icon>
@@ -52,9 +51,8 @@
 
         <div class="description">{{ exp.description }}</div>
 
-        <div class="responsibilities" 
-             *ngIf="exp.responsibilities?.length"
-             [attr.data-title]="'experience.responsibilities' | translate">
+        <div class="responsibilities" *ngIf="exp.responsibilities?.length">
+          <h4 class="responsibilities-title">{{ 'experience.keyResponsibilities' | translate }}</h4>
           <ul role="list">
             <li *ngFor="let responsibility of exp.responsibilities; trackBy: trackByResponsibility">
               {{ responsibility }}
@@ -62,12 +60,15 @@
           </ul>
         </div>
 
-        <div class="technologies" *ngIf="exp.technologies?.length" role="list">
-          <div class="tech-tag" 
-               *ngFor="let tech of exp.technologies; trackBy: trackByTechnology"
-               [title]="tech"
-               role="listitem">
-            {{ tech }}
+        <div class="technologies" *ngIf="exp.technologies?.length">
+          <h4 class="technologies-title">{{ 'experience.technologies' | translate }}</h4>
+          <div class="tech-tags-container" role="list">
+            <div class="tech-tag" 
+                 *ngFor="let tech of exp.technologies; trackBy: trackByTechnology"
+                 [title]="tech"
+                 role="listitem">
+              {{ tech }}
+            </div>
           </div>
         </div>
       </div>
