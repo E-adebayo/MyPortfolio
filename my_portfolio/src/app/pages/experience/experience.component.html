@@ -39,12 +39,14 @@
           <h2 class="position">{{ exp.position }}</h2>
           
           <h3 class="company">
-            <fa-icon [icon]="faBuilding" class="company-icon"></fa-icon>
-            {{ exp.company }}
-            <span class="location">
+            <div class="company-info">
+              <fa-icon [icon]="faBuilding" class="company-icon"></fa-icon>
+              <span class="company-name">{{ exp.company }}</span>
+            </div>
+            <div class="location">
               <fa-icon [icon]="faMapMarker"></fa-icon>
-              {{ exp.location }}
-            </span>
+              <span>{{ exp.location }}</span>
+            </div>
           </h3>
         </div>
 

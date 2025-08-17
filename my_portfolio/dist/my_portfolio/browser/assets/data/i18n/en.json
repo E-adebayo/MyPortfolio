@@ -1,0 +1,80 @@
+{  "header": {
+    "brand": "My Portfolio",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experiences"
+  },
+  "jobPopup": {
+    "message": "I am actively seeking full-time employment opportunities (CDI) !",
+    "dismiss": "Close"
+  },
+  "profile": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "IT Engineer",
+    "description": "Junior IT Engineer with a passion for web development, cloud technologies, data science and project management. My curriculum is marked by an insatiable curiosity for data mining, innovative solution design and effective project management. I'm motivated by a desire to learn and continually improve, seeking challenges that push me out of my comfort zone. My goal is to contribute to meaningful projects that have a positive impact on society.",
+    "location": "Location",
+    "email": "Email",
+    "phone": "Phone",
+    "skills": "Skills",
+    "contactMe": "Contact Me",
+    "socialProfiles": "Connect With Me"
+  },
+  "skills": {
+    "programminglanguages": "Programming Languages",
+    "webframeworksandlibraries": "Web Frameworks & Libraries",
+    "cloudandinfrastructure": "Cloud & Infrastructure",
+    "devopsandorchestration": "DevOps & Orchestration",
+    "databases": "Databases",
+    "businessintelligenceandvisualization": "Business Intelligence & Visualization",
+    "projectmanagementmethodologies": "Project Management Methodologies",
+    "versioncontrolandcollaboration": "Version Control & Collaboration",
+    "automationandscripting": "Automation & Scripting",
+    "operatingsystems": "Operating Systems",
+    "webservers": "Web Servers",
+    "networkingandvirtualization": "Networking & Virtualization",
+    "artificialintelligenceandllm": "Artificial Intelligence & LLM",
+    "testingandspecializedtools": "Testing & Specialized Tools"
+  },
+  "buttons": {
+    "viewProject": "View Project",
+    "viewDetails": "View Details",
+    "download": "Download CV"
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Here are some of the projects I've worked on",
+    "code": "Code",
+    "demo": "Demo",
+    "viewCode": "View Source Code",
+    "viewDemo": "View Live Demo",
+    "technologies": "Technologies",
+    "highlights": "Highlights"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  },
+  "about": {
+    "title": "About Me",
+    "greeting": "Hello, I'm",
+    "bio": "Junior IT Engineer with a passion for web development, cloud technologies, data science and project management.",
+    "bio1": "I am a dedicated IT engineer based in",
+    "bio2": "who enjoys solving complex problems with clean, efficient code. I'm also interested in devOps, data (analyst, engineer, science), cloud and project management.",
+    "bio3": "When I'm not coding, I enjoy contributing to open-source projects, attending tech meetups, and continuously expanding my knowledge through online courses and technical documentation.",
+    "contactInfo": "Contact Information",
+    "skillsExpertise": "Skills & Expertise",
+    "education": "Education",
+    "certifications": "Certifications",
+    "interests": "Professional Interests",
+    "languages": "Languages",
+    "viewCertificate": "View Certificate"
+  },
+  "experience": {
+    "title": "Professional Experiences",
+    "subtitle": "My professional journey and work history",
+    "keyResponsibilities": "Key Responsibilities:",
+    "present": "Present"
+  }
+}

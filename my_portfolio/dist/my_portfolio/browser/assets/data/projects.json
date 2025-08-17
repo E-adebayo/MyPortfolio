@@ -1,0 +1,454 @@
+{
+  "en": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Bug Tracking System",
+        "description": "Java desktop application for bug tracking, using an MVC architecture with Java Swing and MySQL.",
+        "status": "Public",
+        "technologies": [
+          "Java",
+          "Java Swing",
+          "MySQL"
+        ],
+        "imageUrl": "assets/images/projects/bug.jpg",
+        "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
+        "liveUrl": "https://",
+        "highlights": [
+          "User registration",
+          "Secure login system",
+          "Bug reporting with complete details (description, dates, severity, frequency)",
+          "Statistical tracking of bugs with text and PDF report export",
+          "Dedicated interface for user and database management",
+          "Visualization of bug statistics",
+          "Password hashing",
+          "User session management with role-based access control",
+          "Prevention of SQL injections and input sanitization"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Professors Evaluation System",
+        "description": "This is a PHP web application for the management and assessment of teachers: lecturers, classes, teaching units (TUs) and components (CEs) by students.",
+        "status": "Public",
+        "technologies": [
+          "PHP",
+          "Apache",
+          "MySQL/MariaDB",
+          "JavaScript"
+        ],
+        "imageUrl": "assets/images/projects/evaluation.png",
+        "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
+        "liveUrl": "https://youtu.be/xjniL0IExBA",
+        "highlights": [
+          "Complete management of teachers by level (L1, L2, L3G, L3S, L3M)",
+          "Administration of teaching units (TU): Creation, modification and deletion; allocation to teachers and classes",
+          "Management of components (CE): Association with TUs; allocation to teachers",
+          "Viewing assessment statistics",
+          "Assigning teachers to courses",
+          "Customized dashboard by class",
+          "Teaching assessment system",
+          "Overview of available TUs and CEs",
+          "Access to assessment forms",
+          "Registering new users",
+          "Secure connection with session",
+          "Role differentiation (administrator/student)",
+          "Secure logout"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Frontend Design for a Service Proposition Website",
+        "description": "Frontend-only design of a service proposition website in Angular for a restaurant business.",
+        "status": "Public",
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "Tailwind CSS",
+          "Json"
+        ],
+        "imageUrl": "assets/images/projects/restaurant.png",
+        "githubUrl": "https://github.com/E-adebayo/Restaurant",
+        "liveUrl": "https://youtu.be/DTshY0_rJO8",
+        "highlights": [
+          "Display of restaurants, filtering, detailed view",
+          "Proposition of various menus with the ability to add, like and filter menus and restaurants",
+          "Authentication system for restaurant owners",
+          "Storage of restaurants in a Json file as a database"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Building a Recommendation Engine for an E-commerce Website",
+        "description": "This project focuses on creating and developing an e-commerce website specializing in movie sales, including a recommendation engine.",
+        "status": "Private",
+        "technologies": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express",
+          "Python",
+          "FastAPI"
+        ],
+        "imageUrl": "assets/images/projects/ds50.jpg",
+        "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
+        "liveUrl": "https://www.youtube.com/watch?v=zxFwQX7zXc4",
+        "highlights": [
+          "Selection and formatting (cleaning) of a movie database in MongoDB",
+          "Design of the recommendation website with ReactJS and FastAPI",
+          "Use of pandas, sklearn libraries for calculating the similarity quotient",
+          "Use of this quotient for recommendation based on genre, keywords, and search"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Text Mining and Text Analysis tool",
+        "description": "This project focuses on developing a software tool for searching and extracting knowledge from abstracts of scientific publications and applying Text-Mining techniques to the data.",
+        "status": "Private",
+        "technologies": [
+          "Python",
+          "Nltk",
+          "Sklearn",
+          "Pandas ",
+          "NumPy",
+          "Tkinter ",
+          "PIL (Pillow)",
+          "HTTPX",
+          "JSON",
+          "CSV",
+          "WordCloud"
+        ],
+        "imageUrl": "assets/images/projects/mo50.png",
+        "githubUrl": "https://github.com/E-adebayo/Text-mining-analysis-tool",
+        "liveUrl": "https://youtu.be/TzqKkh2p8xg",
+        "highlights": [
+          "Extraction of scientific articles (web scrapping)",
+          "Word cleaning and filtering (lemmatization, elimination of encoded photos, excluded words)",
+          "Creation of CSV files containing metadata and the full text (document-term matrix)",
+          "Analysis and visualisation of text data (clustering, word cloud, etc.)"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Auto-Associative Model for Dimension Reduction",
+        "description": "This project involves manually testing an Auto-associative model for dimension reduction step by step.",
+        "status": "Private",
+        "technologies": [
+          "Python",
+          "Jupyter Notebook",
+          "NumPy",
+          "Scipy",
+          "Matplotlib"
+        ],
+        "imageUrl": "assets/images/projects/aam.png",
+        "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
+        "liveUrl": "https://youtu.be/wbE4iu0YwZ4",
+        "highlights": [
+          "Initialize the model with data",
+          "Calculate direction using contiguity analysis",
+          "Project data onto the direction",
+          "Train a spline regression model",
+          "Generate predictions from the model",
+          "Calculate residuals",
+          "Calculate information ratio",
+          "Save parameters and increment dimension counter",
+          "Repeat for the next iteration"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "ICS format Schedule Generator",
+        "description": "Development of a personal web application to generate ICS files from UTBM format schedules, with a modern interface, real-time preview, and calendar export.",
+        "status": "Private",
+        "technologies": [
+          "React",
+          "ViteJS",
+          "JavaScript",
+          "Flask",
+          "Python"
+        ],
+        "imageUrl": "assets/images/projects/timetable.png",
+        "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
+        "liveUrl": "https://",
+        "highlights": [
+          "Real-time validation and formatting of schedule data with automatic error detection",
+          "Selection of custom start and end dates for your academic schedule",
+          "Management of UTBM's A and B weeks",
+          "Automatic exclusion of French holidays from the generated calendar",
+          "Preview of your schedule in a weekly calendar before generating the ICS file",
+          "The ICS file is generated and downloaded directly in your browser, and can be imported into the student account"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website built with Angular to showcase my skills, projects, and experiences.",
+        "status": "Public",
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "SCSS",
+          "JSON"
+        ],
+        "imageUrl": "assets/images/projects/portfolio.jpg",
+        "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
+        "liveUrl": "https://",
+        "highlights": [
+          "Responsive design implemented for all screen formats",
+          "Use of Angular standalone components for better modularity",
+          "Creation of services to retrieve and display data (projects, experiences) from JSON files, making future updates easier",
+          "Use of pipe to implement a French and English version of the site"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "WhatsApp Automation Project with Manychat Pro",
+        "description": "Implementation of a WhatsApp business communication automation solution using Manychat Pro, with automatic response storage in Google Sheets.",
+        "status": "Private",
+        "technologies": [
+          "Manychat Pro",
+          "WhatsApp Business API",
+          "Google Sheets",
+          "Cloud Integration"
+        ],
+        "imageUrl": "assets/images/projects/manychat.png",
+        "githubUrl": "https://github.com/E-adebayo/",
+        "liveUrl": "https://",
+        "highlights": [
+          "Dynamic conversational flows with conditional logic for professional and individual profiles",
+          "Automated responses triggered by keywords, questions, or interactive menus",
+          "Native integration with Google Sheets for data transfer",
+          "Automatic storage of all responses in the corresponding row and column of Google Sheets at the end of the flow",
+          "Implementation plan from analysis to launch with complete user journey verification",
+          "Scalable cost structure based on number of active users and conversations"
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Système de suivi de bugs",
+        "description": "Application de bureau Java pour le suivi des bugs, utilisant une architecture MVC avec Java Swing et MySQL.",
+        "status": "Public",
+        "technologies": [
+          "Java",
+          "Java Swing",
+          "MySQL"
+        ],
+        "imageUrl": "assets/images/projects/bug.jpg",
+        "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
+        "liveUrl": "https://",
+        "highlights": [
+          "Inscription des utilisateurs",
+          "Système de connexion sécurisée.",
+          "Signalement des bugs avec détails complets (description, dates, sévérité, fréquence).",
+          "Suivi statistique des bugs avec exportation de rapports en texte et PDF.",
+          "Interface dédiée pour la gestion des utilisateurs et de la base de données.",
+          "Visualisation des statistiques des bugs.",
+          "Hachage des mots de passe.",
+          "Gestion des sessions utilisateur avec contrôle d'accès basé sur les rôles.",
+          "Prévention des injections SQL et désinfection des entrées."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Système d'évaluation des enseignants",
+        "description": "Il s'agit d'une application web PHP pour la gestion et l'évaluation des enseignants : les professeurs, les classes, les unités d'enseignement (UE), les éléments constitutifs (EC) par les étudiants.",
+        "status": "Public",
+        "technologies": [
+          "PHP",
+          "Apache",
+          "MySQL/MariaDB",
+          "JavaScript"
+        ],
+        "imageUrl": "assets/images/projects/evaluation.png",
+        "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
+        "liveUrl": "https://youtu.be/xjniL0IExBA",
+        "highlights": [
+          "Gestion complète des professeurs par niveau (L1, L2, L3G, L3S, L3M)",
+          "Administration des unités d'enseignement (UE) : Création, modification et suppression ; attribution aux professeurs et aux classes",
+          "Gestion des éléments constitutifs (EC) : Association avec les UE ; attribution aux professeurs",
+          "Visualisation des statistiques d'évaluation",
+          "Affectation des enseignants aux cours",
+          "Tableau de bord personnalisé par classe",
+          "Système d'évaluation des enseignements",
+          "Vue d'ensemble des UE et EC disponibles",
+          "Accès aux formulaires d'évaluation",
+          "Inscription des nouveaux utilisateurs",
+          "Connexion sécurisée avec session",
+          "Différenciation des rôles (administrateur/étudiant)",
+          "Déconnexion sécurisée"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Conception du frontend d'un site de proposition de service",
+        "description": "Conception du frontend uniquement d'un site de proposition de service en Angular pour une entreprise de restauration.",
+        "status": "Public",
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "Tailwind CSS",
+          "Json"
+        ],
+        "imageUrl": "assets/images/projects/restaurant.png",
+        "githubUrl": "https://github.com/E-adebayo/Restaurant",
+        "liveUrl": "https://youtu.be/DTshY0_rJO8",
+        "highlights": [
+          "Affichage des restaurants, filtrage, vue détaillée",
+          "Proposition de divers menus avec la possibilité d'ajouter, de liker et de filtrer les menus et restaurants.",
+          "Système d'authentification de propriétaires de restaurant",
+          "Enregistrement des restaurants dans un fichier Json comme base de données"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Construction d'un moteur de recommandation pour un site web d'e-commerce",
+        "description": "Ce projet porte sur la création et le développement d'un site web e-commerce spécialisé dans la vente de films, incluant un moteur de recommandation.",
+        "status": "Private",
+        "technologies": [
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express",
+          "Python",
+          "FastAPI"
+        ],
+        "imageUrl": "assets/images/projects/ds50.jpg",
+        "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
+        "liveUrl": "https://www.youtube.com/watch?v=zxFwQX7zXc4",
+        "highlights": [
+          "Choix et mise en forme (cleaning) d'une base de données de films en MongoDB",
+          "Conception du site web pour la recommandation avec ReactJS et FastAPI",
+          "Utilisation des librairies pandas, sklearn pour le calcul du quotient de similarité",
+          "Utilisation de ce quotient pour la recommandation en fonction du genre, de mots clés et par recherche"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Outil d'analyse de textes par du text-mining",
+        "description": "Ce projet porte sur la conception d'un outil logiciel permettant de rechercher et d'extraire des connaissances à partir de résumés de publications scientifiques et d'appliquer des techniques de Text-Mining aux données",
+        "status": "Private",
+        "technologies": [
+          "Python",
+          "Nltk",
+          "Sklearn",
+          "Pandas ",
+          "NumPy",
+          "Tkinter ",
+          "PIL (Pillow)",
+          "HTTPX",
+          "JSON",
+          "CSV",
+          "WordCloud"
+        ],
+        "imageUrl": "assets/images/projects/mo50.png",
+        "githubUrl": "https://github.com/E-adebayo/Text-mining-analysis-tool",
+        "liveUrl": "https://youtu.be/TzqKkh2p8xg",
+        "highlights": [          
+          "Extraction d'articles scientifiques (web scrapping)",
+          "Nettoyage et filtrage des mots (lemmatisation, élimination des photos codées, mots exclus)",
+          "Création de fichiers CSV contenant des métadonnées et le texte intégral (matrice document-terme)",
+          "Analyse et visualisation des données textuelles (clustering, nuage de mots, etc.)"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Modèle Auto associatif pour la réduction de dimension",
+        "description": "Ce projet consiste à tester manuellement et étapes par étapes un modèle Auto associatif pour la réduction de dimension.",
+        "status": "Private",
+        "technologies": [
+          "Python",
+          "Notebook Jupyter",
+          "NumPy",
+          "Scipy",
+          "Matplotlib"
+        ],
+        "imageUrl": "assets/images/projects/aam.png",
+        "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
+        "liveUrl": "https://youtu.be/wbE4iu0YwZ4",
+        "highlights": [
+          "Initialiser le modèle avec les données",
+          "Calculer la direction par l'analyse de contiguïté",
+          "Projeter les données sur la direction",
+          "Entraînement d'un modèle de régression spline",
+          "Générer des prédictions à partir du modèle",
+          "Calculer les résidus",
+          "Calculer le ratio d'information",
+          "Sauvegarde des paramètres et incrémentation du compteur de dimensions",
+          "Répéter pour l'itération suivante"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Génération d'emploi du temps au format ICS",
+        "description": "Développement d'une application web personnelle pour générer des fichiers ICS à partir d'emplois du temps au format UTBM, avec interface moderne, prévisualisation en temps réel et export de calendrier.",
+        "status": "Private",
+        "technologies": [
+          "React",
+          "ViteJS",
+          "JavaScript",
+          "Flask",
+          "Python"
+        ],
+        "imageUrl": "assets/images/projects/timetable.png",
+        "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
+        "liveUrl": "https://",
+        "highlights": [
+          "Validation et mise en forme des données de l'emploi du temps en temps réel avec détection automatique des erreurs",
+          "Sélection des dates de début et de fin personnalisées pour votre emploi du temps académique",
+          "Gestion des semaines A et B de l'UTBM",
+          "Exclusion automatiquement des jours fériés français du calendrier généré",
+          "Prévisualisation de votre emploi du temps dans un calendrier hebdomadaire avant de générer le fichier ICS",
+          "Le fichier ICS est généré et téléchargé directement dans votre navigateur, et peut être importé dans le compte étudiant."
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Site Portfolio",
+        "description": "Un site portfolio personnel construit avec Angular pour présenter mes compétences, projets et expériences.",
+        "status": "Public",
+        "technologies": [
+          "Angular",
+          "TypeScript",
+          "SCSS",
+          "JSON"
+        ],
+        "imageUrl": "assets/images/projects/portfolio.jpg",
+        "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
+        "liveUrl": "https://",
+        "highlights": [
+          "Design responsive implémenté pour tous les formats d'écran",
+          "Utilisation des composants autonomes Angular pour une meilleure modularité",
+          "Création de services pour récupérer et afficher des données (projets, expériences) de fichiers JSON, et faciliter les mises à jour futures",
+          "Utilisation de pipe pour implémenter une version française et anglaise du site"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Projet d'Automatisation WhatsApp via Manychat Pro",
+        "description": "Mise en place d'une solution d'automatisation de la communication client via WhatsApp, basée sur un chatbot conversationnel utilisant Manychat Pro, avec stockage automatique des réponses dans Google Sheets.",
+        "status": "Private",
+        "technologies": [
+          "Manychat Pro",
+          "WhatsApp Business API",
+          "Google Sheets",
+          "Intégration Cloud"
+        ],
+        "imageUrl": "assets/images/projects/manychat.png",
+        "githubUrl": "https://github.com/E-adebayo/",
+        "liveUrl": "https://",
+        "highlights": [
+          "Flux conversationnels dynamiques avec logique conditionnelle pour profils professionnels et particuliers",
+          "Réponses automatiques déclenchées par des mots-clés, des questions ou des menus interactifs",
+          "Intégration native à Google Sheets pour le transfert des données",
+          "Stockage automatique de toutes les réponses dans la ligne et colonne correspondante du Google Sheets à la fin du flux",
+          "Plan d'implémentation de l'analyse au lancement avec vérification complète du parcours utilisateur",
+          "Structure de coûts évolutive basée sur le nombre d'utilisateurs actifs et de conversations"
+        ]
+      }
+    ]
+  }
+}

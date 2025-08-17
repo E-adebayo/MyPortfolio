@@ -1,0 +1,320 @@
+{
+  "en": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "IT Engineer",
+    "description": "Junior IT Engineer with a passion for web development, cloud technologies, data science and project management. My curriculum is marked by an insatiable curiosity for data mining, innovative solution design and effective project management. I'm motivated by a desire to learn and continually improve, seeking challenges that push me out of my comfort zone. My goal is to contribute to meaningful projects that have a positive impact on society.",
+    "email": "adebayoeudes.dalmeida@gmail.com",
+    "location": "Belfort, France",
+    "phone": "+33 6 52 34 17 02",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
+      "github": "https://github.com/E-adebayo"
+    },    
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": [
+          { "name": "Python", "icon": "python.svg" },
+          { "name": "Java", "icon": "java.svg" },
+          { "name": "JavaScript", "icon": "javascript.svg" },
+          { "name": "TypeScript", "icon": "typescript.svg" },
+          { "name": "PHP", "icon": "php.svg" },
+          { "name": "HTML/CSS", "icon": "html5.svg" }
+        ]
+      },
+      {
+        "category": "Web Frameworks & Libraries",
+        "items": [
+          { "name": "React", "icon": "react.svg" },
+          { "name": "Angular", "icon": "angular.svg" },
+          { "name": "Spring Boot", "icon": "spring.svg" },
+          { "name": "Express.js", "icon": "expressjs.svg" },
+          { "name": "FastAPI", "icon": "fastapi.svg" },
+          { "name": "AdonisJS", "icon": "adonisjs.svg" },
+          { "name": "Bootstrap", "icon": "bootstrap.svg" }
+        ]
+      },
+      {
+        "category": "Cloud & Infrastructure",
+        "items": [
+          { "name": "GCP : Associate Cloud Engineer", "icon": "gcp.svg" },
+          { "name": "Cloud Functions", "icon": "gcfunctions.svg" },
+          { "name": "Cloud Run", "icon": "gcrun.svg" },
+          { "name": "Cloud Storage", "icon": "gcstorage.svg" },
+          { "name": "Cloud SQL", "icon": "gcsql.svg" },
+          { "name": "Cloud Pub/Sub", "icon": "gcpubsub.svg" },
+          { "name": "Cloud Monitoring", "icon": "gcmonitoring.svg" },
+          { "name": "Cloud Logging", "icon": "gclogging.svg" },
+          { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
+          { "name": "AWS : Amazon Web Services", "icon": "aws.svg" },
+          { "name": "Azure", "icon": "azure.svg" }
+        ]
+      },
+      {
+        "category": "DevOps & Orchestration",
+        "items": [
+          { "name": "Docker", "icon": "docker.svg" },
+          { "name": "Kubernetes", "icon": "kubernetes.svg" },
+          { "name": "Terraform", "icon": "terraform.svg" },
+          { "name": "Ansible", "icon": "ansible.svg" },
+          { "name": "CI/CD", "icon": "devops.svg" },
+          { "name": "Jenkins", "icon": "jenkins.svg" }
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          { "name": "PostgreSQL", "icon": "postgresql.svg" },
+          { "name": "MySQL", "icon": "mysql.svg" },
+          { "name": "MongoDB", "icon": "mongodb.svg" },
+          { "name": "MariaDB", "icon": "mariadb.svg" },
+          { "name": "SQL Server", "icon": "sqlserver.svg" },
+          { "name": "Oracle", "icon": "oracle.svg" },
+          { "name": "SQLite", "icon": "sqlite.svg" },
+          { "name": "BigQuery", "icon": "gcbigquery.svg" },
+          { "name": "T-SQL", "icon": "tsql.svg" },
+          { "name": "PL/SQL", "icon": "plsql.svg" },
+          { "name": "NoSQL", "icon": "nosql.svg" }
+        ]
+      },
+      {
+        "category": "Business Intelligence & Visualization",
+        "items": [
+          { "name": "Power BI", "icon": "powerbi.svg" },
+          { "name": "Tableau", "icon": "tableau.svg" }
+        ]
+      },
+      {
+        "category": "Project Management Methodologies",
+        "items": [
+          { "name": "Agile", "icon": "agile.svg" },
+          { "name": "Scrum", "icon": "scrum.svg" },
+          { "name": "Hoshin Kanri/OKR", "icon": "okr.svg" },
+          { "name": "Kanban", "icon": "kanban.svg" },
+          { "name": "Lean Management", "icon": "leanmanagement.svg" }
+        ]
+      },
+      {
+        "category": "Version Control & Collaboration",
+        "items": [
+          { "name": "Git", "icon": "git.svg" },
+          { "name": "GitHub", "icon": "github.svg" },
+          { "name": "GitLab", "icon": "gitlab.svg" },
+          { "name": "Confluence", "icon": "confluence.svg" }
+        ]
+      },
+      {
+        "category": "Automation & Scripting",
+        "items": [
+          { "name": "Bash", "icon": "bash.svg" },
+          { "name": "PowerShell", "icon": "powershell.svg" },
+          { "name": "Yaml", "icon": "yaml.svg" },
+          { "name": "Power Automate", "icon": "powerautomate.svg" }
+        ]
+      },
+      {
+        "category": "Operating Systems",
+        "items": [
+          { "name": "Linux", "icon": "linux.svg" },
+          { "name": "Ubuntu / Ubuntu Server", "icon": "ubuntu.svg" },
+          { "name": "Debian", "icon": "debian.svg" },
+          { "name": "Windows", "icon": "windows.svg" },
+          { "name": "Windows Server", "icon": "windowsserver.svg" }
+        ]
+      },
+      {
+        "category": "Web Servers",
+        "items": [
+          { "name": "NGINX", "icon": "nginx.svg" },
+          { "name": "Apache", "icon": "apache.svg" }
+        ]
+      },
+      {
+        "category": "Networking & Virtualization",
+        "items": [
+          { "name": "VMware", "icon": "vmware.svg" },
+          { "name": "GNS3", "icon": "gns3.svg" },
+          { "name": "Cisco Technologies", "icon": "cisco.svg" }
+        ]
+      },
+      {
+        "category": "Artificial Intelligence & LLM",
+        "items": [
+          { "name": "RAG (Retrieval-Augmented Generation)", "icon": "rag.svg" },
+          { "name": "Mistral", "icon": "mistral.svg" },
+          { "name": "Hugging Face", "icon": "huggingface.svg" },
+          { "name": "ChatGPT", "icon": "chatgpt.svg" },
+          { "name": "Claude", "icon": "claude.svg" }
+        ]
+      },
+      {
+        "category": "Testing & Specialized Tools",
+        "items": [
+          { "name": "Selenium", "icon": "selenium.svg" },
+          { "name": "SharePoint", "icon": "sharepoint.svg" },
+          { "name": "Factorial", "icon": "factorial.svg" },
+          { "name": "Relativity", "icon": "relativity.svg" }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "name": "Adébayo Eudes d'ALMEIDA",
+    "title": "Ingénieur IT",
+    "description": "Ingénieur Informatique Junior passionné par le développement web, les technologies cloud, la science des données et la gestion des projets. Mon parcours est marqué par une curiosité insatiable pour l'exploration des données, la conception de solutions innovantes et la gestion efficace des projets. Je suis motivé par le désir d'apprendre et de m'améliorer continuellement, cherchant à relever des défis qui me poussent à sortir de ma zone de confort. Mon objectif est de contribuer à des projets significatifs qui ont un impact positif sur la société.",
+    "email": "adebayoeudes.dalmeida@gmail.com",
+    "location": "Belfort, France",
+    "phone": "+33 6 52 34 17 02",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adebayo-eudes-d-almeida",
+      "github": "https://github.com/E-adebayo"
+    },    
+    "skills": [
+      {
+        "category": "Langages de programmation",
+        "items": [
+          { "name": "Python", "icon": "python.svg" },
+          { "name": "Java", "icon": "java.svg" },
+          { "name": "JavaScript", "icon": "javascript.svg" },
+          { "name": "TypeScript", "icon": "typescript.svg" },
+          { "name": "PHP", "icon": "php.svg" },
+          { "name": "HTML/CSS", "icon": "html5.svg" }
+        ]
+      },
+      {
+        "category": "Frameworks et bibliothèques Web",
+        "items": [
+          { "name": "React", "icon": "react.svg" },
+          { "name": "Angular", "icon": "angular.svg" },
+          { "name": "Spring Boot", "icon": "spring.svg" },
+          { "name": "Express.js", "icon": "expressjs.svg" },
+          { "name": "FastAPI", "icon": "fastapi.svg" },
+          { "name": "AdonisJS", "icon": "adonisjs.svg" },
+          { "name": "Bootstrap", "icon": "bootstrap.svg" }
+        ]
+      },
+      {
+        "category": "Cloud et Infrastructure",
+        "items": [
+          { "name": "GCP : Associate Cloud Engineer", "icon": "gcp.svg" },
+          { "name": "Cloud Functions", "icon": "gcfunctions.svg" },
+          { "name": "Cloud Run", "icon": "gcrun.svg" },
+          { "name": "Cloud Storage", "icon": "gcstorage.svg" },
+          { "name": "Cloud SQL", "icon": "gcsql.svg" },
+          { "name": "Cloud Pub/Sub", "icon": "gcpubsub.svg" },
+          { "name": "Cloud Monitoring", "icon": "gcmonitoring.svg" },
+          { "name": "Cloud Logging", "icon": "gclogging.svg" },
+          { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
+          { "name": "AWS : Amazon Web Services", "icon": "aws.svg" },
+          { "name": "Azure", "icon": "azure.svg" }
+        ]
+      },
+      {
+        "category": "DevOps et Orchestration",
+        "items": [
+          { "name": "Docker", "icon": "docker.svg" },
+          { "name": "Kubernetes", "icon": "kubernetes.svg" },
+          { "name": "Terraform", "icon": "terraform.svg" },
+          { "name": "Ansible", "icon": "ansible.svg" },
+          { "name": "CI/CD", "icon": "devops.svg" },
+          { "name": "Jenkins", "icon": "jenkins.svg" }
+        ]
+      },
+      {
+        "category": "Bases de données",
+        "items": [
+          { "name": "PostgreSQL", "icon": "postgresql.svg" },
+          { "name": "MySQL", "icon": "mysql.svg" },
+          { "name": "MongoDB", "icon": "mongodb.svg" },
+          { "name": "MariaDB", "icon": "mariadb.svg" },
+          { "name": "SQL Server", "icon": "sqlserver.svg" },
+          { "name": "Oracle", "icon": "oracle.svg" },
+          { "name": "SQLite", "icon": "sqlite.svg" },
+          { "name": "BigQuery", "icon": "gcbigquery.svg" },
+          { "name": "T-SQL", "icon": "tsql.svg" },
+          { "name": "PL/SQL", "icon": "plsql.svg" },
+          { "name": "NoSQL", "icon": "nosql.svg" }
+        ]
+      },
+      {
+        "category": "Business Intelligence et Visualisation",
+        "items": [
+          { "name": "Power BI", "icon": "powerbi.svg" },
+          { "name": "Tableau", "icon": "tableau.svg" }
+        ]
+      },
+      {
+        "category": "Méthodologies de gestion",
+        "items": [
+          { "name": "Agile", "icon": "agile.svg" },
+          { "name": "Scrum", "icon": "scrum.svg" },
+          { "name": "Hoshin Kanri/OKR", "icon": "okr.svg" },
+          { "name": "Kanban", "icon": "kanban.svg" },
+          { "name": "Lean Management", "icon": "leanmanagement.svg" }
+        ]
+      },
+      {
+        "category": "Contrôle de version et Collaboration",
+        "items": [
+          { "name": "Git", "icon": "git.svg" },
+          { "name": "GitHub", "icon": "github.svg" },
+          { "name": "GitLab", "icon": "gitlab.svg" },
+          { "name": "Confluence", "icon": "confluence.svg" }
+        ]
+      },
+      {
+        "category": "Automatisation et Scripting",
+        "items": [
+          { "name": "Bash", "icon": "bash.svg" },
+          { "name": "PowerShell", "icon": "powershell.svg" },
+          { "name": "Yaml", "icon": "yaml.svg" },
+          { "name": "Power Automate", "icon": "powerautomate.svg" }
+        ]
+      },
+      {
+        "category": "Systèmes d'exploitation",
+        "items": [
+          { "name": "Linux", "icon": "linux.svg" },
+          { "name": "Ubuntu / Ubuntu Server", "icon": "ubuntu.svg" },
+          { "name": "Debian", "icon": "debian.svg" },
+          { "name": "Windows", "icon": "windows.svg" },
+          { "name": "Windows Server", "icon": "windowsserver.svg" }
+        ]
+      },
+      {
+        "category": "Serveurs Web",
+        "items": [
+          { "name": "NGINX", "icon": "nginx.svg" },
+          { "name": "Apache", "icon": "apache.svg" }
+        ]
+      },
+      {
+        "category": "Réseaux et Virtualisation",
+        "items": [
+          { "name": "VMware", "icon": "vmware.svg" },
+          { "name": "GNS3", "icon": "gns3.svg" },
+          { "name": "Technologies Cisco", "icon": "cisco.svg" }
+        ]
+      },
+      {
+        "category": "Intelligence Artificielle et LLM",
+        "items": [
+          { "name": "RAG (Retrieval-Augmented Generation)", "icon": "rag.svg" },
+          { "name": "Mistral", "icon": "mistral.svg" },
+          { "name": "Hugging Face", "icon": "huggingface.svg" },
+          { "name": "ChatGPT", "icon": "chatgpt.svg" },
+          { "name": "Claude", "icon": "claude.svg" }
+        ]
+      },
+      {
+        "category": "Tests et Outils spécialisés",
+        "items": [
+          { "name": "Selenium", "icon": "selenium.svg" },
+          { "name": "SharePoint", "icon": "sharepoint.svg" },
+          { "name": "Factorial", "icon": "factorial.svg" },
+          { "name": "Relativity", "icon": "relativity.svg" }
+        ]
+      }
+    ]
+  }
+}
