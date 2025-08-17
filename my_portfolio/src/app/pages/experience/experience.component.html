@@ -5,7 +5,7 @@
   </div>
 
   <div class="loading-container fade-in" *ngIf="loading">
-    <fa-icon [icon]="faSpinner" size="2x"></fa-icon>
+    <fa-icon [icon]="faSpinner" size="2x" animation="spin"></fa-icon>
     <p>{{ 'common.loading' | translate }}</p>
   </div>
 
@@ -13,25 +13,31 @@
     <fa-icon [icon]="faExclamationCircle" size="2x"></fa-icon>
     <p class="error-message">{{ error }}</p>
   </div>
-  <div class="timeline" *ngIf="!loading && !error">    <div class="timeline-item"
+
+  <div class="timeline" *ngIf="!loading && !error">
+    <div class="timeline-item"
       *ngFor="let exp of experiences; let i = index"
       [class.slide-in-left]="i % 2 === 0"
       [class.slide-in-right]="i % 2 !== 0"
       [style.animation-delay]="i * 0.3 + 's'"
       [class.from-left]="i % 2 === 0"
-      [class.from-right]="i % 2 !== 0">
-      <div class="timeline-marker">
-        <fa-icon [icon]="faBriefcase"></fa-icon>
+      [class.from-right]="i % 2 !== 0"
+      [attr.data-aos]="i % 2 === 0 ? 'fade-right' : 'fade-left'"
+      [attr.data-aos-delay]="i * 200">
+      
+      <div class="timeline-marker" [title]="exp.company">
+        <fa-icon [icon]="faBriefcase" [attr.aria-label]="'Experience at ' + exp.company"></fa-icon>
       </div>
+      
       <div class="timeline-item-content">
         <div class="timeline-header">
           <div class="date-badge">
-            <fa-icon [icon]="faCalendar"  ></fa-icon>
-            <span>{{ getFormattedDate(exp.startDate) }} - {{ exp.endDate ===
-              'Present' ? ('experience.present' | translate) :
-              getFormattedDate(exp.endDate) }}</span>
+            <fa-icon [icon]="faCalendar"></fa-icon>
+            <span>{{ getFormattedDate(exp.startDate) }} - {{ exp.endDate === 'Present' ? ('experience.present' | translate) : getFormattedDate(exp.endDate) }}</span>
           </div>
+          
           <h2 class="position">{{ exp.position }}</h2>
+          
           <h3 class="company">
             <fa-icon [icon]="faBuilding" class="company-icon"></fa-icon>
             {{ exp.company }}
@@ -44,15 +50,21 @@
 
         <div class="description">{{ exp.description }}</div>
 
-        <div class="responsibilities" *ngIf="exp.responsibilities?.length">
-          <ul>
-            <li *ngFor="let responsibility of exp.responsibilities">{{
-              responsibility }}</li>
+        <div class="responsibilities" 
+             *ngIf="exp.responsibilities?.length"
+             [attr.data-title]="'experience.responsibilities' | translate">
+          <ul role="list">
+            <li *ngFor="let responsibility of exp.responsibilities; trackBy: trackByResponsibility">
+              {{ responsibility }}
+            </li>
           </ul>
         </div>
 
-        <div class="technologies" *ngIf="exp.technologies?.length">
-          <div class="tech-tag" *ngFor="let tech of exp.technologies">
+        <div class="technologies" *ngIf="exp.technologies?.length" role="list">
+          <div class="tech-tag" 
+               *ngFor="let tech of exp.technologies; trackBy: trackByTechnology"
+               [title]="tech"
+               role="listitem">
             {{ tech }}
           </div>
         </div>

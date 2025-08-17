@@ -2,95 +2,251 @@
   position: fixed;
   display: flex;
   align-items: center;
-  background-color: var(--primary-color, #3498db);
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
   font-size: 0.9rem;
-  max-width: 300px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  max-width: 350px;
+  min-width: 280px;
+  box-shadow: 0 8px 32px rgba(var(--primary-rgb), 0.3), 
+              0 2px 8px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
-  z-index: 1010; // Higher than navbar's z-index
-  top: 80px; // Position below the navbar
+  z-index: 1010;
+  top: 90px;
   left: 20px;
-  animation: fadeIn 0.5s ease-out forwards, pulse 2s infinite;
+  animation: jobPopupEntrance 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards,
+             gentlePulse 3s infinite;
+  
+  // Animated background overlay
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.8s ease;
+    animation: shimmer 3s infinite;
+  }
+
+  // Decorative border animation
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, white, transparent);
+    opacity: 0.6;
+    animation: borderFlow 2s infinite;
+  }
   
   &.hidden {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-30px) scale(0.95);
     pointer-events: none;
     visibility: hidden;
   }
+
+  &:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(var(--primary-rgb), 0.4), 
+                0 4px 12px rgba(0, 0, 0, 0.2);
+    
+    &::before {
+      left: 100%;
+    }
+  }
+
   .popup-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    position: relative;
+    z-index: 2;
+    gap: 1rem;
   }
 
   .job-icon {
-    margin-right: 10px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+    animation: iconBounce 2s infinite;
+    
+    &:hover {
+      transform: scale(1.1) rotate(5deg);
+      color: white;
+    }
   }
 
   .job-message {
     flex: 1;
-    margin-right: 1rem;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateX(2px);
+    }
   }
 
   .dismiss-btn {
-    background: none;
+    background: rgba(255, 255, 255, 0.15);
     border: none;
     color: white;
     cursor: pointer;
-    padding: 0.2rem;
+    padding: 0.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.7;
-    transition: all 0.2s ease;
+    opacity: 0.8;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    fa-icon {
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+    }
 
     &:hover {
       opacity: 1;
-      transform: scale(1.1);
-      background-color: rgba(255, 255, 255, 0.2);
+      transform: scale(1.15) rotate(90deg);
+      background-color: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+      fa-icon {
+        transform: scale(1.1);
+      }
+    }
+
+    &:active {
+      transform: scale(0.95);
+      transition: all 0.1s ease;
     }
   }
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes pulse {
+// Enhanced animations
+@keyframes jobPopupEntrance {
   0% {
-    box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.4);
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8) rotate(-5deg);
   }
-  70% {
-    box-shadow: 0 0 0 8px rgba(52, 152, 219, 0);
+  50% {
+    opacity: 0.8;
+    transform: translateY(-5px) scale(1.05) rotate(2deg);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
   }
 }
 
-// Dark theme compatibility
+@keyframes gentlePulse {
+  0%, 100% {
+    box-shadow: 0 8px 32px rgba(var(--primary-rgb), 0.3), 
+                0 2px 8px rgba(0, 0, 0, 0.15),
+                0 0 0 0 rgba(var(--primary-rgb), 0.2);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(var(--primary-rgb), 0.4), 
+                0 2px 8px rgba(0, 0, 0, 0.15),
+                0 0 0 8px rgba(var(--primary-rgb), 0.1);
+  }
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: -100%; }
+}
+
+@keyframes borderFlow {
+  0%, 100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 0.6;
+  }
+}
+
+@keyframes iconBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+// Dark theme enhancements
 :host-context(.dark-theme) {
   .job-popup {
-    background-color: var(--primary-color-dark, #2980b9);
-    animation: fadeIn 0.5s ease-out forwards, pulse 2s infinite;
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 
+                0 2px 8px rgba(0, 0, 0, 0.2);
+
+    &::before {
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    }
+
+    &:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 
+                  0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .dismiss-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 480px) {
+  .job-popup {
+    left: 10px;
+    right: 10px;
+    max-width: none;
+    min-width: auto;
+    top: 80px;
+    padding: 0.8rem 1rem;
+
+    .job-message {
+      font-size: 0.85rem;
+    }
+
+    .job-icon {
+      font-size: 1rem;
+    }
+
+    .dismiss-btn {
+      width: 24px;
+      height: 24px;
+      
+      fa-icon {
+        font-size: 0.8rem;
+      }
+    }
   }
 }
