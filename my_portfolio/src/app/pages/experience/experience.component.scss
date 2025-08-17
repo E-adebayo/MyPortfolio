@@ -319,6 +319,7 @@
 
         .timeline-header {
           margin-bottom: 2rem;
+          text-align: center;
 
           .date-badge {
             display: inline-flex;
@@ -351,6 +352,7 @@
             margin-bottom: 0.8rem;
             color: var(--text-color);
             line-height: 1.2;
+            text-align: center;
 
             @media (max-width: 768px) {
               font-size: 1.5rem;
@@ -359,7 +361,7 @@
 
           .company {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
             gap: 0.5rem;
             color: var(--text-light);
