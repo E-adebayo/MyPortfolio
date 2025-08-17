@@ -11,7 +11,7 @@
           "Java Swing",
           "MySQL"
         ],
-        "imageUrl": "assets/images/bug.jpg",
+        "imageUrl": "assets/images/projects/bug.jpg",
         "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
         "liveUrl": "https://",
         "highlights": [
@@ -37,7 +37,7 @@
           "MySQL/MariaDB",
           "JavaScript"
         ],
-        "imageUrl": "assets/images/evaluation.png",
+        "imageUrl": "assets/images/projects/evaluation.png",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
         "liveUrl": "https://youtu.be/xjniL0IExBA",
         "highlights": [
@@ -67,7 +67,7 @@
           "Tailwind CSS",
           "Json"
         ],
-        "imageUrl": "assets/images/restaurant.png",
+        "imageUrl": "assets/images/projects/restaurant.png",
         "githubUrl": "https://github.com/E-adebayo/Restaurant",
         "liveUrl": "https://youtu.be/DTshY0_rJO8",
         "highlights": [
@@ -90,7 +90,7 @@
           "Python",
           "FastAPI"
         ],
-        "imageUrl": "assets/images/ds50.jpg",
+        "imageUrl": "assets/images/projects/ds50.jpg",
         "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
         "liveUrl": "https://www.youtube.com/watch?v=zxFwQX7zXc4",
         "highlights": [
@@ -118,7 +118,7 @@
           "CSV",
           "WordCloud"
         ],
-        "imageUrl": "assets/images/mo50.png",
+        "imageUrl": "assets/images/projects/mo50.png",
         "githubUrl": "https://github.com/E-adebayo/Text-mining-analysis-tool",
         "liveUrl": "https://youtu.be/TzqKkh2p8xg",
         "highlights": [
@@ -140,7 +140,7 @@
           "Scipy",
           "Matplotlib"
         ],
-        "imageUrl": "assets/images/aam.png",
+        "imageUrl": "assets/images/projects/aam.png",
         "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
         "liveUrl": "https://youtu.be/wbE4iu0YwZ4",
         "highlights": [
@@ -167,7 +167,7 @@
           "Flask",
           "Python"
         ],
-        "imageUrl": "assets/images/timetable.png",
+        "imageUrl": "assets/images/projects/timetable.png",
         "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
         "liveUrl": "https://",
         "highlights": [
@@ -190,7 +190,7 @@
           "SCSS",
           "JSON"
         ],
-        "imageUrl": "assets/images/portfolio.jpg",
+        "imageUrl": "assets/images/projects/portfolio.jpg",
         "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
         "liveUrl": "https://",
         "highlights": [
@@ -211,7 +211,7 @@
           "Google Sheets",
           "Cloud Integration"
         ],
-        "imageUrl": "assets/images/manychat.png",
+        "imageUrl": "assets/images/projects/manychat.png",
         "githubUrl": "https://github.com/E-adebayo/",
         "liveUrl": "https://",
         "highlights": [
@@ -237,7 +237,7 @@
           "Java Swing",
           "MySQL"
         ],
-        "imageUrl": "assets/images/bug.jpg",
+        "imageUrl": "assets/images/projects/bug.jpg",
         "githubUrl": "https://github.com/E-adebayo/BUG_TRACKING",
         "liveUrl": "https://",
         "highlights": [
@@ -263,7 +263,7 @@
           "MySQL/MariaDB",
           "JavaScript"
         ],
-        "imageUrl": "assets/images/evaluation.png",
+        "imageUrl": "assets/images/projects/evaluation.png",
         "githubUrl": "https://github.com/E-adebayo/Profs_Evaluations",
         "liveUrl": "https://youtu.be/xjniL0IExBA",
         "highlights": [
@@ -293,7 +293,7 @@
           "Tailwind CSS",
           "Json"
         ],
-        "imageUrl": "assets/images/restaurant.png",
+        "imageUrl": "assets/images/projects/restaurant.png",
         "githubUrl": "https://github.com/E-adebayo/Restaurant",
         "liveUrl": "https://youtu.be/DTshY0_rJO8",
         "highlights": [
@@ -316,7 +316,7 @@
           "Python",
           "FastAPI"
         ],
-        "imageUrl": "assets/images/ds50.jpg",
+        "imageUrl": "assets/images/projects/ds50.jpg",
         "githubUrl": "https://github.com/E-adebayo/Movies_recommandations",
         "liveUrl": "https://www.youtube.com/watch?v=zxFwQX7zXc4",
         "highlights": [
@@ -344,7 +344,7 @@
           "CSV",
           "WordCloud"
         ],
-        "imageUrl": "assets/images/mo50.png",
+        "imageUrl": "assets/images/projects/mo50.png",
         "githubUrl": "https://github.com/E-adebayo/Text-mining-analysis-tool",
         "liveUrl": "https://youtu.be/TzqKkh2p8xg",
         "highlights": [          
@@ -366,7 +366,7 @@
           "Scipy",
           "Matplotlib"
         ],
-        "imageUrl": "assets/images/aam.png",
+        "imageUrl": "assets/images/projects/aam.png",
         "githubUrl": "https://github.com/E-adebayo/AAM_StepByStep",
         "liveUrl": "https://youtu.be/wbE4iu0YwZ4",
         "highlights": [
@@ -393,7 +393,7 @@
           "Flask",
           "Python"
         ],
-        "imageUrl": "assets/images/timetable.png",
+        "imageUrl": "assets/images/projects/timetable.png",
         "githubUrl": "https://github.com/E-adebayo/TimeTable_UTBM",
         "liveUrl": "https://",
         "highlights": [
@@ -416,7 +416,7 @@
           "SCSS",
           "JSON"
         ],
-        "imageUrl": "assets/images/portfolio.jpg",
+        "imageUrl": "assets/images/projects/portfolio.jpg",
         "githubUrl": "https://github.com/E-adebayo/MyPortfolio",
         "liveUrl": "https://",
         "highlights": [
@@ -437,7 +437,7 @@
           "Google Sheets",
           "Intégration Cloud"
         ],
-        "imageUrl": "assets/images/manychat.png",
+        "imageUrl": "assets/images/projects/manychat.png",
         "githubUrl": "https://github.com/E-adebayo/",
         "liveUrl": "https://",
         "highlights": [

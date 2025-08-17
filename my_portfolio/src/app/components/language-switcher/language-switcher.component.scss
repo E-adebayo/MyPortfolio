@@ -95,34 +95,43 @@
       transition: all 0.1s ease;
     }
 
-    // Language flag emojis or indicators
+    // Language flag indicators using SVG images
     &[aria-label*="English"]::after {
       content: '';
       margin-left: 4px;
-      width: 8px;
-      height: 8px;
+      width: 12px;
+      height: 12px;
       border-radius: 50%;
-      background: linear-gradient(45deg, #012169 50%, #C8102E 50%);
+      background-image: url('/assets/images/languages/uk.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       display: inline-block;
       opacity: 0.7;
       transition: all 0.3s ease;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
 
     &[aria-label*="French"]::after {
       content: '';
       margin-left: 4px;
-      width: 8px;
-      height: 8px;
+      width: 12px;
+      height: 12px;
       border-radius: 50%;
-      background: linear-gradient(90deg, #002654 33%, white 33%, white 66%, #ED2939 66%);
+      background-image: url('/assets/images/languages/fr.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       display: inline-block;
       opacity: 0.7;
       transition: all 0.3s ease;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
 
     &.active::after {
       opacity: 1;
       transform: scale(1.2);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     }
   }
 }
