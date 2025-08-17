@@ -2,9 +2,11 @@
   <button [class.active]="currentLanguage === 'en'"
     (click)="switchLanguage('en')" aria-label="Switch to English">
     EN
+    <img [src]="getFlagPath('en')" alt="UK Flag" class="flag-icon" loading="lazy">
   </button>
   <button [class.active]="currentLanguage === 'fr'"
     (click)="switchLanguage('fr')" aria-label="Switch to French">
     FR
+    <img [src]="getFlagPath('fr')" alt="French Flag" class="flag-icon" loading="lazy">
   </button>
 </div>
