@@ -20,7 +20,8 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
     this.projectsService.getProjects().subscribe({
       next: (data) => {
-        this.projects = data.projects;
+        // Sort projects by ID in descending order (newest to oldest)
+        this.projects = data.projects.sort((a, b) => b.id - a.id);
         this.loading = false;
       },
       error: (error) => {
