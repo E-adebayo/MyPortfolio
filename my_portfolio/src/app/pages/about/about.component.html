@@ -64,28 +64,30 @@
           </ul>
         </div>
       </div>
-    </section>    <!-- Education Section -->
+    </section>   
+    
+    <!-- Education Section -->
     <section class="education-section slide-up">
       <h2 class="section-title">{{ 'about.education' | translate }}</h2>
       <div class="education-grid">
         <div class="education-card" *ngFor="let edu of education; let i = index" [attr.data-aos]="i % 2 === 0 ? 'fade-right' : 'fade-left'" [attr.data-aos-delay]="i * 100">
           <div class="education-header">
-            <h3><fa-icon [icon]="faGraduationCap"></fa-icon> {{
-              edu.degree[profileService.getCurrentLang()] }}</h3>
-            <span class="education-period">{{
-              edu.period[profileService.getCurrentLang()] }}</span>
+            <h3><fa-icon [icon]="faGraduationCap"></fa-icon> {{ edu.degree[profileService.getCurrentLang()] }}</h3>
+            <span class="education-period">{{ edu.period[profileService.getCurrentLang()] }}</span>
           </div>
           <div class="education-body">
-            <p class="institution">{{
-              edu.institution[profileService.getCurrentLang()] }}</p>
-            <p class="location">{{ edu.location[profileService.getCurrentLang()]
-              }}</p>
-            <p class="description">{{
-              edu.description[profileService.getCurrentLang()] }}</p>
+            <p class="institution">{{ edu.institution[profileService.getCurrentLang()] }}</p>
+            <p class="location">
+              <fa-icon [icon]="faMapMarker"></fa-icon>
+              {{ edu.location[profileService.getCurrentLang()]  }}
+            </p>
+            <p class="description">{{ edu.description[profileService.getCurrentLang()] }}</p>
           </div>
         </div>
       </div>
-    </section>    <!-- Certifications Section -->
+    </section>    
+    
+    <!-- Certifications Section -->
     <section class="certifications-section slide-up">
       <h2 class="section-title">{{ 'about.certifications' | translate }}</h2>
       <div class="certifications-grid">
@@ -114,7 +116,9 @@
           </div>
         </div>
       </div>
-    </section>    <!-- Languages Section -->
+    </section>    
+    
+    <!-- Languages Section -->
     <section class="languages-section slide-up">
       <h2 class="section-title">{{ 'about.languages' | translate }}</h2>
       <div class="languages-grid">
@@ -140,7 +144,7 @@
       </div>
     </section>
 
-    <!-- Interests Section - Updated to use component data instead of profile data -->
+    <!-- Interests Section -->
     <section class="interests-section slide-up">
       <h2 class="section-title">{{ 'about.interests' | translate }}</h2>
       <div class="interests-grid">
