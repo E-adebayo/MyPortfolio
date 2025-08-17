@@ -18,7 +18,10 @@
     "phone": "Téléphone",
     "skills": "Compétences",
     "contactMe": "Me Contacter",
-    "socialProfiles": "Me Suivre"
+    "socialProfiles": "Me Suivre",
+    "yearsExperience": "Années d'Expérience",
+    "projectsCompleted": "Projets Terminés",
+    "technologiesUsed": "Technologies Maîtrisées"
   },
   "skills": {
     "programminglanguages": "Langages de programmation",
