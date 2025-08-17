@@ -55,8 +55,8 @@ export class AboutComponent implements OnInit {
   education = [
     {
       degree: {
-        en: "IT Engineer",
-        fr: "Ingénieur en Informatique"
+        en: "IT Engineer (Bac+5)",
+        fr: "Ingénieur en Informatique (Bac+5)"
       },
       institution: {
         en: 'University of Technology of Belfort-Montbéliard',
@@ -77,8 +77,8 @@ export class AboutComponent implements OnInit {
     },
     {
       degree: {
-        en: "Bachelor's in Computer Science",
-        fr: "Licence en Informatique"
+        en: "Bachelor in Computer Science (Bac+3)",
+        fr: "Licence en Informatique (Bac+3)"
       },
       institution: {
         en: 'Institut Africain d\'Informatique',
