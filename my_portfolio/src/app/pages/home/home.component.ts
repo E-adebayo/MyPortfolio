@@ -5,7 +5,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { 
   faEnvelope, 
   faPhone, 
-  faLocationDot
+  faLocationDot,
+  faSpinner,
+  faExclamationCircle,
+  faUser,
+  faDownload
 } from '@fortawesome/free-solid-svg-icons';
 import { 
   faLinkedin,
@@ -33,6 +37,10 @@ export class HomeComponent implements OnInit {
   faLocationDot = faLocationDot;
   faLinkedin = faLinkedin;
   faGithub = faGithub;
+  faSpinner = faSpinner;
+  faExclamationCircle = faExclamationCircle;
+  faUser = faUser;
+  faDownload = faDownload;
 
   constructor(private profileService: ProfileService) { }
 

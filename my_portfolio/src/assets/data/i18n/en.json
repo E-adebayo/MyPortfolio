@@ -18,7 +18,10 @@
     "phone": "Phone",
     "skills": "Skills",
     "contactMe": "Contact Me",
-    "socialProfiles": "Connect With Me"
+    "socialProfiles": "Connect With Me",
+    "yearsExperience": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "technologiesUsed": "Technologies Mastered"
   },
   "skills": {
     "programminglanguages": "Programming Languages",

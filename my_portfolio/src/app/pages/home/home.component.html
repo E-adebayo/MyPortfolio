@@ -1,26 +1,64 @@
 <div class="home-container">
   <!-- Loading State -->
-  <div *ngIf="loading" class="loading-spinner">
-    <div class="spinner"></div>
+  <div *ngIf="loading" class="loading-container">
+    <div class="loading-spinner">
+      <fa-icon [icon]="faSpinner" size="2x" animation="spin"></fa-icon>
+    </div>
+    <p class="loading-text">{{ 'common.loading' | translate }}</p>
   </div>
 
   <!-- Error State -->
-  <div *ngIf="error" class="error-message">
-    {{ error }}
+  <div *ngIf="error" class="error-container">
+    <fa-icon [icon]="faExclamationCircle" size="2x"></fa-icon>
+    <p class="error-message">{{ error }}</p>
   </div>
 
   <!-- Main Content -->
   <div *ngIf="!loading && !error && profile" class="content-wrapper">
     <!-- Hero Section -->
     <section class="hero-section slide-up">
+      <div class="hero-background">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
       <div class="hero-content">
-        <h1>{{ profile.name }}</h1>
-        <h2>{{ profile.title }}</h2>
-        <p class="description" *ngIf="profile.description">{{
-          profile.description }}</p>
-        <div class="hero-actions"> <a [routerLink]="['/about']" class="btn">{{ 'buttons.viewDetails' | translate }}</a>
+        <div class="profile-image-container">
+          <img src="assets/images/profile/profilGH.png" alt="{{ profile.name }}" class="profile-image" loading="eager">
+          <div class="image-glow"></div>
+        </div>
+        <h1 class="hero-title">
+          <span class="greeting">{{ 'about.greeting' | translate }}</span>
+          <span class="name">{{ profile.name }}</span>
+        </h1>
+        <h2 class="hero-subtitle">{{ profile.title }}</h2>
+        <p class="hero-description" *ngIf="profile.description">{{ profile.description }}</p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">{{ 'home.yearsExperience' | translate }}</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">9+</span>
+            <span class="stat-label">{{ 'home.projectsCompleted' | translate }}</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">{{ 'home.technologiesUsed' | translate }}</span>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a [routerLink]="['/about']" class="btn btn-primary">
+            <fa-icon [icon]="faUser"></fa-icon>
+            <span>{{ 'buttons.viewDetails' | translate }}</span>
+          </a>
           <a href="assets/pdf/CV.pdf" download="Curriculum vitæ Adébayo Eudes d'ALMEIDA.pdf" target="_blank"
-            rel="noopener noreferrer" class="btn btn-secondary">{{ 'buttons.download' | translate }}</a>
+            rel="noopener noreferrer" class="btn btn-secondary">
+            <fa-icon [icon]="faDownload"></fa-icon>
+            <span>{{ 'buttons.download' | translate }}</span>
+          </a>
         </div>
       </div>
     </section>
