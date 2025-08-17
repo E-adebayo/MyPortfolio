@@ -1,4 +1,4 @@
-<div class="language-switcher">
+<div class="language-switcher" [class.fr-active]="currentLanguage === 'fr'">
   <button [class.active]="currentLanguage === 'en'"
     (click)="switchLanguage('en')" aria-label="Switch to English">
     EN
