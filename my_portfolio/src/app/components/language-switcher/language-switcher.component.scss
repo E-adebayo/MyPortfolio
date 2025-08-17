@@ -95,21 +95,43 @@
       transition: all 0.1s ease;
     }
 
-    // Language flag indicators using SVG images
+    // Language flag indicators using CSS-based flags
     &[aria-label*="English"]::after {
       content: '';
       margin-left: 4px;
       width: 12px;
       height: 12px;
       border-radius: 50%;
-      background-image: url('assets/images/languages/uk.svg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background: linear-gradient(
+        to bottom,
+        #012169 0%,
+        #012169 33%,
+        white 33%,
+        white 66%,
+        #C8102E 66%,
+        #C8102E 100%
+      );
+      position: relative;
       display: inline-block;
       opacity: 0.7;
       transition: all 0.3s ease;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+      // Add diagonal stripes for Union Jack effect
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50%;
+        background: 
+          linear-gradient(45deg, transparent 40%, white 40%, white 60%, transparent 60%),
+          linear-gradient(-45deg, transparent 40%, white 40%, white 60%, transparent 60%),
+          linear-gradient(45deg, transparent 45%, #C8102E 45%, #C8102E 55%, transparent 55%),
+          linear-gradient(-45deg, transparent 45%, #C8102E 45%, #C8102E 55%, transparent 55%);
+      }
     }
 
     &[aria-label*="French"]::after {
@@ -118,10 +140,15 @@
       width: 12px;
       height: 12px;
       border-radius: 50%;
-      background-image: url('assets/images/languages/fr.svg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background: linear-gradient(
+        90deg,
+        #002654 0%,
+        #002654 33%,
+        white 33%,
+        white 66%,
+        #ED2939 66%,
+        #ED2939 100%
+      );
       display: inline-block;
       opacity: 0.7;
       transition: all 0.3s ease;
