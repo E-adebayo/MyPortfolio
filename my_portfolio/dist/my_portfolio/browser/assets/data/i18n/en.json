@@ -34,7 +34,8 @@
     "webservers": "Web Servers",
     "networkingandvirtualization": "Networking & Virtualization",
     "artificialintelligenceandllm": "Artificial Intelligence & LLM",
-    "testingandspecializedtools": "Testing & Specialized Tools"
+    "testingandspecializedtools": "Testing & Specialized Tools",
+    "productivityandofficesuite": "Productivity & Office Suite"
   },
   "buttons": {
     "viewProject": "View Project",
