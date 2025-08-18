@@ -291,17 +291,17 @@
           transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
           filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
           transform-origin: center;
-          color: var(--text-color);
 
-          // Dynamic coloring based on current theme
-          :host-context(.dark-theme) & {
-            color: #fbbf24; // Golden sun color in dark mode
+          // faSun should be yellow when dark mode is true
+          &.fa-sun {
+            color: #fbbf24;
             filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.4));
           }
 
-          :host-context(:not(.dark-theme)) & {
-            color: #6366f1; // Purple moon color in light mode
-            filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4));
+          // faMoon should be white/gray when dark mode is false  
+          &.fa-moon {
+            color: #9ca3af;
+            filter: drop-shadow(0 0 8px rgba(156, 163, 175, 0.4));
           }
 
           &.transitioning {
@@ -371,12 +371,12 @@
           transform: scale(1.15) rotate(15deg);
           filter: drop-shadow(0 2px 8px rgba(var(--primary-rgb), 0.4));
 
-          :host-context(.dark-theme) & {
+          &.fa-sun {
             filter: drop-shadow(0 2px 8px rgba(251, 191, 36, 0.6));
           }
 
-          :host-context(:not(.dark-theme)) & {
-            filter: drop-shadow(0 2px 8px rgba(99, 102, 241, 0.6));
+          &.fa-moon {
+            filter: drop-shadow(0 2px 8px rgba(156, 163, 175, 0.6));
           }
         }
 
@@ -513,6 +513,14 @@
 
         .theme-icon-container .theme-icon {
           filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3));
+
+          &.fa-sun {
+            filter: drop-shadow(0 2px 8px rgba(251, 191, 36, 0.6));
+          }
+
+          &.fa-moon {
+            filter: drop-shadow(0 2px 8px rgba(156, 163, 175, 0.6));
+          }
         }
 
         .theme-indicator {
