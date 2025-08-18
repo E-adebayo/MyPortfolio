@@ -32,9 +32,15 @@
     </li>
   </ul>
   <div class="nav-actions">
-    <div class="theme-toggle">
-      <fa-icon [icon]="isDarkMode ? faSun : faMoon" (click)="toggleTheme()"
-        class="theme-icon"></fa-icon>
+    <div class="theme-toggle" (click)="toggleTheme()">
+      <div class="theme-icon-container">
+        <fa-icon 
+          [icon]="isDarkMode ? faSun : faMoon" 
+          class="theme-icon"
+          [class.transitioning]="isToggling">
+        </fa-icon>
+      </div>
+      <div class="theme-indicator" [class.dark]="isDarkMode"></div>
     </div>
     <div class="language-control">
       <app-language-switcher></app-language-switcher>
