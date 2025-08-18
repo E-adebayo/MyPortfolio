@@ -31,7 +31,10 @@
           { "name": "Express.js", "icon": "expressjs.svg" },
           { "name": "FastAPI", "icon": "fastapi.svg" },
           { "name": "AdonisJS", "icon": "adonisjs.svg" },
-          { "name": "Bootstrap", "icon": "bootstrap.svg" }
+          { "name": "Bootstrap", "icon": "bootstrap.svg" },
+          { "name": "Django", "icon": "django.svg" },
+          { "name": "Flask", "icon": "flask.svg" },
+          { "name": "Tailwind CSS", "icon": "tailwind.svg" }
         ]
       },
       {
@@ -47,7 +50,8 @@
           { "name": "Cloud Logging", "icon": "gclogging.svg" },
           { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
           { "name": "AWS : Amazon Web Services", "icon": "aws.svg" },
-          { "name": "Azure", "icon": "azure.svg" }
+          { "name": "Azure", "icon": "azure.svg" },
+          { "name": "Firebase", "icon": "firebase.svg" }
         ]
       },
       {
@@ -74,7 +78,8 @@
           { "name": "BigQuery", "icon": "gcbigquery.svg" },
           { "name": "T-SQL", "icon": "tsql.svg" },
           { "name": "PL/SQL", "icon": "plsql.svg" },
-          { "name": "NoSQL", "icon": "nosql.svg" }
+          { "name": "NoSQL", "icon": "nosql.svg" },
+          { "name": "SQL", "icon": "sql.svg" }
         ]
       },
       {
@@ -116,6 +121,7 @@
         "category": "Operating Systems",
         "items": [
           { "name": "Linux", "icon": "linux.svg" },
+          { "name": "GNOME", "icon": "gnome.svg" },
           { "name": "Ubuntu / Ubuntu Server", "icon": "ubuntu.svg" },
           { "name": "Debian", "icon": "debian.svg" },
           { "name": "Windows", "icon": "windows.svg" },
@@ -151,9 +157,20 @@
         "category": "Testing & Specialized Tools",
         "items": [
           { "name": "Selenium", "icon": "selenium.svg" },
+          { "name": "Postman", "icon": "postman.svg" },
           { "name": "SharePoint", "icon": "sharepoint.svg" },
           { "name": "Factorial", "icon": "factorial.svg" },
-          { "name": "Relativity", "icon": "relativity.svg" }
+          { "name": "Relativity", "icon": "relativity.svg" },
+          { "name": "SAP", "icon": "sap.svg" }
+        ]
+      },
+      {
+        "category": "Productivity & Office Suite",
+        "items": [
+          { "name": "Microsoft Access", "icon": "msaccess.svg" },
+          { "name": "Microsoft Excel", "icon": "msexcel.svg" },
+          { "name": "Microsoft Outlook", "icon": "msoutlook.svg" },
+          { "name": "Markdown", "icon": "markdown.svg" }
         ]
       }
     ]
@@ -190,7 +207,10 @@
           { "name": "Express.js", "icon": "expressjs.svg" },
           { "name": "FastAPI", "icon": "fastapi.svg" },
           { "name": "AdonisJS", "icon": "adonisjs.svg" },
-          { "name": "Bootstrap", "icon": "bootstrap.svg" }
+          { "name": "Bootstrap", "icon": "bootstrap.svg" },
+          { "name": "Django", "icon": "django.svg" },
+          { "name": "Flask", "icon": "flask.svg" },
+          { "name": "Tailwind CSS", "icon": "tailwind.svg" }
         ]
       },
       {
@@ -206,7 +226,8 @@
           { "name": "Cloud Logging", "icon": "gclogging.svg" },
           { "name": "IAM : Identity and Access Management", "icon": "gciam.svg" },
           { "name": "AWS : Amazon Web Services", "icon": "aws.svg" },
-          { "name": "Azure", "icon": "azure.svg" }
+          { "name": "Azure", "icon": "azure.svg" },
+          { "name": "Firebase", "icon": "firebase.svg" }
         ]
       },
       {
@@ -233,7 +254,8 @@
           { "name": "BigQuery", "icon": "gcbigquery.svg" },
           { "name": "T-SQL", "icon": "tsql.svg" },
           { "name": "PL/SQL", "icon": "plsql.svg" },
-          { "name": "NoSQL", "icon": "nosql.svg" }
+          { "name": "NoSQL", "icon": "nosql.svg" },
+          { "name": "SQL", "icon": "sql.svg" }
         ]
       },
       {
@@ -275,6 +297,7 @@
         "category": "Systèmes d'exploitation",
         "items": [
           { "name": "Linux", "icon": "linux.svg" },
+          { "name": "GNOME", "icon": "gnome.svg" },
           { "name": "Ubuntu / Ubuntu Server", "icon": "ubuntu.svg" },
           { "name": "Debian", "icon": "debian.svg" },
           { "name": "Windows", "icon": "windows.svg" },
@@ -310,9 +333,20 @@
         "category": "Tests et Outils spécialisés",
         "items": [
           { "name": "Selenium", "icon": "selenium.svg" },
+          { "name": "Postman", "icon": "postman.svg" },
           { "name": "SharePoint", "icon": "sharepoint.svg" },
           { "name": "Factorial", "icon": "factorial.svg" },
-          { "name": "Relativity", "icon": "relativity.svg" }
+          { "name": "Relativity", "icon": "relativity.svg" },
+          { "name": "SAP", "icon": "sap.svg" }
+        ]
+      },
+      {
+        "category": "Productivité et Suite Bureautique",
+        "items": [
+          { "name": "Microsoft Access", "icon": "msaccess.svg" },
+          { "name": "Microsoft Excel", "icon": "msexcel.svg" },
+          { "name": "Microsoft Outlook", "icon": "msoutlook.svg" },
+          { "name": "Markdown", "icon": "markdown.svg" }
         ]
       }
     ]

@@ -268,7 +268,8 @@ export class AboutComponent implements OnInit {
       'serveurs web': 'webservers',
       'réseaux et virtualisation': 'networkingandvirtualization',
       'intelligence artificielle et llm': 'artificialintelligenceandllm',
-      'tests et outils spécialisés': 'testingandspecializedtools'
+      'tests et outils spécialisés': 'testingandspecializedtools',
+      'productivité et suite bureautique': 'productivityandofficesuite'
     };
 
     // Convert category to lowercase for mapping

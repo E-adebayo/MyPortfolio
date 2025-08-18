@@ -27,13 +27,13 @@
         <h2>{{ profile.title }}</h2>
         <p class="description" *ngIf="profile.description">{{
           profile.description }}</p>
-        <div class="hero-actions"> 
-          <a [routerLink]="['/about']" class="btn">
+        <div class="hero-actions">
+          <a [routerLink]="['/about']" class="btn btn-secondary">
             <fa-icon [icon]="faUser"></fa-icon>
             <span>{{ 'buttons.viewDetails' | translate }}</span>
           </a>
           <a href="assets/pdf/CV.pdf" download="Curriculum vitæ Adébayo Eudes d'ALMEIDA.pdf" target="_blank"
-            rel="noopener noreferrer" class="btn btn-secondary">
+            rel="noopener noreferrer" class="btn">
             <fa-icon [icon]="faDownload"></fa-icon>
             <span>{{ 'buttons.download' | translate }}</span>
           </a>
@@ -64,13 +64,15 @@
         <div class="contact-row">
           <div class="contact-card social-card">
             <h3>{{ 'profile.socialProfiles' | translate }}</h3>
-            <div class="social-links-container"> <a [href]="profile.social.linkedin" target="_blank"
-                rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"> <fa-icon [icon]="faLinkedin"
-                  [size]="'xs'"></fa-icon>
+            <div class="social-links-container"> 
+              <a [href]="profile.social.linkedin" target="_blank"
+                rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"> 
+                <fa-icon [icon]="faLinkedin"></fa-icon>
                 <span>LinkedIn</span>
               </a>
               <a [href]="profile.social.github" target="_blank" rel="noopener noreferrer" class="social-link"
-                aria-label="GitHub"> <fa-icon [icon]="faGithub" [size]="'xs'"></fa-icon>
+                aria-label="GitHub"> 
+                <fa-icon [icon]="faGithub"></fa-icon>
                 <span>GitHub</span>
               </a>
             </div>
