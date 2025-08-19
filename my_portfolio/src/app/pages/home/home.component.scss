@@ -840,21 +840,34 @@ section:nth-child(3) {
             transition: all 0.3s var(--ease-out);
 
             fa-icon {
-              // Ensure icon is displayed with proper alignment
+              // Perfect icon alignment with text
               display: flex;
               align-items: center;
               justify-content: center;
               min-width: 1.2rem;
               width: 1.2rem;
               height: 1.2rem;
-              font-size: 1rem;
+              font-size: 1.2rem;
               flex-shrink: 0;
+              line-height: 1;
+              
+              // Ensure the SVG inside is properly aligned
+              .ng-fa-icon,
+              svg {
+                display: block;
+                width: 100%;
+                height: 100%;
+              }
             }
 
             span {
               transition: all 0.3s var(--ease-out);
               font-weight: 500;
               line-height: 1;
+              display: flex;
+              align-items: center;
+              margin: 0;
+              padding: 0;
             }
 
             &:hover {
@@ -863,6 +876,7 @@ section:nth-child(3) {
 
               fa-icon {
                 color: var(--accent-color);
+                transform: scale(1.05);
               }
             }
           }
